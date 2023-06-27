@@ -8,18 +8,18 @@ export default function Home() {
         <div className='ml-20 mr-20 ' >
             <nav className='flex justify-between  '>
               <div className='text-orange-500 font-extrabold text-5xl font-sans mt-5 '>HISC</div>
-              <div className='flex gap-10 mt-10 '>
-                    <div>
+              <div className='flex gap-10 mt-10  text-xs '>
+                    <div className='p-2'>
                         Home
                     </div>
-                    <div>
+                    <div className='p-2'>
                         About us
                     </div>
-                    <div>
+                    <div className='p-2'>
                         Facility
                     </div>
                     <div className='bg-orange-500  
-                    text-white text-center rounded-2xl w-28 mb-5'>
+                    text-white text-center rounded-2xl w-28 p-2 '>
                         Sign up
                     </div>
               </div>
@@ -34,7 +34,7 @@ export default function Home() {
                       their heart's potential through sports, fostering holistic well
                       being and personal growth.
                   </p>
-                  <div className='mt-5'><button className='rounded-3xl border-2 border-current w-40 p-1 text-center '>Show More shape</button></div>
+                  <div className='mt-5 text-xs'><button className='rounded-3xl border-2 border-current w-40 p-2 text-center '>Show More shape</button></div>
         </div>
       </div>
     </div>
