@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="text-7xl font-semibold font-mono mt-5 "><h1>BEGIN YOUR <br></br>TRANSFORMATION <br></br>TODAY</h1></div>
                   <p className="text-black w-96 text-xs">Heartfulness International Sports Center
                       (HISC) empowers children and youth to unlock
-                      their heart&apos;s potential through sports, fostering holistic well
+                      their hearts potential through sports, fostering holistic well
                       being and personal growth.
                   </p>
                   <div className="mt-5 text-xs"><button className="rounded-3xl border-2 border-current w-40 p-2 text-center ">Show More</button></div>
