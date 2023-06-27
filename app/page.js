@@ -34,7 +34,7 @@ export default function Home() {
                       their heart's potential through sports, fostering holistic well
                       being and personal growth.
                   </p>
-                  <div className='mt-5 text-xs'><button className='rounded-3xl border-2 border-current w-40 p-2 text-center '>Show More shape</button></div>
+                  <div className='mt-5 text-xs'><button className='rounded-3xl border-2 border-current w-40 p-2 text-center '>Show More</button></div>
         </div>
       </div>
     </div>
