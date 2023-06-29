@@ -1,0 +1,31 @@
+import Link from "next/link";
+
+
+
+
+
+const Navbar = () => {
+    return ( 
+        <nav className="flex justify-between ">
+            <div className="text-orange-500 font-extrabold text-5xl font-sans mt-5 ">HISC</div>
+                <ul className="hidden md:flex gap-10 mt-10  text-xs ">
+                    <li className="p-2">
+                        Home
+                    </li>
+                    <li className="p-2">
+                        About us
+                    </li>
+                    <li className="p-2">
+                        Facility
+                    </li>
+                    <li className="bg-orange-500  
+                    text-white text-center rounded-2xl w-28 p-2">
+                        Sign up
+                        
+                    </li>
+            </ul>
+        </nav>
+     );
+}
+ 
+export default Navbar;
