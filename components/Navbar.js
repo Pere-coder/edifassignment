@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { BiMenu } from 'react-icons/bi';
 
 
 
@@ -7,9 +7,10 @@ import Link from "next/link";
 const Navbar = () => {
     return ( 
         <nav className="flex justify-between ">
-            <div className="text-orange-500 font-extrabold text-5xl font-sans mt-5 ">HISC</div>
-                <ul className="hidden md:flex gap-10 mt-10  text-xs ">
+            <div className="text-orange-500 font-extrabold text-5xl font-sans mt-5 ">HISC   </div>
+                <ul className="hidden  md:flex gap-10 mt-10  text-xs ">
                     <li className="p-2">
+                  
                         Home
                     </li>
                     <li className="p-2">
@@ -24,6 +25,9 @@ const Navbar = () => {
                         
                     </li>
             </ul>
+            <div className="md:hidden mt-5">
+            <BiMenu  className="text-white text-5xl" width='10' height='20' />
+      </div>
         </nav>
      );
 }
