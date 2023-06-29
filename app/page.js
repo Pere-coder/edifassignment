@@ -11,9 +11,10 @@ export default function Home() {
            <Navbar/>
 
           <div className="mt-48 flex flex-col  items-center  md:items-start   ">
-              <p className="bg-orange-500  text-center text-xs rounded-3xl w-64 p-2 text-white  ">START YOUR HEALTHY LIFESTYLE</p>
-                <h1 className="text-6xl font-semibold font-mono text-center mt-5 md:text-left md:text-7xl">BEGIN YOUR <br/>TRANSFORMATION <br/>TODAY</h1>
-                  <p className="mt-5 text-black w-96 text-xs text-center md:text-left">Heartfulness International Sports Center
+            
+              <p className="bg-orange-500  text-center text-xs rounded-3xl w-96 p-2 text-white md:w-64 ">START YOUR HEALTHY LIFESTYLE</p>
+                <h1 className="text-5xl font-semibold font-mono text-center mt-5 md:text-left md:text-7xl">BEGIN YOUR <br/>TRANSFORMATION <br/>TODAY</h1>
+                  <p className="mt-5 text-black w-96 text-lg text-center md:text-left md:text-xs">Heartfulness International Sports Center
                       (HISC) empowers children and youth to unlock
                       their heart's potential through sports, fostering holistic well
                       being and personal growth.
