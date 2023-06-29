@@ -1,5 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
+import { FaPlay } from 'react-icons/fa';
+
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
 
            <Navbar/>
 
-          <div className="mt-48 flex flex-col  items-center  md:items-start  ">
+          <div className="mt-48 flex flex-col  items-center justify-center  md:items-start  ">
             
               <p className="bg-orange-500  text-center text-xs rounded-3xl w-64 p-2 text-white  ">START YOUR HEALTHY LIFESTYLE!</p>
                <div className='text-center bg-gray-200 rounded-3xl p-7 mt-5 md:bg-transparent md:text-left md:mt-0 md:p-0 md:rounded-none'>
@@ -20,7 +22,7 @@ export default function Home() {
                         their heart's potential through sports, fostering holistic well
                         being and personal growth.
                     </p>
-                    <button className=" mt-5 text-xs rounded-3xl border-2 border-current w-40 p-2 text-center ">Show More</button>
+                    <div className="cursor-pointer mt-5 text-md rounded-3xl border-2 border-current   p-2 flex items-center justify-center gap-3 w-full md:w-64 "><div>Show More </div><div><FaPlay className='text-gray-200 border border-black'/></div></div>
                   </div>
         </div>
       </div>

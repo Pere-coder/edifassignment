@@ -25,7 +25,7 @@ const Navbar = () => {
                         
                     </li>
             </ul>
-            <div className="bg-gray-200 p-4 rounded-3xl flex items-center justify-center md:hidden mt-5">
+            <div className="bg-gray-200 p-4 rounded-3xl flex items-center justify-center md:hidden mt-5 cursor-pointer">
             <BiMenu  className="text-black text-3xl " width='10' height='20' />
             </div>
         </nav>
