@@ -8,7 +8,7 @@ export default function Home() {
     
     <div class="min-h-screen bg-no-repeat bg-cover   bg-[url('../public/back.jpg')]  ">
       <div class="absolute inset-0 bg-gradient-to-l from-transparent to-white ">
-        <div className="ml-20 mr-20 " >
+        <div className="ml-10 mr-10 md:ml-20 md:mr-20 " >
 
            <Navbar/>
 
