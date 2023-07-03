@@ -22,7 +22,7 @@ export default function Home() {
                         their heart's potential through sports, fostering holistic well
                         being and personal growth.
                     </p>
-                    <div className="cursor-pointer mt-5 text-md rounded-3xl border-2 border-current   p-2 flex items-center justify-center gap-3 w-full md:w-64 "><div>Show More </div><div><FaPlay className='text-gray-200 border border-black'/></div></div>
+                    <div className="cursor-pointer mt-5 text-md rounded-3xl border-2 border-current   p-2 flex items-center justify-center gap-3 w-full md:w-64 "><div>Show More </div><div><FaPlay /></div></div>
                   </div>
         </div>
       </div>
