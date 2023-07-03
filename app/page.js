@@ -5,7 +5,7 @@ import { FaPlay } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    
+    <>
     <div class="min-h-screen bg-no-repeat   bg-contain md:bg-cover md:bg-center  bg-[url('../public/image.jpg')]  ">
       <div class="absolute inset-0 bg-gradient-to-t from-transparent to-white  md:inset-0 md:bg-gradient-to-l md:from-transparent md:to-white ">
         <div className="ml-10 mr-10 md:ml-20 md:mr-20 " >
@@ -28,5 +28,17 @@ export default function Home() {
       </div>
     </div>
   </div>
+
+  <div className='ml-20 mr-20'>
+    <div className='items-center text-center justify-center'>
+      <ul className='flex gap-10'>
+        <li>hello</li>
+        <li>hiiii</li>
+        <li>welocoe</li>
+      </ul>
+    </div>
+    </div>
+
+  </>
   )
 }
