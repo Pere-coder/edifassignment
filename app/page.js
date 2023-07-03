@@ -29,15 +29,7 @@ export default function Home() {
     </div>
   </div>
 
-  <div className='ml-20 mr-20'>
-    <div className='items-center text-center justify-center'>
-      <ul className='flex gap-10'>
-        <li>hello</li>
-        <li>hiiii</li>
-        <li>welocoe</li>
-      </ul>
-    </div>
-    </div>
+  
 
   </>
   )
