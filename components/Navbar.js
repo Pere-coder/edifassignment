@@ -4,8 +4,9 @@ import React from "react";
 import { BiMenu } from 'react-icons/bi';
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { XMarkIcon } from '@heroicons/react/24/outline'
+import { XMarkIcon, Bars3BottomRightIcon } from '@heroicons/react/24/outline'
 import { Truculenta } from "next/font/google";
+
 
 
 
@@ -117,7 +118,7 @@ const Navbar = () => {
                         <li className="bg-orange-500 text-white text-center rounded-2xl w-28 p-2">Sign up</li>       
                     </ul>
                     <div className="bg-gray-200 p-4 rounded-3xl flex items-center justify-center md:hidden mt-5 cursor-pointer" onClick={click}>
-                        <BiMenu  className="text-black text-3xl " width='10' height='20' />
+                        <Bars3BottomRightIcon className="h-10 w-10" aria-hidden="true" />
                     </div> 
             </nav>
         </>
