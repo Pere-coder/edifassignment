@@ -73,25 +73,24 @@ const Navbar = () => {
                         </Transition.Child>
                         <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                         <div className="px-4 sm:px-6">
-                            {/* <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
-                            Panel title
-                            </Dialog.Title> */}
+                           
                         </div>
                         <div className="relative mt-6 flex-1 px-4 sm:px-6  ">
                             <ul className="flex flex-col gap-10 justify-center items-center ">
-                            <div className="text-custom font-extrabold text-5xl font-poppins  ">HISC   </div>
+                            <div className="text-custom font-700  text-46 leading-28 font-poppins  ">HISC   </div>
 
-                            <div className="flex flex-col gap-12 mt-20 font-roboto font-bold">
+                            <div className=" mt-20 font-roboto font-500 text-26 leading-80">
                                 <li>Home</li>
                                 <li >About Us</li>
                                 <li>Facility</li>
                             </div>
                                 
 
-                            <li className="bg-custom  text-white text-center font-roboto rounded-3xl w-48 p-2 mt-64">
+                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-64">
                             SIGN UP NOW
                             
                         </li>
+                        
                             
                             </ul>
                             
