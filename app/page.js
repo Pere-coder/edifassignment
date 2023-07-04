@@ -26,8 +26,11 @@ export default function Home() {
                     <div className="flex items-center justify-center align-center mx-auto cursor-pointer rounded-3xl border-2 border-current gap-3  w-175 h-50 mt-5 text-gray md:w-175 md:h-50 md:mx-0 "><div className="font-500 text-13.85 leading-16.23  font-roboto ">Show More </div><div><Image src="/triangle.png" width={23.47} height={17.06} /></div></div>
                   </div>
         </div>
+        
       </div>
+    
     </div>
+    
   </div>
 
 
