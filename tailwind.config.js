@@ -42,6 +42,7 @@ module.exports = {
       fontSize: {
         '13.85': '13.85',
         '14': '14px',
+        '30': '30px',
         '42': '42px',
         '46':'46px',
         '80': '80px',
@@ -54,10 +55,19 @@ module.exports = {
       width: {
         '42': '42',
         '175': '175px',
+        '226': '226px',
+        '315': '315px',
+        '350': '350px',
+
       },
       height: {
         '42': '42',
         '50': '50px',
+        '126': '126px',
+        '416': '416px',
+      },
+      boxShadow: {
+        'custom': '2px 2px 6px 0 rgba(0, 0, 0, 0.09)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

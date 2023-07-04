@@ -117,7 +117,7 @@ const Navbar = () => {
                         <li className="p-2">Facility</li>
                         <li className="bg-custom text-white text-center rounded-2xl w-28 p-2">Sign up</li>       
                     </ul>
-                    <div className="bg-white  p-4 rounded-3xl flex items-center justify-center w-42 h-42 md:hidden mt-5 cursor-pointer" onClick={click}>
+                    <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-42 h-42 md:hidden mt-5 cursor-pointer" onClick={click}>
                         <Bars3BottomRightIcon className="h-10 w-10 text-grey" aria-hidden="true" />
                     </div> 
             </nav>
