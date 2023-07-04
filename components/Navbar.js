@@ -79,16 +79,16 @@ const Navbar = () => {
                         </div>
                         <div className="relative mt-6 flex-1 px-4 sm:px-6  ">
                             <ul className="flex flex-col gap-10 justify-center items-center ">
-                            <div className="text-orange-500 font-extrabold text-5xl font-sans  ">HISC   </div>
+                            <div className="text-custom font-extrabold text-5xl font-poppins  ">HISC   </div>
 
-                            <div className="flex flex-col gap-12 mt-20">
+                            <div className="flex flex-col gap-12 mt-20 font-roboto font-bold">
                                 <li>Home</li>
                                 <li >About Us</li>
                                 <li>Facility</li>
                             </div>
                                 
 
-                            <li className="bg-orange-500  text-white text-center rounded-3xl w-48 p-2 mt-64">
+                            <li className="bg-custom  text-white text-center font-roboto rounded-3xl w-48 p-2 mt-64">
                             SIGN UP NOW
                             
                         </li>
@@ -110,15 +110,15 @@ const Navbar = () => {
 
 
             <nav className="flex justify-between ">
-                <div className="text-orange-500 font-extrabold text-5xl font-sans mt-5 ">HISC   </div>
-                    <ul className="hidden  md:flex gap-10 mt-10  text-xs ">
-                        <li className="p-2">Home </li>
+                <div className="text-custom font-700 text-46 font-poppins mt-5 ">HISC   </div>
+                    <ul className="hidden font-roboto font-bold md:flex gap-10 mt-10   text-xs ">
+                        <li className="p-2  ">Home </li>
                         <li className="p-2">About us</li>
                         <li className="p-2">Facility</li>
-                        <li className="bg-orange-500 text-white text-center rounded-2xl w-28 p-2">Sign up</li>       
+                        <li className="bg-custom text-white text-center rounded-2xl w-28 p-2">Sign up</li>       
                     </ul>
-                    <div className="bg-white p-4 rounded-3xl flex items-center justify-center md:hidden mt-5 cursor-pointer" onClick={click}>
-                        <Bars3BottomRightIcon className="h-10 w-10" aria-hidden="true" />
+                    <div className="bg-white  p-4 rounded-3xl flex items-center justify-center w-42 h-42 md:hidden mt-5 cursor-pointer" onClick={click}>
+                        <Bars3BottomRightIcon className="h-10 w-10 text-grey" aria-hidden="true" />
                     </div> 
             </nav>
         </>
