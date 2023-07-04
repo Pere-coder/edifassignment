@@ -18,6 +18,7 @@ module.exports = {
         gray: '#696969',
         sblack: '#1F1F1F',
         grey: '#333333',
+        vector: '#232323',
         
 
 

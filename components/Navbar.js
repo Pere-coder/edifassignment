@@ -80,13 +80,13 @@ const Navbar = () => {
                             <div className="text-custom font-700  text-46 leading-28 font-poppins  ">HISC   </div>
 
                             <div className=" mt-20 font-roboto font-500 text-26 leading-80">
-                                <li>Home</li>
-                                <li >About Us</li>
-                                <li>Facility</li>
+                                <li className="cursor-pointer">Home</li>
+                                <li className="cursor-pointer">About Us</li>
+                                <li className="cursor-pointer">Facility</li>
                             </div>
                                 
 
-                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-64">
+                            <li className="bg-custom cursor-pointer text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-64">
                             SIGN UP NOW
                             
                         </li>
@@ -110,11 +110,11 @@ const Navbar = () => {
 
             <nav className="flex justify-between ">
                 <div className="text-custom font-700 text-46 font-poppins mt-5 ">HISC   </div>
-                    <ul className="hidden  md:flex gap-10 mt-10  font-roboto font-500 text-16  ">
-                        <li className="p-2 ">Home </li>
-                        <li className="p-2">About us</li>
-                        <li className="p-2">Facility</li>
-                        <li className="bg-custom text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
+                    <ul className="hidden  md:flex gap-10 mt-10  font-roboto font-500 text-16   ">
+                        <li className="p-2 cursor-pointer">Home </li>
+                        <li className="p-2 cursor-pointer">About us</li>
+                        <li className="p-2 cursor-pointer">Facility</li>
+                        <li className="bg-custom cursor-pointer text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
                     </ul>
                     <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-42 h-42 md:hidden mt-5 cursor-pointer" onClick={click}>
                         <Bars3BottomRightIcon className="h-10 w-10 text-grey" aria-hidden="true" />

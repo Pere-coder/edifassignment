@@ -31,8 +31,9 @@ export default function Home() {
               </div>
             
           </div>
-        
+          <div className='hidden md:flex justify-end mr-7 mt-5 text-vector cursor-pointer'><Image src="/vector.png" width={61} height={61} /></div>
         </div>
+       
         
       </div>
 
