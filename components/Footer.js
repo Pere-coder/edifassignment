@@ -9,8 +9,15 @@ const Footer = () => {
 
                
         <div style={{ backgroundImage: 'url("/sports.jpg")', width: '375px', height: '470px' }} className=" bg-no-repeat flex flex-col items-center justify-center text-center">
-            <div className='w-[316px] mb-52 font-bison font-500 leading-[40px] text-[35px] text-white transform scale-y-150'>EXPERIENCE<br/> A DIFFERENT WAY <br/> TO WORK OUT</div>
-            <p className="  text-center text-[13.98px] rounded-3xl w-[242px] h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white   ">START YOUR HEALTHY LIFESTYLE!</p>
+            <div className='flex flex-col gap-48'>
+            <div>
+                <div className='w-[316px] mt-5 font-bison font-500 leading-[40px] text-[35px] text-white transform scale-y-150'>EXPERIENCE<br/> A DIFFERENT WAY <br/> TO WORK OUT</div>
+                <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-8  '>Unleashing Sporting Potential</div>
+            </div>
+           
+            <div className="mx-auto text-center text-[13.98px] rounded-3xl w-[242px] h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white   ">START YOUR HEALTHY LIFESTYLE!</div>
+            </div>
+            
         </div>
         <div className='bg-vector w-[375px] h-[168px] mt-0'>
             <div className='font-roboto font-700 text-18 leading-24 text-center text-contact mt-[32px] '>CONTACT US</div>
