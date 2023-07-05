@@ -63,7 +63,7 @@ const Footer = () => {
 
         </div>
 
-        <div className='hidden md:bg-[#0A142F] w-[1102.97px] h-[1px] mt-5'></div>
+        <div className='md:bg-[#0A142F] w-[1102.97px] h-[1px] mt-10'></div>
 
         
 
