@@ -62,9 +62,9 @@ const Footer = () => {
         </div>
 
         <div className='hidden md:flex justify-center items-center text-center mt-10 gap-[150px]'>
-            <div className='font-400 text-[14px] leading-[16.7px]'>© 2023 Heartfulness. All rights reserved .</div>
-            <div><Image src='/beauty.png' width={132} height={45}/></div>
-            <div className='flex gap-10'><p>Terms of Service </p><p>Privacy Policy</p> </div>
+            <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
+            <div><Image src='/heart.jpg' width={132} height={45}/></div>
+            <div className='font-400 text-[14px] leading-[16.7px] flex gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
 
 
         </div>
