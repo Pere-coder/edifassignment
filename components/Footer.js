@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
 
-        <div className='hidden md:flex justify-center items-center gap-[500px]  h-[300px] border-b border-gray-500'>
+        <div className='hidden md:flex justify-center items-center gap-[500px]  mt-[100px] '>
             <div>
                 <ul className='flex gap-10 font-roboto font-500 text-16 leading-[18.75px] text-[#252525]'>
                     <li>Home</li>
@@ -59,7 +59,13 @@ const Footer = () => {
                 </ul>
             </div>
 
+          
+
         </div>
+
+        <div className='hidden md:bg-[#0A142F] w-[1102.97px] h-[1px] mt-5'></div>
+
+        
 
         <div className='hidden md:flex justify-center items-center text-center mt-10 gap-[150px]'>
             <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
