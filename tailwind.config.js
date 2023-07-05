@@ -13,6 +13,7 @@ module.exports = {
         roboto: ['Roboto', 'system-ui', 'sans-serif'],
         jost: ['Jost', 'system-ui', 'sans-serif'],
         helvetica: ['Helvetica Neue', 'system-ui', 'sans-serif'],
+        sans: ['Open Sans', 'system-ui', 'sans-serif'],
       },
       textColor: {
         custom: '#FB491D',
