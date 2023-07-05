@@ -8,8 +8,9 @@ const Footer = () => {
     <div className="ml-10 mr-10 flex flex-col justify-center items-center gap-0 mt-10">
 
                
-        <div style={{ backgroundImage: 'url("/sports.jpg")', width: '375px', height: '470px' }} className="bg-no-repeat flex flex-col items-center justify-center text-center">
+        <div style={{ backgroundImage: 'url("/sports.jpg")', width: '375px', height: '470px' }} className=" bg-no-repeat flex flex-col items-center justify-center text-center">
             <div className='w-[316px] mb-52 font-bison font-500 leading-[40px] text-[35px] text-white transform scale-y-150'>EXPERIENCE<br/> A DIFFERENT WAY <br/> TO WORK OUT</div>
+            <p className="  text-center text-[13.98px] rounded-3xl w-[242px] h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white   ">START YOUR HEALTHY LIFESTYLE!</p>
         </div>
         <div className='bg-vector w-[375px] h-[168px] mt-0'>
             <div className='font-roboto font-700 text-18 leading-24 text-center text-contact mt-[32px] '>CONTACT US</div>
