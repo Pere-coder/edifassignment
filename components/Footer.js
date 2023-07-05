@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className='hidden md:flex justify-center items-center text-center mx-auto gap-20 md:w-[1200px] md:h-[320px] md:bg-[#0479CE] md:mt-20 md:rounded-2xl text-white '>
+        <div className='hidden md:flex justify-center items-center text-center mx-auto gap-20 md: md:h-[320px] md:bg-[#0479CE] md:mt-20 md:rounded-2xl text-white '>
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
             <p className='w-[328px] h-[54px] text-[16px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
