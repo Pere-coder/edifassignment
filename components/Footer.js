@@ -21,9 +21,12 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className='md:w-[1200px] md:h-[320px] bg-[#0479CE]'>
-
-        </div>
+        {/* <div className='flex justify-center  text-center mx-auto gap-20 md:w-[1200px] md:h-[320px] md:bg-[#0479CE] md:mt-20 md:rounded-2xl '>
+            <div><Image src="/message1.png"  width={32} height={32}/>
+            <h1 className='font-roboto font-700 text-24 leading-[32px]'>Email us</h1></div>
+            <div><Image src="/call1.png"  width={32} height={32}/></div>
+            <div><Image src="/location1.png"  width={32} height={32}/></div>
+        </div> */}
         <div className='bg-vector w-[375px] h-[168px] mt-0 md:hidden'>
             <div className='font-roboto font-700 text-18 leading-24 text-center text-contact mt-[32px] '>CONTACT US</div>
             <div className='flex justify-center items-center gap-[52px] mt-[20px]'>
@@ -36,7 +39,7 @@ const Footer = () => {
         </div>
        
     </div> 
-     <div className='flex justify-center items-center gap-10 text-center p-5  md:items-start md:text-left'><div className='font-400 font-helvetica'>© 2023 Heartfulness. All rights reserved.</div><div>hiii</div></div>
+     <div className=' flex justify-center items-center font-400 font-helvetica  p-2'>© 2023 Heartfulness. All rights reserved.</div>
      </>
     );
 }
