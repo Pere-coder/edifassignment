@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className='w-[1200px] h-[320px] bg-[#0479CE]'>
+        <div className='md:w-[1200px] md:h-[320px] bg-[#0479CE]'>
 
         </div>
         <div className='bg-vector w-[375px] h-[168px] mt-0 md:hidden'>
