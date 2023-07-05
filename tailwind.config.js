@@ -20,6 +20,7 @@ module.exports = {
         sblack: '#1F1F1F',
         grey: '#333333',
         vector: '#232323',
+        contact: '#F1F8FF',
   
         
 
