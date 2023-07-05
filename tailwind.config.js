@@ -12,6 +12,7 @@ module.exports = {
         bison: ['Bison', 'system-ui', 'sans-serif'],
         roboto: ['Roboto', 'system-ui', 'sans-serif'],
         jost: ['Jost', 'system-ui', 'sans-serif'],
+        helvetica: ['Helvetica Neue', 'system-ui', 'sans-serif'],
       },
       textColor: {
         custom: '#FB491D',
@@ -19,6 +20,7 @@ module.exports = {
         sblack: '#1F1F1F',
         grey: '#333333',
         vector: '#232323',
+  
         
 
 
@@ -48,6 +50,7 @@ module.exports = {
         '13.85': '13.85',
         '14': '14px',
         '16': '16px',
+        '18': '18px',
         '26': '26px',
         '30': '30px',
         '42': '42px',
@@ -59,6 +62,7 @@ module.exports = {
 
       backgroundColor: {
         custom: '#FB491D',
+        vector: '#232323',
       },
 
       width: {

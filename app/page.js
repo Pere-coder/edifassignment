@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import { FaPlay } from 'react-icons/fa';
@@ -37,7 +38,7 @@ export default function Home() {
         
       </div>
 
-
+      <Footer/>
 
     </>
   )
