@@ -41,6 +41,16 @@ const Footer = () => {
             </div>
         </div>
 
+           
+
+        <div className='hidden md:flex justify-center items-center text-center mt-10 gap-[150px]'>
+            <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
+            <div><Image src='/heart.jpg' width={132} height={45}/></div>
+            <div className='font-400 text-[14px] leading-[16.7px] flex gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
+
+
+        </div>
+
 
         <div className='hidden mt-0 md:flex justify-center items-center gap-[500px]  md:mt-[100px] '>
             <div>
@@ -65,15 +75,7 @@ const Footer = () => {
 
         <div className='md:bg-[#0A142F] w-[1102.97px] h-[1px] mt-10'></div>
 
-        
-
-        <div className='hidden md:flex justify-center items-center text-center mt-10 gap-[150px]'>
-            <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
-            <div><Image src='/heart.jpg' width={132} height={45}/></div>
-            <div className='font-400 text-[14px] leading-[16.7px] flex gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
-
-
-        </div>
+     
         
         <div className='bg-vector w-[375px] h-[168px] mt-0 md:hidden'>
             <div className='font-roboto font-700 text-18 leading-24 text-center text-contact mt-[32px]'>CONTACT US</div>
