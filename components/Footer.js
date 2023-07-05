@@ -25,20 +25,48 @@ const Footer = () => {
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
             <p className='w-[328px] h-[54px] text-[16px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
-            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center'>HISC@heartfulness.org</div>
+            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center font-sans'>HISC@heartfulness.org</div>
             </div>
 
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/call1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Call us</h1>
             <p className='w-[328px] h-[54px] text-[16px] font-400 font-sans'>Call us to speak to a member of our team.<br/> We are always happy to help.</p>
-            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center'>+91 9876543210</div>
+            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center font-sans'>+91 9876543210</div>
             </div>
 
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/location1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px] '>Location</h1>
             <p className='w-[328px] h-[54px] text-[16px] font-400 font-sans'>13-110, Kanha Village, Nandigama Mandal,<br/> Ranga Reddy District, Telangana, India Pin – 509325</p>
-            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="ml-7"/></div>
+            <div className='bg-transparent w-[207px] h-[40px] border-2 border-white rounded-xl mt-5 flex justify-center items-center font-sans'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="ml-7"/></div>
             </div>
+        </div>
+
+
+        <div className='hidden md:flex justify-center items-center gap-[500px]  h-[300px] border-b border-gray-500'>
+            <div>
+                <ul className='flex gap-10 font-roboto font-500 text-16 leading-[18.75px] text-[#252525]'>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Facility</li>
+                    <li>FAQS</li>
+                </ul>
+            </div>
+            <div>
+                <ul className='flex gap-10'>
+                    <li><Image src='/facebook.png' width={24.67} height={24}/></li>
+                    <li><Image src='/twitter.png' width={24.67} height={20}/></li>
+                    <li><Image src='/youtube.png' width={24.67} height={17}/></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div className='hidden md:flex justify-center items-center text-center mt-10 gap-[150px]'>
+            <div className='font-400 text-[14px] leading-[16.7px]'>© 2023 Heartfulness. All rights reserved .</div>
+            <div><Image src='/beauty.png' width={132} height={45}/></div>
+            <div className='flex gap-10'><p>Terms of Service </p><p>Privacy Policy</p> </div>
+
+
         </div>
         
         <div className='bg-vector w-[375px] h-[168px] mt-0 md:hidden'>
@@ -53,7 +81,7 @@ const Footer = () => {
         </div>
        
     </div> 
-     <div className=' flex justify-center items-center font-400 font-helvetica  p-2'>© 2023 Heartfulness. All rights reserved .</div>
+     <div className=' flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
      </>
     );
 }
