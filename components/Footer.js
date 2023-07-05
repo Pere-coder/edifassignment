@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
 
-        <div className='hidden md:flex justify-center items-center gap-[500px]  mt-[100px] '>
+        <div className='hidden md:flex justify-center items-center gap-[500px]   h-[200px] border-b border-b-[#2B3D51]'>
             <div>
                 <ul className='flex gap-10 font-roboto font-500 text-16 leading-[18.75px] text-[#252525]'>
                     <li>Home</li>
