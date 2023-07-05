@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
        
     </div> 
-     <div className=' flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
+     <div className='flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
      </>
     );
 }
