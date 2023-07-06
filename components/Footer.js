@@ -5,16 +5,16 @@ const Footer = () => {
     return ( 
     
     <div className=''>
-    <div className="ml-10 mr-10 flex flex-col justify-center items-center text-center  gap-0 mt-0 md:mt-10 md:ml-20 md:mr-20">
+    <div className=" flex flex-col justify-center items-center text-center mt-0 md:mt-20">
 
     {/* bg-[url('../public/desktop.jpg')] */}
         <div className="w-[375px] h-[470px] bg-gray-500  md:bg-red-500 md:w-full">
         {/* w-[375px] h-[470px] items-center justify-center mx-0  bg-gradient-to-b from-[#000000]  to-transparent  md:w-[1440px] md:h-[470px] md:bg-gradient-to-b md:from-[#000000] md:t0-transparent md:gap-5 md:items-end md:text-start  */}
-            <div className='flex  flex-col justify-center items-center text-center mt-10  md:items-end md:mr-10 md:mt-10'>
-                <div className='mt-5  font-bison font-500 leading-[40px] text-[35px] text-white transform   md: md:leading-[50px] md:text-[30px] lg:text-[50px] md:text-[#F1F8FF] md:transform  md:text-start '>
+            <div className='flex  flex-col justify-center  items-center text-center mt-10  md:items-end md:mr-[40px] md:mt-20 lg:mr-[200px]'>
+                <div className='md:mt-5  font-bison font-500 leading-[40px] text-[35px] text-white transform mt-10   md: md:leading-[50px] md:text-[30px] lg:text-[50px] md:text-[#F1F8FF] md:transform  md:text-start '>
                     <h1 className='scale-y-125 md:scale-y-100'>EXPERIENCE<br/> A DIFFERENT WAY <br/> TO WORK OUT</h1>
-                    <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-10 md:text-start '>Unleashing Sporting Potential</div>
-                    <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] rounded-3xl  h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white mt-10  md:bg-[#0479CE] md:mx-0">START YOUR HEALTHY LIFESTYLE!</div> 
+                    <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-5 md:text-start '>Unleashing Sporting Potential</div>
+                    <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] mt-20 rounded-3xl  h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white md:mt-5  md:bg-[#0479CE] md:mx-0">START YOUR HEALTHY LIFESTYLE!</div> 
                 </div>
                 
                
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className='flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
 
-        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-5 md:w-[600px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-10 lg:w-[800px] xl:w-[1000px] xl:gap-20'>
+        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-5 md:w-[600px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-[70px] lg:w-[1000px] xl:w-[1200px] xl:gap-[100px]'>
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
             <p className='h-[54px] md:w-[100px] md:text-[5px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
@@ -54,9 +54,9 @@ const Footer = () => {
         </div>
 
 
-        <div className='hidden md:flex justify-center items-center md:gap-[100px] lg:gap-[200px] h-[200px] border-b border-b-[#2B3D51]'>
+        <div className='hidden md:flex  justify-center items-center md:gap-[100px] lg:gap-[400px] h-[200px] border-b border-b-[#2B3D51] md:w-[500px] lg:w-[900px] xl:w-[1000px]'>
             <div>
-                <ul className='flex md:gap-5 lg:gap-10 font-roboto font-500  text-[10px] leading-[18.75px] text-[#252525]'>
+                <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  text-[10px] leading-[18.75px] text-[#252525]'>
                     <li>Home</li>
                     <li>About us</li>
                     <li>Facility</li>
