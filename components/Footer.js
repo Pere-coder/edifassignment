@@ -5,7 +5,7 @@ const Footer = () => {
     return ( 
     
     <div className=''>
-    <div className="ml-10 mr-10 flex flex-col justify-center items-center text-center  gap-0 mt-10 md:ml-20 md:mr-20">
+    <div className="ml-10 mr-10 flex flex-col justify-center items-center text-center  gap-0 mt-0 md:mt-10 md:ml-20 md:mr-20">
 
     {/* bg-[url('../public/desktop.jpg')] */}
         <div className="w-[375px] h-[470px] bg-gray-500  md:bg-red-500 md:w-full">

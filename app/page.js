@@ -7,8 +7,8 @@ import { FaPlay } from 'react-icons/fa';
 export default function Home() {
   return (
     <div>
-        <div class="min-h-screen bg-no-repeat   bg-contain  md:bg-cover  bg-[url('../public/background.jpg')]">
-          <div class="min-h-screen bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-blue-100 "> 
+        <div class="bg-no-repeat   bg-contain h-[900px] md:bg-cover  bg-[url('../public/background.jpg')]">
+          <div class=" h-[900px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-blue-100 "> 
             <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
 
               <Navbar/>
