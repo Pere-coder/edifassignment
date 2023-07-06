@@ -4,12 +4,12 @@ import Image from 'next/image'
 const Footer = () => {
     return ( 
     
-    <div>
-    <div className=" flex flex-col justify-center items-center text-center mt-10">
+    <div className='flex flex-col justify-center items-center'>
+    <div className="ml-10 mr-10 flex flex-col justify-center items-center text-center  gap-0 mt-10 md:ml-20 md:mr-20">
 
                
-        <div className="w-[375px] h-[470px] bg-[url('../public/sports.jpg')] bg-no-repeat bg-center  flex flex-col items-center justify-center text-center mx-0 md:bg-[url('../public/desktop.jpg')] md:w-full md:h-[470px] ">
-            <div className='flex flex-col gap-48  w-[375px] h-[470px] items-center justify-center mx-0  bg-gradient-to-b from-[#000000]  to-transparent  md:w-full md:h-[470px] md:bg-gradient-to-b md:from-[#000000] md:t0-transparent md:gap-5 md:items-end md:text-start '>
+        <div className="w-[375px] h-[470px] bg-[url('../public/sports.jpg')] bg-no-repeat bg-center  flex flex-col items-center justify-center text-center mx-0 md:bg-[url('../public/desktop.jpg')] md:w-[1440px] md:h-[470px] ">
+            <div className='flex flex-col gap-48  w-[375px] h-[470px] items-center justify-center mx-0  bg-gradient-to-b from-[#000000]  to-transparent  md:w-[1440px] md:h-[470px] md:bg-gradient-to-b md:from-[#000000] md:t0-transparent md:gap-5 md:items-end md:text-start '>
                 <div className='md:mr-[150px]'>
                     <div className='w-[316px] mt-5 font-bison font-500 leading-[40px] text-[35px] text-white transform scale-y-125 md:w-[365px] md: md:leading-[50px] md:text-[50px] md:text-[#F1F8FF] md:transform md:scale-y-100 '>EXPERIENCE<br/> A DIFFERENT WAY <br/> TO WORK OUT</div>
                     <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-8 md:mt-2 '>Unleashing Sporting Potential</div>
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className='hidden md:flex justify-center items-center text-center mx-auto gap-20 md: md:h-[320px] md:bg-[#0479CE] md:mt-20 md:rounded-2xl text-white '>
+        <div className='hidden md:flex justify-center items-center text-center mx-auto gap-20 md:w-[1200px] md:h-[320px] md:bg-[#0479CE] md:mt-20 md:rounded-2xl text-white '>
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
             <p className='w-[328px] h-[54px] text-[16px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
