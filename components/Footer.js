@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div className='flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
 
-        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-5 md:w-[600px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-[70px] lg:w-[1000px] xl:w-[1200px] xl:gap-[100px]'>
+        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-5 md:w-[650px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-[70px] lg:w-[900px] xl:w-[1200px] xl:gap-[100px]'>
             <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
             <p className='h-[54px] md:w-[100px] md:text-[5px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
@@ -71,9 +71,7 @@ const Footer = () => {
 
         </div>
 
-        {/* <div className='bg-[#0A142F] w-[1102.97px] h-[1px] mt-5'></div> */}
-
-        
+    
 
         <div className='hidden md:flex justify-center items-center text-center mt-10 md:gap-[50px] lg:gap-[200px]'>
             <div className='font-400 text-[10px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
