@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div className='flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
 
-        <div className='hidden md:flex justify-center md:gap-2 xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]'>
+        <div className='hidden md:flex justify-center md:gap-10  xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]'>
             <div className='flex flex-col   items-center'><Image src="/message1.png"  width={50} height={50}/>
             <h1 className='font-roboto font-700 text-[24px] leading-24'>Email us</h1>
             <p className='font-sans font-400 text-[16px] leading-28 mt-5 md:w-[200px] lg:w-[250px] xl:w-[328px] md:h-[60px] lg:[58px] xl:h-[57px]'>Email us for general queries, including marketing and partnership opportunities.</p>
@@ -49,16 +49,15 @@ const Footer = () => {
             </div>
         </div>
 
-
-        <div className='hidden md:flex  justify-center items-center md:gap-[100px] lg:gap-[400px] h-[200px] border-b border-b-[#2B3D51] md:w-[500px] lg:w-[900px] xl:w-[1000px]'>
+        <div className='hidden md:mt-12 md:flex xl:w-[1102.97px] items-center justify-center md:gap-[125px] lg:gap-[250px] xl:gap-[500px] '>
             <div>
-                <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  text-[10px] leading-[18.75px] text-[#252525]'>
+                <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  text-[16px] leading-[18.75px] text-[#252525]'>
                     <li>Home</li>
                     <li>About us</li>
                     <li>Facility</li>
                     <li>FAQS</li>
                 </ul>
-            </div>
+                </div>
             <div>
                 <ul className='flex md:gap-5 lg:gap-10'>
                     <li><Image src='/facebook.png' width={24.67} height={24}/></li>
@@ -66,10 +65,13 @@ const Footer = () => {
                     <li><Image src='/youtube.png' width={24.67} height={17}/></li>
                 </ul>
             </div>
+        </div>
 
+        <div className='hidden md:flex  mt-16 justify-center items-center md:gap-[100px] lg:gap-[200px] h-[10px] border-b border-b-[#2B3D51] md:w-[600px] lg:w-[800px] xl:w-[1100px]'> </div>
+           
           
 
-        </div>
+       
 
     
 
