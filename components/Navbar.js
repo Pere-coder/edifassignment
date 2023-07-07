@@ -79,7 +79,7 @@ const Navbar = () => {
                             <ul className="flex flex-col gap-10 justify-center items-center ">
                             <div className="text-custom font-700  text-46 leading-28 font-poppins  ">HISC   </div>
 
-                            <div className=" mt-20 font-roboto font-500 text-26 leading-80">
+                            <div className=" mt-20 font-roboto font-500 text-26 leading-80 flex flex-col justify-center items-center text-center">
                                 <li className="cursor-pointer">Home</li>
                                 <li className="cursor-pointer">About Us</li>
                                 <li className="cursor-pointer">Facility</li>
