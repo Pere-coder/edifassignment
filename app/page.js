@@ -7,8 +7,8 @@ import { FaPlay } from 'react-icons/fa';
 export default function Home() {
   return (
     <div>
-        <div class="bg-no-repeat   bg-contain h-[900px] md:bg-cover  bg-[url('../public/background.jpg')]">
-          <div class=" h-[900px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-blue-100 "> 
+        <div class="bg-no-repeat   bg-contain h-[1080px] md:bg-cover  bg-[url('../public/background.jpg')]">
+          <div class=" h-[1080px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-blue-100 "> 
             <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
 
               <Navbar/>
@@ -32,7 +32,7 @@ export default function Home() {
               </div>
             
           </div>
-          <div className='hidden md:flex justify-end mr-7 mt-5 text-vector cursor-pointer'><Image src="/vector.png" width={61} height={61} /></div>
+          <div className='hidden md:flex justify-end mr-7 mt-[250px] text-vector cursor-pointer'><Image src="/vector.png" width={61} height={61} /></div>
         </div> 
        
         
