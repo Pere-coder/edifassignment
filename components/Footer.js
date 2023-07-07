@@ -76,9 +76,9 @@ const Footer = () => {
     
 
         <div className='hidden md:flex justify-center items-center text-center mt-10 md:gap-[60px] lg:gap-[150px] xl:gap-[280px]'>
-            <div className='font-400 text-[10px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
+            <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
             <div><Image src='/heart.jpg' width={100} height={100}/></div>
-            <div className='font-400 text-[10px] leading-[16.7px] flex md:gap-5 lg:gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
+            <div className='font-400 text-[14px] leading-[16.7px] flex md:gap-5 lg:gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
 
 
         </div>
