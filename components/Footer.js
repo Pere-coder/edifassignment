@@ -31,19 +31,19 @@ const Footer = () => {
 
         <div className='hidden md:flex justify-center md:gap-5 lg:gap-10  xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]'>
             <div className='flex flex-col   items-center'><Image src="/message1.png"  width={50} height={50}/>
-            <h1 className='font-roboto font-700 text-[24px] leading-24'>Email us</h1>
+            <h1 className='font-roboto font-700 text-[24px] leading-24 mt-5'>Email us</h1>
             <p className='font-sans font-400 text-[16px] leading-28 mt-5 md:w-[200px] lg:w-[250px] xl:w-[328px] md:h-[60px] lg:[58px] xl:h-[57px]'>Email us for general queries, including marketing and partnership opportunities.</p>
             <div className='rounded-xl border-2 border-white w-[207px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>HISC@heartfulness.org</div>
             </div>
 
             <div className='flex flex-col  items-center'><Image src="/call1.png"  width={50} height={50}/>
-            <h1 className='font-roboto font-700  leading-[32px] text-[24px]'>Call us</h1>
+            <h1 className='font-roboto font-700  leading-[32px] text-[24px] mt-5'>Call us</h1>
             <p className='font-sans font-400 text-[16px] leading-28 mt-5 md:w-[200px] lg:w-[250px] xl:w-[328px] md:h-[60px] lg:[58px] xl:h-[57px]'>Call us to speak to a member of our team.<br/> We are always happy to help.</p>
             <div className='rounded-xl border-2 border-white w-[179px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>+91 9876543210</div>
             </div>
 
             <div className='flex flex-col   items-center'><Image src="/location1.png"  width={50} height={50}/>
-            <h1 className='font-roboto font-700  leading-[32px] text-[24px]'>Location</h1>
+            <h1 className='font-roboto font-700  leading-[32px] text-[24px] mt-5'>Location</h1>
             <p className='font-sans font-400 text-[16px] leading-28 mt-5 md:w-[200px] lg:w-[250px] xl:w-[372px] md:h-[60px] lg:[58px] xl:h-[57px]'>13-110, Kanha Village, Nandigama Mandal,Ranga Reddy District, Telangana, India Pin – 509325</p>
             <div className='rounded-xl gap-5 border-2 border-white w-[179px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="leading-[16.1px] font-[900px] text-[14px]"/></div>
             </div>
