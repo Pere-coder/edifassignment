@@ -6,9 +6,9 @@ const Footer = () => {
     
     <div className=''>
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
-        <div className="bg-no-repeat bg-center w-[375px] bg-[url('../public/sports.jpg')] h-[470px]  md:bg-[url('../public/desktop.jpg')]  md:w-full">
+        <div className="bg-no-repeat bg-cover bg-center w-[375px] bg-[url('../public/sports.jpg')] h-[470px]  md:bg-[url('../public/desktop.jpg')]  md:w-full">
             <div className="w-[375px] h-[470px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-b md:from-[#000000] md:t0-transparent">
-                <div className='flex  flex-col justify-center  items-center text-center mt-2  md:items-end md:mr-[40px]  lg:mr-[200px]'>
+                <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[40px]  lg:mr-[200px]'>
                     <div className=' font-bison font-500 leading-[40px] text-[35px] text-white transform mt-10   md: md:leading-[50px] md:text-[30px] lg:text-[50px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-20'>
                         <h1 className='scale-y-125 md:scale-y-100 '>EXPERIENCE<br className='md:hidden'/> A <br className='md:'/> DIFFERENT WAY <br/> TO WORK OUT</h1>
                         <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-5 md:text-start '>Unleashing Sporting Potential</div>
