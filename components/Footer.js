@@ -29,23 +29,23 @@ const Footer = () => {
         </div>
         <div className='flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
 
-        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-5 md:w-[650px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-[70px] lg:w-[900px] xl:w-[1200px] xl:gap-[100px]'>
-            <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/message1.png"  width={32} height={32}/>
+        <div className='hidden md:flex justify-center items-center text-center mx-auto md:gap-[70px] md:w-[650px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:gap-[100px] lg:w-[900px] xl:w-[1200px] xl:gap-[170px]'>
+            <div className='flex flex-col gap-2  items-center'><Image src="/message1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Email us</h1>
-            <p className='h-[54px] md:w-[100px] md:text-[5px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
-            <div className='bg-transparent md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px] border-2 border-white md:mt-2 lg:mt-5 flex justify-center items-center font-sans rounded-[5px]'>HISC@heartfulness.org</div>
+            <p className='h-[54px] md:w-[100px] md:text-[8px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Email us for general queries, including marketing and partnership opportunities.</p>
+            <div className='bg-transparent md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px]  lg:text-[15px] border-2 border-white md:mt-2 flex justify-center items-center font-sans rounded-[5px]'>HISC@heartfulness.org</div>
             </div>
 
-            <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/call1.png"  width={32} height={32}/>
+            <div className='flex flex-col gap-2  items-center'><Image src="/call1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px]'>Call us</h1>
-            <p className='h-[54px] md:w-[100px] md:text-[5px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Call us to speak to a member of our team.<br/> We are always happy to help.</p>
-            <div className='bg-transparent md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px] border-2 border-white  md:mt-2 lg:mt-5 flex justify-center items-center font-sans rounded-[5px]'>+91 9876543210</div>
+            <p className='h-[54px] md:w-[100px] md:text-[8px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>Call us to speak to a member of our team.<br/> We are always happy to help.</p>
+            <div className='bg-transparent md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px] lg:text-[15px] border-2 border-white  md:mt-2  flex justify-center items-center font-sans rounded-[5px]'>+91 9876543210</div>
             </div>
 
-            <div className='flex flex-col gap-2 mt-16 items-center'><Image src="/location1.png"  width={32} height={32}/>
+            <div className='flex flex-col gap-2  items-center'><Image src="/location1.png"  width={32} height={32}/>
             <h1 className='font-roboto font-700  leading-[32px] text-[18px] '>Location</h1>
-            <p className='h-[54px] md:w-[100px] md:text-[5px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>13-110, Kanha Village, Nandigama Mandal,<br/> Ranga Reddy District, Telangana, India Pin – 509325</p>
-            <div className='bg-transparent md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px] border-2 border-white  md:mt-2 lg:mt-5 flex justify-center items-center font-sans rounded-[5px]'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="ml-7"/></div>
+            <p className='h-[54px] md:w-[100px] md:text-[8px] lg:w-[200px]  lg:text-[10px] font-400 font-sans'>13-110, Kanha Village, Nandigama Mandal,<br/> Ranga Reddy District, Telangana, India Pin – 509325</p>
+            <div className='bg-transparent gap-5 md:w-[150px] md:text-[10px] md:h-[20px] lg:w-[200px] lg:h-[40px] lg:text-[15px] border-2 border-white  md:mt-2  flex justify-center items-center font-sans rounded-[5px]'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="ml-7"/></div>
             </div>
         </div>
 
