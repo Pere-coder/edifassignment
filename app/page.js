@@ -17,7 +17,7 @@ export default function Home() {
                 
                   
                   <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-5 w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none'>
-                    <p className="  text-center text-14 rounded-3xl w-64 p-2 text-custom font-jost font-700 leading-20.23 md:bg-[#0479CE] md:text-white md:font-400 lg:font-500  ">START YOUR HEALTHY LIFESTYLE!</p>
+                    <p className="  text-center text-14 rounded-3xl w-64 p-2 text-custom font-jost font-700 leading-20.23 md:text-[#0479CE]  md:font-400 lg:font-500  ">START YOUR HEALTHY LIFESTYLE!</p>
                       <h1 className="text-30 font-400 leading-42 font-bison text-sblack  h-126 w-226 mx-auto mt-3 flex justify-center items-center align-center md:text-50 md:font-400 md:w-430 md:h-216 md:leading-72 md:items-start lg:ml-32  lg:text-80">BEGIN YOUR TRANSFORMATION TODAY</h1>
                         <p className="mt-5 text-sblack  text-14 font-roboto leading-20 font-400   md:w-96 md:text-14 md:leading-24 lg:text-18">Heartfulness International Sports Center
                             (HISC) empowers children and youth to unlock
