@@ -14,6 +14,7 @@ module.exports = {
         jost: ['Jost', 'system-ui', 'sans-serif'],
         helvetica: ['Helvetica Neue', 'system-ui', 'sans-serif'],
         sans: ['Open Sans', 'system-ui', 'sans-serif'],
+  
       },
       textColor: {
         custom: '#FB491D',

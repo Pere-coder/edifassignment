@@ -42,9 +42,9 @@ const Footer = () => {
             <div className='rounded-xl border-2 border-white w-[179px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>+91 9876543210</div>
             </div>
 
-            <div className='flex flex-col   items-center'><Image src="/location1.png"  width={80} height={70}/>
-            <h1 className='font-roboto font-700  leading-[32px] text-[24px] mt-1'>Location</h1>
-            <p className='font-sans font-400 text-[16px] leading-28 mt-3 md:w-[200px] lg:w-[250px] xl:w-[372px] md:h-[60px] lg:[58px] xl:h-[57px]'>13-110, Kanha Village, Nandigama Mandal,Ranga Reddy District, Telangana, India Pin – 509325</p>
+            <div className='flex flex-col   items-center'><Image src="/location1.png"  width={80} height={50}/>
+            <h1 className='font-roboto font-700  leading-[32px] text-[24px] mt-2'>Location</h1>
+            <p className='font-sans font-400 text-[16px] leading-28 mt-2 md:w-[200px] lg:w-[250px] xl:w-[372px] md:h-[60px] lg:[58px] xl:h-[57px]'>13-110, Kanha Village, Nandigama Mandal,Ranga Reddy District, Telangana, India Pin – 509325</p>
             <div className='rounded-xl gap-5 border-2 border-white w-[179px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="leading-[16.1px] font-[900px] text-[14px]"/></div>
             </div>
         </div>

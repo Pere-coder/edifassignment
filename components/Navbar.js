@@ -109,14 +109,14 @@ const Navbar = () => {
 
 
             <nav className="flex justify-between ">
-                <div className="text-custom font-700 text-46 font-poppins mt-5 ">HISC   </div>
-                    <ul className="hidden  md:flex gap-10 mt-10  font-roboto font-500 text-16   ">
+                <div className="text-custom md:text-[#0479CE] font-700 text-80 font-poppins mt-5 flex gap-2  ">HISC <p className="mt-10 text-black w-[90px] font-custom font-400 text-[12px] leading-[13px]">Heartfulness International <br/> Sports Center</p>  </div>
+                    <ul className="hidden  md:flex gap-10 mt-12  font-roboto font-500 text-16   ">
                         <li className="p-2 cursor-pointer">Home </li>
                         <li className="p-2 cursor-pointer">About us</li>
                         <li className="p-2 cursor-pointer">Facility</li>
-                        <li className="bg-custom cursor-pointer text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
+                        <li className="bg-[#0479CE] cursor-pointer text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
                     </ul>
-                    <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-42 h-42 md:hidden mt-5 cursor-pointer" onClick={click}>
+                    <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-[60px] h-[60px] md:hidden mt-12 cursor-pointer" onClick={click}>
                         <Bars3BottomRightIcon className="h-10 w-10 text-grey" aria-hidden="true" />
                     </div> 
             </nav>
