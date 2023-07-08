@@ -6,8 +6,8 @@ const Footer = () => {
     
     <div className=''>
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
-        <div className="bg-no-repeat bg-cover bg-center w-[375px] bg-[url('../public/sports.jpg')] h-[470px]  md:h-[530px] md:bg-[url('../public/desktop.jpg')]  md:w-full">
-            <div className="w-[375px] h-[470px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-b md:from-[#000000] md:t0-transparent">
+        <div className="bg-no-repeat bg-cover bg-center w-full bg-[url('../public/sports.jpg')] h-[470px]  md:h-[530px] md:bg-[url('../public/desktop.jpg')]  md:w-full">
+            <div className="w-full h-[470px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-b md:from-[#000000] md:t0-transparent">
                 <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[200px]'>
                     <div className='w-[316px] h-[180px] md:w-[365px] md:h-[310px] leading-[40px] text-[35px] text-white transform mt-10   md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px]'>
                         <h1 className='font-bison font-500  scale-y-150 md:scale-y-125 '>EXPERIENCE <br/>A   DIFFERENT WAY TO WORK OUT</h1>
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='bg-vector w-[375px] h-[168px] mt-0 md:hidden'>
+        <div className='bg-vector w-full  h-[168px] mt-0 md:hidden'>
             <div className='font-roboto font-700 text-18 leading-24 text-center text-contact mt-[32px]'>CONTACT US</div>
             <div className='flex justify-center items-center gap-[52px] mt-[20px]'>
                 <div className='bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center'> <Image src="/message.png"  width={32} height={32}/></div>
