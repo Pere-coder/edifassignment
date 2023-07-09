@@ -110,11 +110,11 @@ const Navbar = () => {
 
             <nav className="flex justify-between ">
                 <div className="flex gap-2 mt-5">
-                <div className="text-custom text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins   ">HISC </div><div className="hidden lg:block mt-10 text-[#1F1F1F] w-[110px] h-[54px] font-custom font-400 text-[16px] leading-[13px]">Heartfulness International  Sports Center</div> 
+                <div className="text-custom text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins   ">HISC </div><div className="hidden lg:block mt-9 text-[#1F1F1F] w-[110px] h-[54px] font-custom font-400 text-[18px] leading-[16px]">Heartfulness International  Sports Center</div> 
                 </div>
                
-                    <ul className="hidden  md:flex gap-10 mt-12  font-roboto font-500 text-16   ">
-                        <li className="p-2 cursor-pointer">Home </li>
+                    <ul className="hidden  md:flex gap-10 mt-16  font-roboto font-500 text-[20px]   ">
+                        <li className="p-2 cursor-pointer ">Home </li>
                         <li className="p-2 cursor-pointer">About us</li>
                         <li className="p-2 cursor-pointer">Facility</li>
                         <li className="bg-[#0479CE] cursor-pointer text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
