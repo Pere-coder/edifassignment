@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="bg-no-repeat bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
             <div className="w-full h-[700px] md:h-[500px] lg:h-[600px] xl:h-[700px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-t md:from-[#000000] md:t0-transparent">
                 <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[100px] xl:mr-[150px]'>
-                    <div className='w-[316px] h-[180px] md:w-[500px] md:h-[310px] leading-[40px] text-[35px] text-white transform mt-10    md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px] lg:mt-[150px] xl:mt-[200px]'>
-                        <h1 className='font-bison font-500  scale-y-150 md:scale-y-125 '>EXPERIENCE <br className='md:hidden'/> A  <br className='hidden md:block'/> DIFFERENT WAY TO WORK OUT</h1>
-                        <div className='font-roboto font-700 text-18 leading-24 text-[#F1F8FF] mt-8 md:text-start md:mt-10'>Unleashing Sporting Potential</div>
-                        <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] mt-[420px] rounded-3xl  h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white md:mt-5  md:bg-[#0479CE] md:mx-0">START YOUR HEALTHY LIFESTYLE!</div> 
+                    <div className='w-full h-[180px] leading-[48px] text-[40px] sm:mt-[80px] sm:text-[70px] sm:leading-[60px] md:w-[500px] md:h-[310px]   text-white transform mt-10    md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px] lg:mt-[150px] xl:mt-[200px]'>
+                        <h1 className='font-bison font-500  scale-y-150 md:scale-y-125 '>EXPERIENCE <br className='md:hidden'/> A  <br className='hidden md:block'/> DIFFERENT WAY <br className='md:hidden'/>TO WORK OUT</h1>
+                        <div className='font-roboto font-700 text-[22px] leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-10'>Unleashing Sporting Potential</div>
+                        <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] sm:w-[400px] sm:text-[18px] sm:h-[48px] md:text-[13.98px] md:h-[38px] md:w-[250px] mt-[400px] sm:mt-[270px] rounded-3xl  h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white md:mt-5  md:bg-[#0479CE] md:mx-0">START YOUR HEALTHY LIFESTYLE!</div> 
                     </div>
                     
                 </div>
