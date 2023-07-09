@@ -114,9 +114,9 @@ const Navbar = () => {
                 </div>
                
                     <ul className="hidden  md:flex gap-10 mt-16  font-roboto font-500 text-[20px]   ">
-                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8 border-b-[#0479CE]">Home </li>
-                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8  border-b-[#0479CE] ">About us</li>
-                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8  border-b-[#0479CE] ">Facility</li>
+                        <li className="mt-1 cursor-pointer "><h1 className="group">Home <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p> </h1></li>
+                        <li className="mt-1 cursor-pointer "><h1 className="group">About us <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></li>
+                        <li className="mt-1 cursor-pointer "><h1 className="group">Facility <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></li>
                         <li className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16">Sign up</li>       
                     </ul>
                     <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-[60px] h-[60px] md:hidden mt-12 cursor-pointer" onClick={click}>
