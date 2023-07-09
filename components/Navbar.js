@@ -114,10 +114,10 @@ const Navbar = () => {
                 </div>
                
                     <ul className="hidden  md:flex gap-10 mt-16  font-roboto font-500 text-[20px]   ">
-                        <li className="p-2 cursor-pointer ">Home </li>
-                        <li className="p-2 cursor-pointer">About us</li>
-                        <li className="p-2 cursor-pointer">Facility</li>
-                        <li className="bg-[#0479CE] cursor-pointer text-white text-center rounded-full w-[120px] h-[40px] p-2 font-roboto font-500 text-16">Sign up</li>       
+                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8 border-b-[#0479CE]">Home </li>
+                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8  border-b-[#0479CE] ">About us</li>
+                        <li className="mt-1 cursor-pointer hover:border-b-4 h-8  border-b-[#0479CE] ">Facility</li>
+                        <li className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16">Sign up</li>       
                     </ul>
                     <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-[60px] h-[60px] md:hidden mt-12 cursor-pointer" onClick={click}>
                         <Bars3BottomRightIcon className="h-10 w-10 text-grey" aria-hidden="true" />
