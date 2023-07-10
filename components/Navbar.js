@@ -87,7 +87,7 @@ const Navbar = () => {
                             </div>
                                 
 
-                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-64">
+                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-[65px]">
                             SIGN UP NOW
                             
                         </li>
