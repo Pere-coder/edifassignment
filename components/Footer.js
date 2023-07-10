@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='hidden md:flex  mt-16 justify-center items-center md:gap-[100px] lg:gap-[200px] h-[10px] border-b border-b-[#2B3D51] md:w-[600px] lg:w-[800px] xl:w-[1100px]'> </div>
+        <hr className='hidden md:flex  mt-20 justify-center items-center   border-b-[#2B3D51] md:w-[600px] lg:w-[800px] xl:w-[1100px]'/> 
            
           
 
