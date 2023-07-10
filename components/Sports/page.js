@@ -132,7 +132,7 @@ function Page() {
 
   return (
     <motion.section
-      className=" relative min-h-[100vh] w-full"
+      className="hidden md:block relative min-h-[100vh] w-full"
       style={{ background: data[select].color }}
       initial={{opacity:0}}
       animate={{opacity:1}}
