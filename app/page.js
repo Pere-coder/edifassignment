@@ -4,6 +4,8 @@ import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import { FaPlay } from 'react-icons/fa';
 import Sports from '../components/Sports/page'
+import Begin from '@/components/Begin';
+import Team from '@/components/Team';
 
 
 export default function Home() {
@@ -42,9 +44,10 @@ export default function Home() {
         
       </div> 
       </div>
+      <Begin/>
       <Sports/>
       {/* <Facilities/> */}
-    
+      <Team />
       <Footer/>
 
     </div>
