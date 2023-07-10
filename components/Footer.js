@@ -6,7 +6,6 @@ const Footer = () => {
     
     <div className=''>
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
-    {/* <div className="bg-no-repeat bg-cover bg-center w-full bg-[url('../public/sports.jpg')] h-[470px]  md:h-[530px] md:bg-[url('../public/desktop.jpg')]  md:w-full"> */}
         <div className="bg-no-repeat h-[470px] sm:h-[700px] bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
             <div className="w-full h-[470px] sm:h-[700px] md:h-[500px] lg:h-[600px] xl:h-[700px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-t md:from-[#000000] md:t0-transparent">
                 <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[100px] xl:mr-[150px]'>
