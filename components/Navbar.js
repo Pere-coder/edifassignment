@@ -15,6 +15,7 @@ import { Truculenta } from "next/font/google";
 const Navbar = () => {
 
     const [open, setOpen] = useState(false)
+    const [ isHidden, setIsHidden ] = useState(true)
 
     const click = () => {
         setOpen(true);
@@ -80,9 +81,9 @@ const Navbar = () => {
                             <div className="text-custom font-700  text-46 leading-28 font-poppins  ">HISC   </div>
 
                             <div className=" mt-20 font-roboto font-500 text-26 leading-80 flex flex-col justify-center items-center text-center">
-                                <li className="cursor-pointer">Home</li>
-                                <li className="cursor-pointer">About Us</li>
-                                <li className="cursor-pointer">Facility</li>
+                                <Link href=''  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">Home</Link>
+                                <Link href=''  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">About Us</Link>
+                                <Link href=""  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">Facility</Link>
                             </div>
                                 
 
