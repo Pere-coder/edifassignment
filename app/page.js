@@ -6,6 +6,7 @@ import { FaPlay } from 'react-icons/fa';
 import Sports from '../components/Sports/page'
 import Begin from '@/components/Begin';
 import Team from '@/components/Team';
+import Gallery from '@/components/Gallery';
 
 
 export default function Home() {
@@ -44,10 +45,11 @@ export default function Home() {
         
       </div> 
       </div>
-      <Begin/>
-      <Sports/>
+      {/* <Begin/>
+      <Sports/> */}
       {/* <Facilities/> */}
-      <Team />
+      {/* <Team /> */}
+      <Gallery/>
       <Footer/>
 
     </div>
