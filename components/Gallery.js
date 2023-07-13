@@ -19,7 +19,7 @@ const gallery = () => {
         <div className='mx-0 w-[2000px] '>
         <div className="flex  flex-center gap-1">
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -27,7 +27,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -35,7 +35,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -43,7 +43,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -51,7 +51,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -59,7 +59,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -67,7 +67,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -80,7 +80,7 @@ const gallery = () => {
         <div className='mx-0 w-[2000px] mt-5'>
         <div className="flex  flex-center gap-1">
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -88,7 +88,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -96,7 +96,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -104,7 +104,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -112,7 +112,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -120,7 +120,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
@@ -128,7 +128,7 @@ const gallery = () => {
             />
           </div>
           <div>
-            <img
+            <Image
               className="w-full h-auto md:w-[800px] md:h-[300px] cursor-pointer"
               src="gallery/one.jpg"
               onClick={() => handleImageClick('gallery/one.jpg')}
