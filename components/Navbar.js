@@ -82,7 +82,7 @@ const Navbar = () => {
 
                             <div className=" mt-20 font-roboto font-500 text-26 leading-80 flex flex-col justify-center items-center text-center">
                                 <Link href=''  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">Home</Link>
-                                <Link href=''  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">About Us</Link>
+                                <Link href='about' className="cursor-pointer">About Us</Link>
                                 <Link href=""  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">Facility</Link>
                             </div>
                                 
