@@ -1,59 +1,50 @@
+
 import React from 'react'
 import Image from 'next/image'
 function Facilities() {
   return (
-    <div className=' justify-center items-center m-5 flex flex-col  md:mt-20 mt-[80px]'>
-        <div className='items-center justify-center'>
-            <h1 className=' md:mb-5 mb-3 text-center font-bison font-bold leading-[42px] md:text-[42px] text-[42px]'>FACILITIES AND OFFERINGS</h1>
-            <p className=' md:w-[1200px]  text-center font-roboto font-400 text-[18px] mt-5 md:mt-7'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts.
-                 Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
-        </div>
-        <div className=' flex space-x-3 flex-row md:m-16 md:ml-42 ml-[10px] mt-5 flex-wrap md:flex-nowrap md:w-[1350px] w-[350px]  md:justify-evenly '>
-       {/* <div className='md:w-[245px]  w-[153px] h-[263px]  md:h-[400px] bg-green-500 rounded-[16px]   '>
+    <div>
+<div className='w-full text-center lg:mt-0 md:mt-0 mt-20'>
+  <h1 className='font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3'>FACILITIES AND OFFERINGS</h1>
+   <p className='lg:pl-20 lg:pr-20 pl-10 pr-10 lg:mt-2 md:mt-2 font-roboto text-[16px] lg:text-[18px]'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
+    Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
+</div>
 
-       </div> */}
-           <Image className="md:w-[245px]  w-[153px] h-[263px]  md:h-[400px]  rounded-[16px] justify-center border-2 ml-3" src="/images/badminton.jpg"  alt="gym photo" width={153} height={300} >
+<div class="grid grid-cols-2 gap-x-2 gap-y-2 md:grid-cols-4   justify-items-center m-7 ">
+<div class="lg:row-span-4">
+<h1 className='md:hidden lg:hidden text-[18px] font-700'>BADMINTON</h1>
+<Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/badminton.jpg"  width={153} height={263}></Image>
+<h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1 '>BADMINTON</h1>
+</div>
+<div class="lg:row-span-4">
+<h1 className='md:hidden lg:hidden relative ml-[100px] text-[18px] font-700'>GYM</h1>
+<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700'>GYM</h1>
+<Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/gymimg1.jpg"  width={153} height={263}></Image>
+</div>
+<div class="lg:row-span-4">
+<Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/swimmingimg.jpg"  width={153} height={263}></Image>
+<h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1'>SWIMMING</h1>
+<h1 className='md:hidden lg:hidden text-[18px] font-700'>SWIMMING</h1>
+</div>
+<div class="lg:row-span-4">
+<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700'>SQUASH</h1>
+<Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/squashimg3.jpg"  width={153} height={263}></Image>
+<h1 className='md:hidden lg:hidden relative  text-[18px] ml-[70px] font-700'>SQUASH</h1>
+</div>
+</div>
 
-          </Image>  
+<div className='md:w-full w-full lg:w-full md:h-[430px] sm:h-[490px] md:mt-0 mt-10 flex flex-col items-center justify-center md:bg-blue-500 bg-orange-500  '>
 
-       {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16  md:mt-48 md:h-[400px] bg-black rounded-[16px] justify-center'>
-
-       </div> */}
-        <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16  md:mt-48 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/gymimg1.jpg" alt="gym photo" width={153} height={300}>
-       
-       </Image>
-
-
-       {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5 bg-blue-500 rounded-[16px] justify-center'>
-
-        </div> */}
-         <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5  rounded-[16px] justify-center border-2" src="/images/swimmingimg.jpg" alt="swimming photo" width={153} height={300}>
-
-          </Image>
-
-        {/* <div className='md:w-[245px] w-[153px] h-[263px]  md:ml-16 md:mt-48 mt-5 md:h-[400px] bg-orange-600 rounded-[16px] justify-center'>
-
-        </div> */}
-        <Image className="md:w-[245px] w-[153px] h-[263px]  md:ml-16 md:mt-48 mt-5 md:h-[400px]  rounded-[16px]  border-2" src="/images/squashimg.jpg" alt="squash photo" width={153} height={300}>
-
-        </Image>
-
-
-       
-       </div>
-    
-        
-
-        <div className='md:w-[1970px] md:h-[430px] w-[350px] h-[490px] md:mt-0 mt-10 flex flex-col items-center justify-center md:bg-blue-500 bg-orange-500  '>
-
-<h1 className='md:w-[525px] md:h-[72px] w-[262px] text-center font-bison md:text-[60px] text-[30px] md:mb-8 mb-4 font-semibold text-white'>JOIN US AT HISC</h1>
-<p className='md:w-[1234px] md:h-[78px] w-[315px] text-white text-center font-poppins'>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
-<button className='w-[175px] h-[52px] text-black bg-white mt-6 rounded-3xl font-roboto font-500 text-[13.85px]'>SIGN UP NOW</button>
+<h1 className='md:w-[525px]  md:h-[72px] w-[262px] text-center font-bison md:text-[40px] text-[30px] md:mb-2 mb-4 mt-4 font-semibold text-white'>JOIN US AT HISC</h1>
+<p className='lg:w-[1234px] md:w-full md:h-[78px] w-[315px] md:p-5 text-white text-center font-poppins '>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
+<button className='w-[175px] h-[52px] text-black bg-white mt-6 rounded-3xl font-roboto font-500 text-[13.85px] md:mt-16 mb-7'>SIGN UP NOW</button>
 
 </div>
-    
-    </div>
+
+</div>
   )
 }
+
+
 
 export default Facilities
