@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import { FaPlay } from 'react-icons/fa';
-import Sports from '../components/Sports/page'
+import Sports from '@/components/experimental/page'
 import Begin from '@/components/Begin';
 import Team from '@/components/Team';
 import Gallery from '@/components/Gallery';
@@ -19,7 +19,7 @@ export default function Home() {
 
               <Navbar/>
 
-              <div className="mt-48 flex flex-col  items-center justify-center align-center   md:items-start  ">
+              <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
                 
                   
                   <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-5 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none'>
@@ -46,7 +46,7 @@ export default function Home() {
       </div> 
       </div>
       <Begin/>
-      <Sports/>
+      {/* <Sports/> */}
       {/* <Facilities/> */}
       <Team /> 
       {/* <Gallery/> */}
