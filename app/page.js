@@ -45,11 +45,11 @@ export default function Home() {
         
       </div> 
       </div>
-      {/* <Begin/>
-      <Sports/> */}
+      <Begin/>
+      <Sports/>
       {/* <Facilities/> */}
-      {/* <Team /> */}
-      <Gallery/>
+      <Team /> 
+      {/* <Gallery/> */}
       <Footer/>
 
     </div>
