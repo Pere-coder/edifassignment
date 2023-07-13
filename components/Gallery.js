@@ -77,7 +77,7 @@ const gallery = () => {
           {selectedImage && <Modal imageUrl={selectedImage} onClose={closeModal} />}
         </div>
         </div>
-        <div className='mx-0 w-[2000px]'>
+        <div className='mx-0 w-[2000px] mt-5'>
         <div className="flex  flex-center gap-1">
           <div>
             <img
