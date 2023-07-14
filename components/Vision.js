@@ -16,7 +16,7 @@ function Vision() {
           <h1 className='hidden lg:block md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-bold leading-[40px] uppercase w-[262px] lg:mt-[-90px] md:mt-[-90px] text-black scale-y-150'>Empowering Youth through<br></br>
             Sports Excellence</h1>
           <h1 className='lg:hidden md:hidden lg:text-[40px] md:text-[30px] text-[25px] text-center lg:w-[718px]  font-bold leading-[30px] uppercase w-[262px] scale-y-150'><span className='whitespace-nowrap text-black'>Empowering Youth</span>
-            <span> through Sports</span> Excellence</h1>
+            <span className=' text-black'> through Sports</span> Excellence</h1>
 
           <p className='mt-8 font-roboto lg:text-[18px] md:text-[18px] text-[14px] lg:w-[960px] md:w-[600px] w-[283px] lg:mt-20 md:mt-3  text-center text-black'>At the Heartfulness Institute, we are committed to fostering holistic well-being and empowering individuals to tap into the infinite potential of their hearts. Through the Heartfulness International Sports Center (HISC), we impact thousands of children and youth, helping them connect with their hearts' potential through sports.</p>
         </div>
