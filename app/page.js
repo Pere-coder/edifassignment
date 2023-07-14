@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import { FaPlay } from 'react-icons/fa';
-import Sports from '@/components/experimental/page'
 import Begin from '@/components/Begin';
 import Team from '@/components/Team';
 import Gallery from '@/components/Gallery';
+import Sports from "../components/Sports/page";
 
 
 export default function Home() {
@@ -46,7 +46,7 @@ export default function Home() {
       </div> 
       </div>
       <Begin/>
-      {/* <Sports/> */}
+      <Sports/>
       {/* <Facilities/> */}
       <Team /> 
       {/* <Gallery/> */}

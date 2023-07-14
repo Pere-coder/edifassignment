@@ -27,11 +27,11 @@ function Template({ data, all_data, boolean }) {
 
   return (
     <motion.div
-      className=" md:ml-16 lg:ml-32 flex items-center min-h-screen absolute"
+      className=" md:ml-16 lg:ml-32 flex items-center min-h-[100vh] relative"
       key={data.h2}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ easeIn: 1 }}
+      transition={{ duration: 1 }}
     >
       {/* Up card */}
       <motion.div
