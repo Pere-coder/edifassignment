@@ -5,31 +5,31 @@ function Facilities() {
   return (
     <div>
 <div className='w-full text-center lg:mt-0 md:mt-0 mt-20'>
-  <h1 className='scale-y-150 font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3'>FACILITIES AND OFFERINGS</h1>
-   <p className='lg:pl-20 lg:pr-20 pl-10 pr-10 lg:mt-2 md:mt-2 font-roboto text-[16px] lg:text-[18px]'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
+  <h1 className='scale-y-150 font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3 text-sblack'>FACILITIES AND OFFERINGS</h1>
+   <p className='lg:pl-20 lg:pr-20 pl-10 pr-10 lg:mt-2 md:mt-2 font-roboto text-[16px] lg:text-[18px] text-sblack'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
     Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
 </div>
 
 <div class=" grid grid-cols-2 gap-x-2 gap-y-2 md:grid-cols-4   justify-items-center m-7 ">
 <div class="lg:row-span-4">
-<h1 className='scale-y-150 md:hidden lg:hidden text-[18px] font-700'>BADMINTON</h1>
+<h1 className='scale-y-150 md:hidden lg:hidden text-[18px] font-700 text-sblack'>BADMINTON</h1>
 <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/badminton.jpg"  width={153} height={263}></Image>
-<h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1 scale-y-150'>BADMINTON</h1>
+<h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1 scale-y-150 text-sblack'>BADMINTON</h1>
 </div>
 <div class="lg:row-span-4">
-<h1 className='scale-y-150 md:hidden lg:hidden relative ml-[100px] text-[18px] font-700'>GYM</h1>
-<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700 scale-y-150'>GYM</h1>
+<h1 className='scale-y-150 md:hidden lg:hidden relative ml-[100px] text-[18px] font-700 text-sblack'>GYM</h1>
+<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700 scale-y-150 text-sblack'>GYM</h1>
 <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/gymimg1.jpg"  width={153} height={263}></Image>
 </div>
 <div class="lg:row-span-4">
 <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/swimmingimg.jpg"  width={153} height={263}></Image>
-<h1 className='scale-y-150 hidden md:block lg:block text-[20px] font-700 md:mt-1'>SWIMMING</h1>
-<h1 className='md:hidden lg:hidden text-[18px] font-700 scale-y-150'>SWIMMING</h1>
+<h1 className='scale-y-150 hidden md:block lg:block text-[20px] font-700 md:mt-1 text-sblack'>SWIMMING</h1>
+<h1 className='md:hidden lg:hidden text-[18px] font-700 scale-y-150 text-sblack'>SWIMMING</h1>
 </div>
 <div class="lg:row-span-4">
-<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700 scale-y-150'>SQUASH</h1>
+<h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700 scale-y-150 text-sblack'>SQUASH</h1>
 <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/squashimg3.jpg"  width={153} height={263}></Image>
-<h1 className='scale-y-150 md:hidden lg:hidden relative  text-[18px] ml-[70px] font-700'>SQUASH</h1>
+<h1 className='scale-y-150 md:hidden lg:hidden relative  text-[18px] ml-[70px] font-700 text-sblack'>SQUASH</h1>
 </div>
 </div>
 
