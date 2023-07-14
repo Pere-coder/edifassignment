@@ -12,7 +12,7 @@ const about = () => {
       <div className='mt-[200px] flex flex-col items-center justify-center w-full lg:mb-[80px]'>
         <p className='text-[14px] lg:text-[#0479CE] md:text-[#0479CE] text-white bg-custom md:bg-transparent lg:p-0 md:p-0 p-3 rounded-3xl lg:bg-transparent text-center font-jost lg:w-[444px] md:w-[400px] w-[262px] uppercase lg:mb-0 md:mb-0 mb-2'>Welcome to Heartfulness International Sports Center</p>
         <div className='flex flex-col items-center justify-center w-[315px] h-[374px] lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
-          <h1 className='hidden lg:block md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-bold leading-[40px] uppercase w-[262px] lg:mt-[-90px] md:mt-[-90px] scale-y-150'>Empowering Youth through<br></br>
+          <h1 className='hidden lg:block md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-bold leading-[40px] uppercase w-[262px] lg:mt-[-90px] md:mt-[-90px] scale-y-150  text-sblack'>Empowering Youth through<br></br>
             Sports Excellence</h1>
           <h1 className='lg:hidden md:hidden lg:text-[40px] md:text-[30px] text-[25px] text-center lg:w-[718px]  font-bold leading-[30px] md:leading-[40px] uppercase w-[262px] text-sblack scale-y-150'><span className='whitespace-nowrap'>Empowering Youth</span>
             <span> through Sports</span> Excellence</h1>
