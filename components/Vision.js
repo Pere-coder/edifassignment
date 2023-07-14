@@ -40,7 +40,7 @@ function Vision() {
 
       </div>
 
-      <div className='lg:w-full lg:h-[488px] lg:mt-[-150px] md:mt-[-140px] mt-[-120px] md:h-[588px] w-full h-[790px] border-2 flex flex-col items-center justify-center lg:bg-[#0479CE] bg-[#FB491D]'>
+      <div className='w-full lg:h-[488px] lg:mt-[-150px] md:mt-[-140px] mt-[-120px] md:h-[588px]  h-[790px] border-2 flex flex-col items-center justify-center lg:bg-[#0479CE] bg-[#FB491D]'>
         <h1 className='text-center font-bison md:w-full w-[300px] lg:mb-0 md:mt-[10px] mt-[150px] lg:text-[40px] text-[30px] font-500 uppercase text-white scale-y-150'>Inauguration and Location</h1>
         <p className='text-center lg:w-[834px]  w-[315px] md:w-[500px] font-poppins text-[16px]lg:p-0  text-white mt-3'>HISC was inaugurated on 26th February 2023 at Kanha Shanti Vanam,
            a serene location known for holistic well-being and home to the world's largest meditation center.
