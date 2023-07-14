@@ -46,7 +46,7 @@ export default function Home() {
       </div> 
       </div>
       <Begin/>
-      {/* <Sports/> */}
+      <Sports/>
       {/* <Facilities/> */}
       <Team /> 
       {/* <Gallery/> */}

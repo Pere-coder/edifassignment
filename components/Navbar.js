@@ -81,8 +81,8 @@ const Navbar = () => {
                             <div className='flex'><div className="text-[#0479CE] font-700  text-[40px] leading-28 font-poppins ">HISC </div><div className="text-[6px] leading-[9px] mt-0 w-[50px] md:hidden text-[#1F1F1F]">Heartfulness International <br/>  Sports Center</div></div>
 
                             <div className=" mt-20 font-roboto font-500 text-26 leading-80 flex flex-col justify-center items-center text-center">
-                                <Link href='/'   className="cursor-pointer">Home</Link>
-                                <Link href='about' className="cursor-pointer">About Us</Link>
+                                <Link href='/'   className="cursor-pointer text-sblack">Home</Link>
+                                <Link href='about' className="cursor-pointer text-sblack">About Us</Link>
                                 <Link href=""  onClick={(e) => {e.preventDefault(); setOpen(false)}} className="cursor-pointer">Facility</Link>
                             </div>
                                 
@@ -115,9 +115,9 @@ const Navbar = () => {
                 </div>
                
                     <ul className="hidden  md:flex gap-10 mt-16  font-roboto font-500 text-[20px]   ">
-                        <li className="mt-1 cursor-pointer "><Link href='/'><h1 className="group">Home <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p> </h1></Link></li>
-                        <li className="mt-1 cursor-pointer "><Link href='about'><h1 className="group">About us <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></Link></li>
-                        <li className="mt-1 cursor-pointer "><h1 className="group">Facility <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></li>
+                        <li className="mt-1 cursor-pointer "><Link href='/'><h1 className="group text-sblack">Home <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p> </h1></Link></li>
+                        <li className="mt-1 cursor-pointer "><Link href='about'><h1 className="group text-sblack">About us <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></Link></li>
+                        <li className="mt-1 cursor-pointer "><h1 className="group text-sblack">Facility <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p></h1></li>
                         <li className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16 hover:bg-white hover:text-[#0479CE]">Sign up</li>       
                     </ul>
                     <div className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-[60px] h-[60px] md:hidden mt-12 cursor-pointer" onClick={click}>
