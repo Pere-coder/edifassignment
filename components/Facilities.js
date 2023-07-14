@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 function Facilities() {
   return (
-    <div>
+  <div className='mt-[1670px] md:mt-[500px]'>
 <div className='w-full text-center lg:mt-0 md:mt-0 mt-20'>
   <h1 className='scale-y-150 font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3 text-sblack'>FACILITIES AND OFFERINGS</h1>
    <p className='lg:pl-20 lg:pr-20 pl-10 pr-10 lg:mt-2 md:mt-2 font-roboto text-[16px] lg:text-[18px] text-sblack'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
