@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 
 
-const gallery = () => {
+const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
     const handleImageClick = (imageUrl) => {
         setSelectedImage(imageUrl);
@@ -180,4 +180,4 @@ const gallery = () => {
       );
     };
  
-export default gallery;
+export default Gallery;
