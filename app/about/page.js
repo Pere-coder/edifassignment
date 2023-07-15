@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
 import Vision from "@/components/Vision";
 import Image from 'next/image'
+import Gallery from "@/components/Gallery";
 
 const about = () => {
     return ( <>
@@ -43,6 +44,7 @@ const about = () => {
     </div>
 
         <Facilities/>
+        <Gallery/>
         <Footer/>
     
     
