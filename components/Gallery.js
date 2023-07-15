@@ -17,7 +17,7 @@ const Gallery = () => {
     
       return (
         <div className=' mt-20'>
-         <h1 className='flex justify-center items-center scale-y-150 font-bold text-[30px]'>GALLERY</h1>
+         <h1 className='flex justify-center items-center scale-y-150 font-bold text-[30px] text-sblack'>GALLERY</h1>
         <div className='w-full overflow-x-auto no-scrollbar mt-8'>
         <div className='mx-0 w-[2000px]'>
         <div className="flex justify-center  gap-1">
