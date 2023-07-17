@@ -3,10 +3,11 @@ import Image from 'next/image'
 
 const Footer = () => {
     return ( 
-    
-    <div className='mt-10 '>
+    <>
+    <div className='text-[#0A142F] flex justify-center text-center mt-5 items-center font-400 font-helvetica  md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
+     <div className='mt-10 '>
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
-        <div className='text-[#0A142F] flex justify-center items-center font-400 font-helvetica  p-2 md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
+        
 
         <div className='hidden md:mt-12 md:flex xl:w-[1102.97px] items-center justify-center md:gap-[125px] lg:gap-[250px] xl:gap-[500px] '>
             <div>
@@ -34,7 +35,7 @@ const Footer = () => {
 
     
 
-        <div className='hidden md:flex justify-center items-center text-center mt-10 md:gap-[60px] lg:gap-[150px] xl:gap-[280px] p-2'>
+        <div className='hidden md:flex justify-center items-center text-center md:mt-10 md:gap-[60px] lg:gap-[150px] xl:gap-[280px] p-2'>
             <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
             <div><Image src='/heart.jpg' width={100} height={100}/></div>
             <div className='font-400 text-[14px] leading-[16.7px] flex md:gap-5 lg:gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
@@ -47,6 +48,8 @@ const Footer = () => {
     </div> 
     
      </div>
+    </>
+   
     );
 }
  
