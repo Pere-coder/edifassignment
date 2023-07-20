@@ -111,7 +111,7 @@ const Navbar = () => {
 
             <nav className="flex justify-between ">
                 <div className="flex gap-1 lg:gap-2 mt-5">
-                <div className="text-[#0479CE] text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins   ">HISC </div><div className="text-[8px] leading-[10px] mt-10 w-[50px] md:hidden lg:block lg:mt-9 text-[#1F1F1F] lg:w-[110px] lg:h-[54px] font-custom font-400 lg:text-[16px] lg:leading-[18px]">Heartfulness International  Sports Center</div> 
+                <div className="text-[#0479CE] text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins">HISC </div><div className="text-[8px] leading-[10px] mt-10 w-[50px] md:hidden lg:block lg:mt-9 text-[#1F1F1F] lg:w-[110px] lg:h-[54px] font-custom font-400 lg:text-[16px] lg:leading-[18px]">Heartfulness International  Sports Center</div> 
                 </div>
                
                     <ul className="hidden  md:flex gap-10 mt-16  font-roboto font-500 text-[20px]   ">

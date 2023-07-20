@@ -5,8 +5,8 @@ function Facilities() {
   return (
   <div className='mt-[1630px] md:mt-[700px] lg:mt-[500px]'>
 <div className='w-full text-center lg:mt-0 md:mt-0 mt-20'>
-  <h1 className='scale-y-150 font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3 text-sblack'>FACILITIES AND OFFERINGS</h1>
-   <p className='mt-5 lg:pl-20 lg:pr-20 pl-10 pr-10 md:mt-5 font-roboto text-[16px] lg:text-[18px] text-sblack'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
+  <div className='scale-y-150  text-[30px] font-bison  p-3 text-sblack font-700 leading-[30px] sm:text-[40px] sm:leading-[40px]  md:text-[35px] lg:text-[47px]'>FACILITIES AND OFFERINGS</div>
+   <p className='mt-5 md:mt-5 font-roboto  text-sblack text-14 lg:text-18 flex justify-center items-center text-center md:w-[1000px] mx-auto '>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
     Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
 </div>
 
@@ -35,9 +35,9 @@ function Facilities() {
 
 <div className='w-full md:h-[430px] sm:h-[490px] md:mt-[100px] mt-10 flex flex-col items-center justify-center md:bg-[#0479CE] bg-custom  '>
 
-<h1 className='scale-y-150 md:w-[525px]  md:h-[72px] w-[262px] text-center font-bison md:text-[40px] text-[30px] md:mb-2 mb-4 mt-4 font-semibold text-white'>JOIN US AT HISC</h1>
-<p className='xl:w-[1234px] lg:w-[1000px] md:w-full md:h-[78px] w-[315px] md:p-5 text-white text-center font-poppins '>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
-<button className='w-[175px] h-[52px] text-black bg-white mt-6 rounded-3xl font-roboto font-500 text-[13.85px] md:mt-16 mb-7'>SIGN UP NOW</button>
+<h1 className='scale-y-150 md:w-[525px]  md:h-[72px] w-[262px] text-center font-bison  text-[30px] md:mb-2 mb-4 mt-4  text-white font-700 leading-[30px] sm:text-[40px] md:text-[47px]  sm:leading-[40px]'>JOIN US AT HISC</h1>
+<p className='xl:w-[1234px] lg:w-[1000px] md:w-full md:h-[78px] w-[315px] md:p-5 text-white text-center font-poppins text-14 lg:text-18 '>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
+<button className='w-[175px] h-[38px] text-black bg-white mt-6 rounded-3xl p-2 font-jost font-500 text-[13.85px] md:mt-16 mb-7'>SIGN UP NOW</button>
 
 </div>
 

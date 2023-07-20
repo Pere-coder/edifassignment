@@ -11,7 +11,7 @@ import Sports from "../components/Sports/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className=''>
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
         <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
           <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] "> 
@@ -50,7 +50,7 @@ export default function Home() {
      
       <Team /> 
       
-      <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
+      <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-20">
         <div className="bg-no-repeat h-[470px] sm:h-[700px] bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
             <div className="w-full h-[470px] sm:h-[700px] md:h-[500px] lg:h-[600px] xl:h-[700px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-t md:from-[#000000] md:t0-transparent">
                 <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[100px] xl:mr-[150px]'>

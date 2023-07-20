@@ -182,7 +182,7 @@ function Page() {
   };
 
   return (
-    <>
+    <div className="mt-10">
       <div
         ref={scrollContainerRef}
         className="max-sm:hidden h-[100vh] relative overflow-scroll facility"
@@ -324,7 +324,7 @@ function Page() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
