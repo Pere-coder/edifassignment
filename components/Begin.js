@@ -9,7 +9,7 @@ function Begin() {
                  Heartfulness teaches you that in how they transformed this place which was as barren as it can get,
                  ” <span className='text-custom md:text-[#0479CE]'>- Daaji</span>
             </p>
-            <div className="mt-5  bg-custom md:mt-5 lg:mt-12 p-2 leading-20.23 rounded-3xl font-jost font-500 text-[13.98px] sm:text-[18px] sm:h-[38px] md:h-[38px]  text-center   text-white md:bg-[#0479CE]  w-[175px] h-[38px]">SIGN UP NOW</div>
+            <div className="mt-5 h-50 bg-custom md:mt-5 lg:mt-12 p-2 leading-20.23 rounded-3xl font-jost font-500 text-[13.98px] sm:text-[18px] flex justify-center items-center   text-center   text-white md:bg-[#0479CE]  w-[175px] ">SIGN UP NOW</div>
 
         </div>
     </div>

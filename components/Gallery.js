@@ -1,8 +1,9 @@
 "use client"
 import React from 'react';
 import Image from 'next/image'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from './Modal';
+import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 
 const Gallery = () => {
@@ -14,167 +15,185 @@ const Gallery = () => {
       const closeModal = () => {
         setSelectedImage(null);
       };
+
+
+      const slideLeft = () => {
+        var slider = document.getElementById('slider')
+        slider.scrollLeft = slider.scrollLeft - 500
+      }
+
+      const slideRight = () => {
+        var slider = document.getElementById('slider')
+        slider.scrollLeft = slider.scrollLeft + 500
+      }
+
+      useEffect(() => {
+        // Function to automatically slide the images horizontally
+        const slideImagesAutomatically = () => {
+          slideRight();
+        };
+    
+        // Interval for automatic sliding (adjust the time as needed)
+        const interval = setInterval(slideImagesAutomatically, 1000);
+    
+        // Cleanup: clear the interval when the component unmounts
+        return () => clearInterval(interval);
+      }, []);
+      
     
       return (
         <div className=' mt-16'>
          <h1 className='flex justify-center items-center scale-y-150  text-[30px] text-sblack md:text-[35px] lg:text-[47px]  sm:leading-[40px] font-700 leading-[30px]'>GALLERY</h1>
-        <div className='w-full overflow-x-auto no-scrollbar mt-8'>
-        <div className='mx-0 w-[2000px]'>
-        <div className="flex justify-center  gap-1">
-        
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
+        <div  className='relative flex items-center text-white hover:text-black'>
+        {/* <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/> */}
+          <div id='slider' className='w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8'>
+                <div  className="flex flex-wrap  items-center gap-3 w-[1050px] md:w-[2200px]">
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  <div>
+                    <Image
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      src="/gallery/one.jpg"
+                      onClick={() => handleImageClick('/gallery/one.jpg')}
+                      alt="Image 1"
+                      width={300}
+                      height={200}
+                    />
+                  </div>
+                  {selectedImage && <Modal imageUrl={selectedImage} onClose={closeModal} />}
+                </div>
           </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          {selectedImage && <Modal imageUrl={selectedImage} onClose={closeModal} />}
-        </div>
-        </div>
+          {/* <MdChevronRight size={40} onClick={slideRight} className='hidden md:flex cursor-pointer'/> */}
         </div>
 
-        <div className='w-full overflow-x-auto no-scrollbar mt-2'>
-        <div className='mx-0 w-[2000px]'>
-        <div className="flex justify-center  gap-1">
-        
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          <div>
-            <Image
-              className="cursor-pointer"
-              src="/gallery/one.jpg"
-              onClick={() => handleImageClick('/gallery/one.jpg')}
-              alt="Image 1"
-              width={300}
-              height={200}
-            />
-          </div>
-          {selectedImage && <Modal imageUrl={selectedImage} onClose={closeModal} />}
-        </div>
-        </div>
-        </div>
         </div>
         
       );
