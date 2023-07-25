@@ -26,7 +26,7 @@ const Navbar = () => {
 
         <>
             <Transition.Root show={open} as={Fragment}>
-            <Dialog as="div" className="relative z-10" onClose={setOpen}>
+            <Dialog as="div" className="relative z-50" onClose={setOpen}>
             <Transition.Child
                 as={Fragment}
                 enter="ease-in-out duration-500"
@@ -109,7 +109,7 @@ const Navbar = () => {
 
 
 
-            <nav className="flex justify-between ">
+            <nav className="flex justify-between max-sm:z-30 relative">
                 <div className="flex gap-1 lg:gap-2 mt-5">
                 <div className="text-[#0479CE] text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins">HISC </div><div className="text-[8px] leading-[10px] mt-10 w-[50px] md:hidden lg:block lg:mt-9 text-[#1F1F1F] lg:w-[110px] lg:h-[54px] font-custom font-400 lg:text-[16px] lg:leading-[18px]">Heartfulness International  Sports Center</div> 
                 </div>
