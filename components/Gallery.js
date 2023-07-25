@@ -8,6 +8,7 @@ import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
+
     const handleImageClick = (imageUrl) => {
         setSelectedImage(imageUrl);
       };
@@ -31,6 +32,7 @@ const Gallery = () => {
         // Function to automatically slide the images horizontally
         const slideImagesAutomatically = () => {
           slideRight();
+          // slideLeft();
         };
     
         // Interval for automatic sliding (adjust the time as needed)

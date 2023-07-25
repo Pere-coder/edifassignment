@@ -63,5 +63,10 @@
     }
   }
 
+  #slider {
+    scroll-behavior: smooth;
+  }
+
+
 
   
