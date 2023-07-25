@@ -3,8 +3,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Template from "./Desk_tab";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Mob from "./Mob";
+import { useFacility } from "../ContextAPI/FacilityContext";
 
 const data = {
   badminton: {
@@ -126,8 +127,8 @@ const data = {
 };
 
 function Page() {
-  const [mobile, setMobile] = useState(false);
-  console.log(mobile);
+  const [mobile, setMobile] = useState(true); // When we click on facility link from the navbar and if mobile is true then the section will render ex 'badminton,gym,etc' otherwise not render
+
   const [select, setSelect] = useState("badminton");
   const [animateVal, setAnimateVal] = useState(1);
 
@@ -136,6 +137,8 @@ function Page() {
 
   const scrollContainerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
+
+  const { isOpen } = useFacility();
 
   const handleScroll1 = () => {
     if (scrollContainerRef.current) {
@@ -197,8 +200,8 @@ function Page() {
 
   return (
     <>
-    {/* Desktop and Tablet Section */}
-      <div
+      {/* Desktop and Tablet Section */}
+      {/* <div
         ref={scrollContainerRef}
         className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
       >
@@ -278,78 +281,86 @@ function Page() {
             <Template select={select} all_data={data} boolean={boolean} />
           </div>
         </motion.section>
-      </div>
+      </div> */}
 
       {/* Mobile View Section */}
-      <section
-        className=" max-sm:flex fixed hidden h-[8vh] w-full bottom-0 z-10"
-        style={{ height: mobile ? "100vh" : ""  }}
-      >
-        <Mob data={data[select]} setMobile={setMobile} mobile={mobile} />
+      <AnimatePresence mode="wait">
+        {isOpen && (
+          <motion.section
+            className=" max-sm:flex fixed hidden h-[8vh] w-full bottom-0 z-10"
+            style={{ height: mobile ? "100vh" : "" }}
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            exit={{ y: 100 }}
+            transition={{ duration: 0.5, when:"beforeChildren" }}
+          >
+            <Mob data={data[select]} setMobile={setMobile} mobile={mobile} />
 
-        <div className="flex items-center justify-evenly bottom-0 py-5 bg-[#F2F9FF] absolute w-full">
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
-            onClick={() => {
-              setSelect("badminton");
-              setMobile(true);
-            }}
-          >
-            <Image
-              src={"/badminton-icon.svg"}
-              width={25.03}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.5rem]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
-            onClick={() => {
-              setSelect("gym");
-              setMobile(true);
-            }}
-          >
-            <Image
-              src={"/gym-icon.svg"}
-              width={22.87}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.5rem] bottom-[0.2rem]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
-            onClick={() => {
-              setSelect("swimming");
-              setMobile(true);
-            }}
-          >
-            <Image
-              src={"/swiming-icon.svg"}
-              width={35.54}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-1rem] top-[30%]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
-            onClick={() => {
-              setSelect("squash");
-              setMobile(true);
-            }}
-          >
-            <Image
-              src={"/tennis-icon.svg"}
-              width={30.3}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.8rem]"
-            />
-          </div>
-        </div>
-      </section>
+            <div className="flex items-center justify-evenly bottom-0 py-5 bg-[#F2F9FF] absolute w-full">
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("badminton");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/badminton-icon.svg"}
+                  width={25.03}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.5rem]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("gym");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/gym-icon.svg"}
+                  width={22.87}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.5rem] bottom-[0.2rem]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("swimming");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/swiming-icon.svg"}
+                  width={35.54}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-1rem] top-[30%]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("squash");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/tennis-icon.svg"}
+                  width={30.3}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.8rem]"
+                />
+              </div>
+            </div>
+          </motion.section>
+        )}
+      </AnimatePresence>
     </>
   );
 }
