@@ -51,11 +51,11 @@ const data = {
     svg: {
       1: {
         img: "/gym-small.svg",
-        widthMob: 42.03,
+        widthMob: 38.03,
         width: 70.06,
         position:
           " right-[-1.5rem] xl:right-[-2rem] top-[-0.4rem] xl:w-[70px] w-[50px]",
-        positionMob: "absolute right-[-0.8rem] top-[-3px]",
+        positionMob: "absolute right-[-1rem] top-[-3px]",
       },
       2: {
         img: "/dumbell.svg",
