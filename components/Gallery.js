@@ -31,15 +31,25 @@ const Gallery = () => {
       useEffect(() => {
         // Function to automatically slide the images horizontally
         const slideImagesAutomatically = () => {
-          slideRight();
+        const slider = document.getElementById('slider');
+        const sliderBottomOffset = slider.getBoundingClientRect().bottom;
+        const windowHeight = window.innerHeight;
+           
+      if (sliderBottomOffset <= windowHeight) {
+        slideRight();
+      }else{
+        slideLeft();
+      }
+   
           // slideLeft();
         };
     
         // Interval for automatic sliding (adjust the time as needed)
-        const interval = setInterval(slideImagesAutomatically, 3000);
+        window.addEventListener('scroll', slideImagesAutomatically);
+
     
         // Cleanup: clear the interval when the component unmounts
-        return () => clearInterval(interval);
+        return () =>  window.removeEventListener('scroll', slideImagesAutomatically);;
       }, []);
       
     
