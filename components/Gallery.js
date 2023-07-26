@@ -20,12 +20,12 @@ const Gallery = () => {
 
       const slideLeft = () => {
         var slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft - 500
+        slider.scrollLeft = slider.scrollLeft - 900
       }
 
       const slideRight = () => {
         var slider = document.getElementById('slider')
-        slider.scrollLeft = slider.scrollLeft + 500
+        slider.scrollLeft = slider.scrollLeft + 900
       }
 
       useEffect(() => {
@@ -36,7 +36,7 @@ const Gallery = () => {
         };
     
         // Interval for automatic sliding (adjust the time as needed)
-        const interval = setInterval(slideImagesAutomatically, 1000);
+        const interval = setInterval(slideImagesAutomatically, 3000);
     
         // Cleanup: clear the interval when the component unmounts
         return () => clearInterval(interval);
