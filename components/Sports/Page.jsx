@@ -201,7 +201,7 @@ function Page() {
   return (
     <>
       {/* Desktop and Tablet Section */}
-      {/* <div
+      <div
         ref={scrollContainerRef}
         className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
       >
@@ -281,7 +281,7 @@ function Page() {
             <Template select={select} all_data={data} boolean={boolean} />
           </div>
         </motion.section>
-      </div> */}
+      </div>
 
       {/* Mobile View Section */}
       <AnimatePresence mode="wait">

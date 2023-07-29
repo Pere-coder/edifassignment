@@ -7,6 +7,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon, Bars3BottomRightIcon } from "@heroicons/react/24/outline";
 import { Truculenta } from "next/font/google";
 import { useFacility } from "./ContextAPI/FacilityContext";
+import { useRouter} from "next/router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,6 +18,10 @@ const Navbar = () => {
   const click = () => {
     setOpen(true);
   };
+
+  const facilityfunc = () => {
+    useRouter.push("/");
+  }
 
   return (
     <>
@@ -97,11 +102,14 @@ const Navbar = () => {
                               About Us
                             </Link>
                             <Link
-                              href=""
+                            
                               onClick={(e) => {
+                                href = "";
                                 e.preventDefault();
+                                // facilityfunc();
                                 toggleFacility();
                                 setOpen(false);
+                                // () => useRouter.push("/");
                               }}
                               className="cursor-pointer text-sblack"
                             >
@@ -151,10 +159,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mt-1 cursor-pointer ">
-            <h1 className="group text-sblack">
-              Facility{" "}
-              <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p>
-            </h1>
+            <Link href="/#facility">
+              <h1 className="group text-sblack">
+                Facility{" "}
+                <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p>
+              </h1>
+            </Link>
           </li>
           <li className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16 hover:bg-white hover:text-[#0479CE]">
             Sign up

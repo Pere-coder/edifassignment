@@ -13,7 +13,7 @@ const about = () => {
     return (
       <>
         <FacilityProvider>
-          <Sports />
+          {/* <Sports /> */}
 
           <div>
             <Vision />
