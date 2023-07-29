@@ -7,7 +7,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon, Bars3BottomRightIcon } from "@heroicons/react/24/outline";
 import { Truculenta } from "next/font/google";
 import { useFacility } from "./ContextAPI/FacilityContext";
-import { useRouter} from "next/router";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   const facilityfunc = () => {
     useRouter.push("/");
-  }
+  };
 
   return (
     <>
@@ -102,9 +102,8 @@ const Navbar = () => {
                               About Us
                             </Link>
                             <Link
-                            
+                              href=""
                               onClick={(e) => {
-                                href = "";
                                 e.preventDefault();
                                 // facilityfunc();
                                 toggleFacility();
