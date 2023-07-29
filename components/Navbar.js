@@ -106,9 +106,9 @@ const Navbar = () => {
                               onClick={(e) => {
                                 e.preventDefault();
                                 // facilityfunc();
+                                useRouter.push("/");
                                 toggleFacility();
                                 setOpen(false);
-                                // () => useRouter.push("/");
                               }}
                               className="cursor-pointer text-sblack"
                             >
