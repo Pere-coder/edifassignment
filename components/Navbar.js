@@ -106,7 +106,7 @@ const Navbar = () => {
                               onClick={(e) => {
                                 e.preventDefault();
                                 // facilityfunc();
-                                useRouter.push("/");
+                                // useRouter.push("/");
                                 toggleFacility();
                                 setOpen(false);
                               }}

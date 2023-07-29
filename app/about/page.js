@@ -13,13 +13,16 @@ const about = () => {
     return (
       <>
         <FacilityProvider>
-          {/* <Sports /> */}
 
           <div>
             <Vision />
           </div>
 
           <Facilities />
+          <div className=" max-sm:block hidden">
+          <Sports />
+
+          </div>
           <Gallery />
           <Footer />
         </FacilityProvider>
