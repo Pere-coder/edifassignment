@@ -7,7 +7,7 @@ function Begin() {
         <h1 className="text-sblack scale-y-150 text-30  font-700 leading-[30px] md:w-[60vw] md:h-[72px] w-[316px] h-[84px] font-bison sm:leading-[40px] md:mb-0 sm:text-[40px] md:text-5xl md:leading-[48px] ">
           BEGIN YOUR TRANSFORMATION
         </h1>
-        <p className="sm:mt-10 md:mt-8 text-sblack md:w-[60vw] md:h-[48px] w-[315px] h-[100px] font-roboto  text-[14px] lg:text-[18px] sm:w-[550px] ">
+        <p className=" text-center sm:mt-10 md:mt-8 text-sblack md:w-[60vw] md:h-[48px] w-[315px] h-[100px] font-roboto  text-[14px] lg:text-[18px] sm:w-[550px] ">
           “Whether you are in sports or any other field, excellence is what you
           must always strive for. Heartfulness teaches you that in how they
           transformed this place which was as barren as it can get, ”{" "}

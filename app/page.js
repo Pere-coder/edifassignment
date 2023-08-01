@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <FacilityProvider>
       <div className="">
-        <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
+        <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:min-h-screen bg-[url('../public/background.jpg')] md:bg-none">
           <div className="md:bg-no-repeat sm:h-[900px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
-            <div className="h-[450px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
+            <div className="h-[450px] md:min-h-screen bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
               <div className="ml-8 mr-8 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
                 <Navbar />
 
@@ -70,7 +70,7 @@ export default function Home() {
                     <br className="md:hidden" />
                     TO WORK OUT
                   </h1>
-                  <div className="font-roboto text-lg leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-10">
+                  <div className="font-roboto text-lg leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-16 font-medium">
                     Unleashing Sporting Potential
                   </div>
                   <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] sm:w-[400px] sm:text-[18px] sm:h-[48px] md:text-[13.98px] md:h-[38px] md:w-[250px] mt-[200px] sm:mt-[270px] rounded-3xl  h-auto p-3 font-jost font-500 leading-20.23 text-white md:mt-5  bg-[#0479CE] md:mx-0">
