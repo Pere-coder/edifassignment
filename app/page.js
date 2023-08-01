@@ -1,29 +1,28 @@
-import Facilities from '@/components/Facilities';
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar'
-import Image from 'next/image'
-import { FaPlay } from 'react-icons/fa';
-import Begin from '@/components/Begin';
-import Team from '@/components/Team';
-import Gallery from '@/components/Gallery';
+import Facilities from "@/components/Facilities";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Image from "next/image";
+import { FaPlay } from "react-icons/fa";
+import Begin from "@/components/Begin";
+import Team from "@/components/Team";
+import Gallery from "@/components/Gallery";
 import Sports from "../components/Sports/Page";
 
-import { FacilityProvider } from '@/components/ContextAPI/FacilityContext'
-
+import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 
 export default function Home() {
   return (
     <FacilityProvider>
       <div className="">
-        <div className="bg-no-repeat bg-contain h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-          <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
-            <div className="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
-              <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
+        <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
+          <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
+            <div className="h-[450px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
+              <div className="ml-8 mr-8 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
                 <Navbar />
 
-                <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
-                  <div className="shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-5 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none">
-                    <div className="text-center text-14   sm:text-[16px] text-custom font-jost font-700 leading-20.23 md:text-[#0479CE]    md:text-[16px]  md:w-full md:text-start md:items-center ">
+                <div className=" mt-36  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
+                  <div className="shadow-custom text-center bg-gray-100 rounded-[40px] p-7 mt-5 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none">
+                    <div className="text-center text-14   sm:text-[16px] font-jost font-700 leading-20.23 text-[#0479CE]    md:text-[16px]  md:w-full md:text-start md:items-center ">
                       START YOUR HEALTHY LIFESTYLE!
                     </div>
                     <h1 className="scale-y-150 text-30  font-700 leading-[30px] font-bison text-sblack   w-226 mx-auto mt-10 flex justify-center items-center align-center sm:text-[40px] sm:leading-[40px] md:text-[47px]  md:w-430  md:leading-[48px] md:items-start md:mt-10 ">
@@ -50,9 +49,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer">
+              {/* <div className="hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer">
                 <Image src="/vector.png" width={61} height={61} />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -60,21 +59,21 @@ export default function Home() {
         <Sports />
         <Team />
 
-        <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-20">
-          <div className="bg-no-repeat h-[470px] sm:h-[700px] bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
+        <div className="flex flex-col justify-center items-center text-center mt-8 md:mt-20">
+          <div className="bg-no-repeat h-[500px] sm:h-[700px] bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
             <div className="w-full h-[470px] sm:h-[700px] md:h-[500px] lg:h-[600px] xl:h-[700px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-t md:from-[#000000] md:t0-transparent">
               <div className="flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[100px] xl:mr-[150px]">
-                <div className="w-full h-[180px] leading-[42px] text-[40px] sm:mt-[80px] sm:text-[70px] sm:leading-[60px] md:w-[500px] md:h-[310px]   text-white transform mt-10    md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px] lg:mt-[150px] xl:mt-[200px]">
-                  <h1 className="font-bison font-500  scale-y-150 md:scale-y-125 ">
+                <div className="w-full h-[180px] leading-10 text-4xl sm:mt-[80px]  sm:leading-[60px] md:w-[500px] md:h-[310px]   text-white transform mt-10    md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px] lg:mt-[150px] xl:mt-[200px]">
+                  <h1 className="font-bison font-bold mt-4 md:m-0 scale-y-150 ">
                     EXPERIENCE <br className="md:hidden" /> A{" "}
                     <br className="hidden md:block" /> DIFFERENT WAY{" "}
                     <br className="md:hidden" />
                     TO WORK OUT
                   </h1>
-                  <div className="font-roboto font-700 text-[22px] leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-10">
+                  <div className="font-roboto text-lg leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-10">
                     Unleashing Sporting Potential
                   </div>
-                  <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] sm:w-[400px] sm:text-[18px] sm:h-[48px] md:text-[13.98px] md:h-[38px] md:w-[250px] mt-[190px] sm:mt-[270px] rounded-3xl  h-[38px] p-2 font-jost font-500 leading-20.23 bg-custom text-white md:mt-5  md:bg-[#0479CE] md:mx-0">
+                  <div className="flex justify-center text-center items-center mx-auto text-[13.98px] w-[250px] sm:w-[400px] sm:text-[18px] sm:h-[48px] md:text-[13.98px] md:h-[38px] md:w-[250px] mt-[200px] sm:mt-[270px] rounded-3xl  h-auto p-3 font-jost font-500 leading-20.23 text-white md:mt-5  bg-[#0479CE] md:mx-0">
                     START YOUR HEALTHY LIFESTYLE!
                   </div>
                 </div>
@@ -88,14 +87,14 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center gap-[52px] sm:gap-[130px] mt-[20px] sm:mt-[40px]">
               <div className="bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center">
-                {" "}
-                <Image src="/message.png" width={32} height={32} />
+                {/* {" "} */}
+                <Image src="/message2.png" width={32} height={32} />
               </div>
-              <div className="bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center">
-                <Image src="/call.png" width={34} height={34} />
+              <div className="bg-white w-[64px] h-[64px] rounded-full items-center flex justify-center">
+                <Image src="/call2.png" width={34} height={34} />
               </div>
-              <div className="bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center">
-                <Image src="/location.png" width={36} height={36} />
+              <div className="bg-white w-[64px] h-[64px] rounded-full items-center flex justify-center">
+                <Image src="/location2.png" width={36} height={36} />
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { BiMenu } from "react-icons/bi";
 import { Fragment, useState } from "react";
@@ -61,7 +62,7 @@ const Navbar = () => {
                       leaveFrom="opacity-100"
                       leaveTo="opacity-0"
                     >
-                      <div className="absolute left-3 top-2 ml-0   flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
+                      <div className="absolute left-3 top-2 ml-0 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                         <button
                           type="button"
                           className="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
@@ -131,11 +132,11 @@ const Navbar = () => {
       </Transition.Root>
 
       <nav className="flex justify-between max-sm:z-30 relative">
-        <div className="flex gap-1 lg:gap-2 mt-5">
-          <div className="text-[#0479CE] text-[50px] mt-5 md:text-[#0479CE] font-700 md:mt-0 md:text-80 font-poppins">
+        <div className="flex gap-1 lg:gap-2 mt-2">
+          <div className="text-[#0479CE] text-[50px] mt-2.5 font-700 md:mt-0 md:text-80 font-poppins">
             HISC{" "}
           </div>
-          <div className="text-[8px] leading-[10px] mt-10 w-[50px] md:hidden lg:block lg:mt-9 text-[#1F1F1F] lg:w-[110px] lg:h-[54px] font-custom font-400 lg:text-[16px] lg:leading-[18px]">
+          <div className="text-[8px] leading-[10px] mt-8 w-[50px] md:hidden lg:block lg:mt-9 text-[#1F1F1F] lg:w-[110px] lg:h-[54px] font-custom font-400 lg:text-[16px] lg:leading-[18px]">
             Heartfulness International Sports Center
           </div>
         </div>
@@ -170,7 +171,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div
-          className="bg-white  p-4 rounded-[15px] flex items-center justify-center w-[60px] h-[60px] md:hidden mt-12 cursor-pointer"
+          className="bg-white shadow p-2 rounded-2xl flex items-center justify-center w-[2.8rem] h-[2.8rem] md:hidden mt-8 cursor-pointer"
           onClick={click}
         >
           <Bars3BottomRightIcon
