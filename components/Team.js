@@ -3,10 +3,10 @@ import Image from "next/image";
 function Team() {
   return (
     <>
-      <div className="md:flex mt-10 md:mt-18  md:m-[100px]   items-center ">
-        <div className="md:w-[526px] md:h-[528px] w-[312px] h-auto mx-auto mb-2 rounded-[40px] md:rounded-none md:mr-10 ">
+      <div className="md:flex mt-10 md:mt-18  md:m-[100px] justify-center items-center ">
+        <div className="md:w-auto md:h-[528px] w-[312px] h-auto mx-auto mb-2 rounded-lg md:rounded-2xl  md:mr-10 ">
           <Image
-            className="rounded-lg md:rounded-none md:h-[528px] md:w-[526px] h-[180px]"
+            className="rounded-lg md:rounded-2xl md:h-[450px] md:w-auto h-[180px]"
             src="/images/team6.png"
             alt="team photo"
             width={312}

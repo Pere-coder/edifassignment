@@ -15,7 +15,7 @@ export default function Home() {
     <FacilityProvider>
       <div className="">
         <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-          <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
+          <div className="md:bg-no-repeat sm:h-[900px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
             <div className="h-[450px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
               <div className="ml-8 mr-8 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
                 <Navbar />
@@ -49,9 +49,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* <div className="hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer">
+              <div className="hidden fixed z-40 md:flex right-0 mr-7 mt-[100px] text-vector cursor-pointer">
                 <Image src="/vector.png" width={61} height={61} />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
