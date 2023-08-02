@@ -6,9 +6,9 @@ const FacilityContext = createContext(null);
 
 export const FacilityProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
-  useEffect(() => {
-    console.log(isOpen);
-  },[isOpen])
+  // useEffect(() => {
+  //   console.log(isOpen);
+  // },[isOpen])
 
   return (
     <FacilityContext.Provider

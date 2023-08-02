@@ -11,11 +11,14 @@ import { useFacility } from "./ContextAPI/FacilityContext";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
 
+import { useSignUp } from './ContextAPI/SignUpContext'
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(true);
 
   const { toggleFacility } = useFacility();
+  const { toggleSignUp } = useSignUp();
 
   const click = () => {
     setOpen(true);
@@ -118,7 +121,10 @@ const Navbar = () => {
                             </Link>
                           </div>
 
-                          <li className="bg-[#0479CE]  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-[65px]">
+                          <li
+                            className="bg-[#0479CE]  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-[65px]"
+                            onClick={() => toggleSignUp(true)}
+                          >
                             SIGN UP NOW
                           </li>
                         </ul>
@@ -147,9 +153,10 @@ const Navbar = () => {
             <Link href="/">
               <h1 className="group text-sblack">
                 Home{" "}
-                <motion.p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"
-                // initial={{ width: 0}}
-                // whileHover={{ width: '1.75rem'}}
+                <motion.p
+                  className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"
+                  // initial={{ width: 0}}
+                  // whileHover={{ width: '1.75rem'}}
                 ></motion.p>{" "}
               </h1>
             </Link>
@@ -170,7 +177,10 @@ const Navbar = () => {
               </h1>
             </Link>
           </li>
-          <li className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16 hover:bg-white hover:text-[#0479CE]">
+          <li
+            className="bg-[#0479CE] cursor-pointer text-white flex justify-center items-center text-center rounded-full w-[120px] h-[40px]  font-roboto font-500 text-16 hover:bg-white hover:text-[#0479CE]"
+            onClick={() => toggleSignUp(true)}
+          >
             Sign up
           </li>
         </ul>

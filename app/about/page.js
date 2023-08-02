@@ -8,22 +8,28 @@ import Gallery from "@/components/Gallery";
 import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import Sports from "@/components/Sports/Page";
 import Carousel_Team from '@/components/Carousel_Team'
+import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
+import SignUp from "@/components/DialogBox/SignUp";
+
 
 const about = () => {
   return (
     <>
       <FacilityProvider>
-        <div>
-          <Vision />
-        </div>
+        <SignUpProvider>
+          <SignUp/>
+          <div>
+            <Vision />
+          </div>
 
-        <Carousel_Team/>
-        <Facilities />
-        <div className=" max-sm:block hidden">
-          <Sports />
-        </div>
-        <Gallery />
-        <Footer />
+          <Carousel_Team />
+          <Facilities />
+          <div className=" max-sm:block hidden">
+            <Sports />
+          </div>
+          <Gallery />
+          <Footer />
+        </SignUpProvider>
       </FacilityProvider>
     </>
   );

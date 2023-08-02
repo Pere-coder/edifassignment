@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { useSignUp } from './ContextAPI/SignUpContext'
+
 function Facilities() {
+  const { toggleSignUp } = useSignUp();
+
   return (
     <div className="">
       {/* <div className="w-full text-center lg:mt-0 md:mt-0 mt-20">
@@ -87,7 +91,10 @@ function Facilities() {
           sports. Contact us today or visit our facility. We look forward to
           welcoming you to HISC!
         </p>
-        <button className="w-[175px] h-50 text-black bg-white mt-6 rounded-3xl p-2 font-jost font-500 text-[13.85px] md:mt-16 mb-7">
+        <button
+          className="w-[175px] h-50 text-black bg-white mt-6 rounded-3xl p-2 font-jost font-500 text-[13.85px] md:mt-16 mb-7"
+          onClick={() => toggleSignUp(true)}
+        >
           SIGN UP NOW
         </button>
       </div>
