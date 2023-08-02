@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import useWindowDimensions from "./WinDemensins";
+// import useWindowDimensions from "./WinDemensins";
 
 const members = [
   {
@@ -66,7 +66,7 @@ const members = [
 
 function Carousel_Team() {
 
-    const { height, width } = useWindowDimensions();
+    // const { height, width } = useWindowDimensions();
     console.log(width)
 
   const responsive = {
