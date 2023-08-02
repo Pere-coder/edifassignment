@@ -67,7 +67,7 @@ const members = [
 function Carousel_Team() {
 
     // const { height, width } = useWindowDimensions();
-    console.log(width)
+    // console.log(width)
 
   const responsive = {
     0: { items: 1 },
