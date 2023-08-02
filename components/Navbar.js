@@ -9,6 +9,7 @@ import { XMarkIcon, Bars3BottomRightIcon } from "@heroicons/react/24/outline";
 import { Truculenta } from "next/font/google";
 import { useFacility } from "./ContextAPI/FacilityContext";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -146,7 +147,10 @@ const Navbar = () => {
             <Link href="/">
               <h1 className="group text-sblack">
                 Home{" "}
-                <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p>{" "}
+                <motion.p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"
+                // initial={{ width: 0}}
+                // whileHover={{ width: '1.75rem'}}
+                ></motion.p>{" "}
               </h1>
             </Link>
           </li>
