@@ -105,7 +105,7 @@ function Carousel_Team() {
           OUR TEAM
         </h1>
       </div>
-      <div className=" mb-2 md:my-10 w-[90vw] md:w-[70vw]">
+      <div className=" mb-2  md:my-10 w-[90vw] md:w-[70vw]">
         <p className=" text-14 lg:text-18 text-center">
           Our trainers are highly skilled, experienced, and committed to your
           success. With their expertise, you'll receive personalised guidance
