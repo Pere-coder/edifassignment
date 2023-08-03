@@ -13,22 +13,20 @@ import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
 import SignUp from "@/components/DialogBox/SignUp";
 import ScrolltoTop from "@/components/Utitlity/ScrolltoTop";
+import DisableScroll from "@/components/Utitlity/DisableScroll";
 
-import {clearAllBodyScrollLocks} from 'body-scroll-lock'
-import { useEffect } from "react";
+
 
 
 
 export default function Home() {
 
-  useEffect(() => {
-    clearAllBodyScrollLocks();
-  },[])
 
   return (
     <FacilityProvider>
       <SignUpProvider>
         <div className="">
+          <DisableScroll/>
           <SignUp />
           <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:min-h-screen bg-[url('../public/background.jpg')] md:bg-none">
             <div className="md:bg-no-repeat sm:h-[900px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">

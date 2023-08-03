@@ -11,18 +11,14 @@ import Carousel_Team from "@/components/Carousel_Team";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
 import SignUp from "@/components/DialogBox/SignUp";
 import ScrolltoTop from "@/components/Utitlity/ScrolltoTop";
-import { clearAllBodyScrollLocks } from "body-scroll-lock";
-import { useEffect } from "react";
+import DisableScroll from '@/components/Utitlity/DisableScroll'
 
 const about = () => {
-  useEffect(() => {
-    clearAllBodyScrollLocks();
-  }, []);
-
   return (
     <>
       <FacilityProvider>
         <SignUpProvider>
+          <DisableScroll/>
           <SignUp />
           <ScrolltoTop />
           <div>

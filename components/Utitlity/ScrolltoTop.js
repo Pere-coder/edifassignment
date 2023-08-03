@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-function toTop() {
+function ScrolltoTop() {
   const [scrollPos, setScrollPos] = useState(null);
 
   useEffect(() => {
@@ -41,4 +41,4 @@ function toTop() {
   );
 }
 
-export default toTop;
+export default ScrolltoTop;
