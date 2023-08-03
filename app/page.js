@@ -1,3 +1,4 @@
+'use client'
 import Facilities from "@/components/Facilities";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -11,8 +12,19 @@ import Sports from "../components/Sports/Page";
 import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
 import SignUp from "@/components/DialogBox/SignUp";
+import ScrolltoTop from "@/components/Utitlity/ScrolltoTop";
+
+import {clearAllBodyScrollLocks} from 'body-scroll-lock'
+import { useEffect } from "react";
+
+
 
 export default function Home() {
+
+  useEffect(() => {
+    clearAllBodyScrollLocks();
+  },[])
+
   return (
     <FacilityProvider>
       <SignUpProvider>
@@ -53,9 +65,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden fixed z-40 md:flex right-0 mr-7 mt-[100px] text-vector cursor-pointer">
-                  <Image src="/vector.png" width={61} height={61} />
-                </div>
+                <ScrolltoTop/>
               </div>
             </div>
           </div>

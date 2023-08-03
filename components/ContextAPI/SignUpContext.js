@@ -8,9 +8,9 @@ export const SignUpProvider = ({ children }) => {
 
   const [isDialogOpen, setIsOpen] = useState(false);
   
-  useEffect(() => {
-    console.log(isDialogOpen);
-  }, [isDialogOpen]);
+  // useEffect(() => {
+  //   console.log(isDialogOpen);
+  // }, [isDialogOpen]);
 
   return (
     <SignUpContext.Provider

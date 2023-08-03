@@ -170,7 +170,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="mt-1 cursor-pointer ">
-            <Link href="/#facility">
+            <Link href="/#facility" scroll={false}>
               <h1 className="group text-sblack">
                 Facility{" "}
                 <p className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"></p>

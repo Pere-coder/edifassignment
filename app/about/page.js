@@ -7,17 +7,24 @@ import Image from "next/image";
 import Gallery from "@/components/Gallery";
 import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import Sports from "@/components/Sports/Page";
-import Carousel_Team from '@/components/Carousel_Team'
+import Carousel_Team from "@/components/Carousel_Team";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
 import SignUp from "@/components/DialogBox/SignUp";
-
+import ScrolltoTop from "@/components/Utitlity/ScrolltoTop";
+import { clearAllBodyScrollLocks } from "body-scroll-lock";
+import { useEffect } from "react";
 
 const about = () => {
+  useEffect(() => {
+    clearAllBodyScrollLocks();
+  }, []);
+
   return (
     <>
       <FacilityProvider>
         <SignUpProvider>
-          <SignUp/>
+          <SignUp />
+          <ScrolltoTop />
           <div>
             <Vision />
           </div>

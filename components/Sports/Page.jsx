@@ -6,6 +6,7 @@ import Template from "./Desk_tab";
 import { motion, AnimatePresence } from "framer-motion";
 import Mob from "./Mob";
 import { useFacility } from "../ContextAPI/FacilityContext";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const data = {
   badminton: {
@@ -197,6 +198,8 @@ function Page() {
   const yourFunction = ($) => {
     handleclick($);
   };
+
+  // disableBodyScroll(scrollContainerRef);
 
   return (
     <>
