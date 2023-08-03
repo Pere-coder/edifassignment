@@ -2,9 +2,10 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
-import Template from "./desk_tab_Template";
-import { motion } from "framer-motion";
+import Template from "./Desk_tab";
+import { motion, AnimatePresence } from "framer-motion";
 import Mob from "./Mob";
+import { useFacility } from "../ContextAPI/FacilityContext";
 
 const data = {
   badminton: {
@@ -21,8 +22,11 @@ const data = {
     svg: {
       1: {
         img: "/badminton-small.svg",
+        widthMob: 42.03,
         width: 70.06,
-        position: "right-[-2rem] top-[-0.4rem]",
+        position:
+          " right-[-1.5rem] xl:right-[-2rem] top-[-0.4rem] xl:w-[70px] w-[50px]",
+        positionMob: "absolute right-[-0.8rem] top-[-3px]",
       },
       2: {
         img: "/shuttel.svg",
@@ -47,8 +51,11 @@ const data = {
     svg: {
       1: {
         img: "/gym-small.svg",
+        widthMob: 38.03,
         width: 70.06,
-        position: "right-[-2rem] top-[-0.4rem]",
+        position:
+          " right-[-1.5rem] xl:right-[-2rem] top-[-0.4rem] xl:w-[70px] w-[50px]",
+        positionMob: "absolute right-[-1rem] top-[-3px]",
       },
       2: {
         img: "/dumbell.svg",
@@ -73,8 +80,11 @@ const data = {
     svg: {
       1: {
         img: "/swim-small.svg",
+        widthMob: 60.03,
         width: 100.06,
-        position: "right-[-2.5rem] top-[2rem]",
+        position:
+          "right-[-2.5rem] xl:top-[2rem] top-[1.5rem] xl:w-[100px] w-[80px]",
+        positionMob: "absolute right-[-1.6rem] top-[1.5rem]",
       },
       2: {
         img: "/poolh.svg",
@@ -100,7 +110,10 @@ const data = {
       1: {
         img: "/squash-small.svg",
         width: 100.06,
-        position: "right-[-2rem] top-[-0.4rem]",
+        widthMob: 55.03,
+        position:
+          " right-[-1.5rem] xl:right-[-2rem] top-[-0.4rem] xl:w-[100px] w-[70px]",
+        positionMob: "absolute right-[-0.8rem] top-[-3px]",
       },
       2: {
         img: "/squash-mini.svg",
@@ -114,6 +127,8 @@ const data = {
 };
 
 function Page() {
+  const [mobile, setMobile] = useState(true); // When we click on facility link from the navbar and if mobile is true then the section will render ex 'badminton,gym,etc' otherwise not render
+
   const [select, setSelect] = useState("badminton");
   const [animateVal, setAnimateVal] = useState(1);
 
@@ -122,6 +137,9 @@ function Page() {
 
   const scrollContainerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
+
+  const { isOpen } = useFacility();
+
   const handleScroll1 = () => {
     if (scrollContainerRef.current) {
       const { scrollTop, scrollHeight } = scrollContainerRef.current;
@@ -129,27 +147,27 @@ function Page() {
       setTotalHeight(scrollHeight);
     }
 
-     // Specify the scroll length at which you want the function to be executed
-      const scrollLength = totalHeight/5;
+    // Specify the scroll length at which you want the function to be executed
+    const scrollLength = totalHeight / 6;
 
-      // Check if the current scroll position is greater than or equal to the scroll length
-      if (
-        scrollPosition >= scrollLength &&
-        scrollPosition < scrollLength + scrollLength
-      ) {
-        // Call your desired function here
-        yourFunction("gym");
-      } else if (
-        scrollPosition >= scrollLength + scrollLength &&
-        scrollPosition < scrollLength + scrollLength + scrollLength
-      ) {
-        yourFunction("swimming");
-      } else if (scrollPosition >= scrollLength + scrollLength + scrollLength) {
-        yourFunction("squash");
-      } else {
-        yourFunction("badminton");
-      }
-    };
+    // Check if the current scroll position is greater than or equal to the scroll length
+    if (
+      scrollPosition >= scrollLength &&
+      scrollPosition < scrollLength + scrollLength
+    ) {
+      // Call your desired function here
+      yourFunction("gym");
+    } else if (
+      scrollPosition >= scrollLength + scrollLength &&
+      scrollPosition < scrollLength + scrollLength + scrollLength
+    ) {
+      yourFunction("swimming");
+    } else if (scrollPosition >= scrollLength + scrollLength + scrollLength) {
+      yourFunction("squash");
+    } else {
+      yourFunction("badminton");
+    }
+  };
 
   useEffect(() => {
     if (scrollContainerRef.current) {
@@ -175,17 +193,17 @@ function Page() {
     });
   };
 
-
   // Placeholder function to be executed when scrolling reaches the specified length
   const yourFunction = ($) => {
     handleclick($);
   };
 
   return (
-    <div className="mt-10">
+    <>
+      {/* Desktop and Tablet Section */}
       <div
         ref={scrollContainerRef}
-        className="max-sm:hidden h-[100vh] relative overflow-scroll facility"
+        className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
       >
         <motion.section
           className="  relative w-full h-[300vh]"
@@ -196,9 +214,9 @@ function Page() {
           transition={{ duration: 2 }}
         >
           <div className=" sticky top-0">
-            <div className=" absolute top-[35%] md:ml-4 lg:ml-12">
+            <div className=" absolute top-[35%] md:ml-4 lg:ml-6 xl:ml-12">
               <div
-                className=" relative w-[50.63px] h-[50.63px] rounded-full mb-4 cursor-pointer "
+                className=" relative  w-[40px] h-[40px] xl:w-[50.63px] xl:h-[50.63px] rounded-full mb-4 cursor-pointer "
                 style={{
                   backgroundColor:
                     select !== "badminton" ? "#c1e5e9" : "#FFFFFF",
@@ -209,12 +227,12 @@ function Page() {
                   src={"/badminton-icon.svg"}
                   width={35.03}
                   height={39.65}
-                  className=" absolute right-[-0.90rem] top-[-0.3rem] "
+                  className=" absolute right-[-0.90rem] top-[-0.3rem] w-[28px] xl:w-[35px]"
                   alt="icon"
                 />
               </div>
               <div
-                className=" relative w-[50.63px] h-[50.63px] rounded-full mb-4 cursor-pointer "
+                className=" relative w-[40px] h-[40px] xl:w-[50.63px] xl:h-[50.63px] rounded-full mb-4 cursor-pointer "
                 style={{
                   backgroundColor: select !== "gym" ? "#c1e5e9" : "#FFFFFF",
                 }}
@@ -224,12 +242,12 @@ function Page() {
                   src={"/gym-icon.svg"}
                   width={30.87}
                   height={39.5}
-                  className=" absolute top-[-0.2rem] right-[-0.90rem]"
+                  className=" absolute top-[-0.2rem] right-[-0.90rem] w-[25px] xl:w-[30px]"
                   alt="icon"
                 />
               </div>
               <div
-                className=" relative w-[50.63px] h-[50.63px] rounded-full mb-4 cursor-pointer "
+                className=" relative w-[40px] h-[40px] xl:w-[50.63px] xl:h-[50.63px] rounded-full mb-4 cursor-pointer "
                 style={{
                   backgroundColor:
                     select !== "swimming" ? "#c1e5e9" : "#FFFFFF",
@@ -245,7 +263,7 @@ function Page() {
                 />
               </div>
               <div
-                className=" relative w-[50.63px] h-[50.63px] rounded-full mb-4 cursor-pointer "
+                className=" relative w-[40px] h-[40px] xl:w-[50.63px] xl:h-[50.63px] rounded-full mb-4 cursor-pointer "
                 style={{
                   backgroundColor: select !== "squash" ? "#c1e5e9" : "#FFFFFF",
                 }}
@@ -255,76 +273,95 @@ function Page() {
                   src={"/tennis-icon.svg"}
                   width={45.3}
                   height={38.13}
-                  className=" absolute right-[-1.2rem] top-[-0.2rem]"
+                  className=" absolute right-[-1rem] xl:right-[-1.2rem] top-[-0.2rem] w-[38px] xl:w-[45px]"
                   alt="icon"
                 />
               </div>
             </div>
-            <Template data={data[select]} all_data={data} boolean={boolean} />
+            <Template select={select} all_data={data} boolean={boolean} />
           </div>
         </motion.section>
       </div>
 
       {/* Mobile View Section */}
-      <section className=" relative max-sm:flex hidden min-h-screen">
-        <div
-          className=" h-[8rem] absolute w-full top-0 z-30"
-        ></div>
+      <AnimatePresence mode="wait">
+        {isOpen && (
+          <motion.section
+            className=" max-sm:flex fixed hidden h-[8vh] w-full bottom-0 z-10"
+            style={{ height: mobile ? "100vh" : "" }}
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            exit={{ y: 100 }}
+            transition={{ duration: 0.5, when:"beforeChildren" }}
+          >
+            <Mob data={data[select]} setMobile={setMobile} mobile={mobile} />
 
-        <Mob data={data[select]} />
-
-        <div className="flex items-center justify-evenly py-5 bottom-0 shadow-md bg-[#F2F9FF] absolute w-full">
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative"
-            onClick={() => setSelect("badminton")}
-          >
-            <Image
-              src={"/badminton-icon.svg"}
-              width={25.03}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.5rem]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative"
-            onClick={() => setSelect("gym")}
-          >
-            <Image
-              src={"/gym-icon.svg"}
-              width={22.87}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.5rem] bottom-[0.2rem]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative"
-            onClick={() => setSelect("swimming")}
-          >
-            <Image
-              src={"/swiming-icon.svg"}
-              width={35.54}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-1rem] top-[30%]"
-            />
-          </div>
-          <div
-            className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative"
-            onClick={() => setSelect("squash")}
-          >
-            <Image
-              src={"/tennis-icon.svg"}
-              width={30.3}
-              height={0}
-              alt="svg"
-              className=" absolute right-[-0.8rem]"
-            />
-          </div>
-        </div>
-      </section>
-    </div>
+            <div className="flex items-center justify-evenly bottom-0 py-5 bg-[#F2F9FF] absolute w-full">
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("badminton");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/badminton-icon.svg"}
+                  width={25.03}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.5rem]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("gym");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/gym-icon.svg"}
+                  width={22.87}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.5rem] bottom-[0.2rem]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("swimming");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/swiming-icon.svg"}
+                  width={35.54}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-1rem] top-[30%]"
+                />
+              </div>
+              <div
+                className=" w-[2.5rem] h-[2.5rem] rounded-full bg-white relative cursor-pointer "
+                onClick={() => {
+                  setSelect("squash");
+                  setMobile(true);
+                }}
+              >
+                <Image
+                  src={"/tennis-icon.svg"}
+                  width={30.3}
+                  height={0}
+                  alt="svg"
+                  className=" absolute right-[-0.8rem]"
+                />
+              </div>
+            </div>
+          </motion.section>
+        )}
+      </AnimatePresence>
+    </>
   );
 }
 
