@@ -1,4 +1,9 @@
 import Image from 'next/image'
+import { IconName } from "react-icons/fa6";
+import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
+import { BiLogoTwitter } from "react-icons/bi";
+
+
 
 
 const Footer = () => {
@@ -19,10 +24,10 @@ const Footer = () => {
                 </ul>
                 </div>
             <div>
-                <ul className='flex md:gap-5 lg:gap-10'>
-                    <li><Image src='/facebook.png' width={24.67} height={24}/></li>
-                    <li><Image src='/twitter.png' width={24.67} height={20}/></li>
-                    <li><Image src='/youtube.png' width={24.67} height={17}/></li>
+                <ul className='flex md:gap-5 lg:gap-10 '>
+                    <li><AiFillFacebook size={24.67} className='text-[#252525]'/></li>
+                    <li><BiLogoTwitter size={24.67} className='text-[#252525]'/></li>
+                    <li><AiFillYoutube size={24.67} className='text-[#252525]'/></li>
                 </ul>
             </div>
         </div>

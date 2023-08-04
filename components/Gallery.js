@@ -59,10 +59,10 @@ const Gallery = () => {
         <div  className='relative flex items-center text-white hover:text-black'>
         <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/>
           <div id='slider' className='w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8'>
-                <div  className="flex flex-wrap  items-center gap-3 w-[1050px] md:w-[2200px]">
+                <div  className="flex flex-wrap  items-center gap-3 w-[1050px] md:w-[2175px]">
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -72,7 +72,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -82,7 +82,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -92,7 +92,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -102,7 +102,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -112,7 +112,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -122,7 +122,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -132,7 +132,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -142,7 +142,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -152,7 +152,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -162,7 +162,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -172,7 +172,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -182,7 +182,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
@@ -192,7 +192,7 @@ const Gallery = () => {
                   </div>
                   <div>
                     <Image
-                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
+                      className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px] rounded-md text-sblack"
                       src="/gallery/one.jpg"
                       onClick={() => handleImageClick('/gallery/one.jpg')}
                       alt="Image 1"
