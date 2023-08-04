@@ -32,9 +32,9 @@ export default function Home() {
       <DisableScroll/>
       <SignUp />
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-        <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
-          <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-blue-50 md:to-transparent md:via-blur-3xl"> 
-          <div class="h-[900px] md:h-[1040px] md:bg-gradient-to-r md:from-blur-3xl md:to-transparent md:via-blur-3xl"> 
+        <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop.jpg')]">
+          <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur"> 
+          <div class="md:h-[1040px] md:bg-gradient-to-l md:from-transparent md:to-white md:via-blur-5xl]"> 
             <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
 
               <Navbar/>
