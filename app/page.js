@@ -1,3 +1,4 @@
+"use client"
 import Facilities from '@/components/Facilities';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
@@ -8,10 +9,22 @@ import Team from '@/components/Team';
 import Gallery from '@/components/Gallery';
 import Sports from "../components/Sports/Page.jsx";
 
+import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
+import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
+import SignUp from "@/components/DialogBox/SignUp";
+import ScrolltoTop from "@/components/Utility/ScrolltoTop";
+import DisableScroll from "@/components/Utility/DisableScroll";
+
+
+
 
 export default function Home() {
   return (
+    <FacilityProvider>
+    <SignUpProvider>
     <div className=''>
+      <DisableScroll/>
+      <SignUp />
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
         <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
           <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] "> 
@@ -46,7 +59,7 @@ export default function Home() {
       </div> 
       </div>
       <Begin/>
-      {/* <Sports/> */}
+      <Sports/>
      
       <Team /> 
       
@@ -97,5 +110,7 @@ export default function Home() {
       <Footer/>
 
     </div>
+  </SignUpProvider>
+  </FacilityProvider>
   )
 }

@@ -26,7 +26,7 @@ function Vision() {
       </div>
       <div className='flex lg:flex-row md:flex-row flex-col items-center justify-center lg:mt-[-130px] md:mt-[-70px] mt-7  gap-4 '>
         <div className='lg:w-[502px] lg:h-[249px]  relative  w-[315px] h-[264px] md:mt-16 lg:rounded-none rounded-[40px]'>
-          <Image className='object-cover  lg:w-[502px] lg:h-[249px] md:w-[315px] md:h-[265px] w-[315px] h-[264px] lg:rounded-none md:rounded-none rounded-[40px] lg:blur-none md:blur-none blur-sm' src="/images/football2.jpg" width={315} height={264} />
+          <Image className='object-cover  lg:w-[502px] lg:h-[249px] md:w-[315px] md:rounded-md md:h-[265px] w-[315px] h-[264px]  rounded-[40px] lg:blur-none md:blur-none blur-sm' src="/images/football2.jpg" width={315} height={264} />
           <h1 className=' text-center md:p-0 p-2  md:relative md:bottom-[140px]  md:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white  scale-y-150 pt-5 md:text-[#FB491D]'>OUR VISION</h1>
           <p className='mt-6  lg:hidden md:hidden absolute inset-0 bg-blur left-5 top-14 w-[269px] h-[160px] text-white text-center  text-14 lg:text-18'>HISC was established in 2020 with guidance from renowned sports icons like Pullela Gopichand and P. V. Sindhu.
             We have partnered with esteemed organizations including the Ministry of Sports (Government of India),
@@ -34,7 +34,7 @@ function Vision() {
         </div>
 
         <div className='lg:w-[502px] lg:h-[249px] relative w-[316px] h-[265px] md:mt-16 lg:rounded-none rounded-[40px]  mt-5'>
-          <Image className='object-cover lg:w-[502px] lg:h-[249px] md:w-[315px] md:h-[265px] lg:rounded-none md:rounded-none rounded-[40px] w-[315px] h-[264px] lg:blur-none md:blur-none blur-sm' src="/images/football3.jpg" width={315} height={264} />
+          <Image className='object-cover lg:w-[502px] lg:h-[249px] md:w-[315px] md:h-[265px]  md:rounded-md rounded-[40px] w-[315px] h-[264px] lg:blur-none md:blur-none blur-sm' src="/images/football3.jpg" width={315} height={264} />
           <h1 className=' text-center md:p-0 p-2 md:relative md:bottom-[140px] lg:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white p-5 scale-y-150 md:text-[#FB491D]'>OUR ORIGINS</h1>
           <p className='mt-6 lg:hidden md:hidden absolute inset-0 bg-blur left-5 top-14 w-[269px] h-[160px] text-white text-center text-[14px]  lg:text-18'>HISC was established in 2020 with guidance from renowned sports icons like Pullela Gopichand and P. V. Sindhu.
             We have partnered with esteemed organizations including the Ministry of Sports (Government of India),
