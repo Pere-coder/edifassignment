@@ -57,7 +57,7 @@ const Gallery = () => {
         <div className=' mt-16'>
          <h1 className='flex justify-center items-center scale-y-150  text-[30px] text-sblack md:text-[35px] lg:text-[47px]  sm:leading-[40px] font-700 leading-[30px]'>GALLERY</h1>
         <div  className='relative flex items-center text-white hover:text-black'>
-        {/* <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/> */}
+        <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/>
           <div id='slider' className='w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8'>
                 <div  className="flex flex-wrap  items-center gap-3 w-[1050px] md:w-[2200px]">
                   <div>
@@ -203,7 +203,7 @@ const Gallery = () => {
                   {selectedImage && <Modal imageUrl={selectedImage} onClose={closeModal} />}
                 </div>
           </div>
-          {/* <MdChevronRight size={40} onClick={slideRight} className='hidden md:flex cursor-pointer'/> */}
+          <MdChevronRight size={40} onClick={slideRight} className='hidden md:flex cursor-pointer'/>
         </div>
 
         </div>
