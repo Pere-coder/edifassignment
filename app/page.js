@@ -33,7 +33,8 @@ export default function Home() {
       <SignUp />
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
         <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
-          <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] "> 
+          <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-blue-50 md:to-transparent md:via-blur-3xl"> 
+          <div class="h-[900px] md:h-[1040px] md:bg-gradient-to-r md:from-blur-3xl md:to-transparent md:via-blur-3xl"> 
             <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
 
               <Navbar/>
@@ -59,6 +60,7 @@ export default function Home() {
             
           </div>
           <div className='hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer '><Image src="/vector.png" width={61} height={61} /></div>
+          </div>
         </div> 
        
         
