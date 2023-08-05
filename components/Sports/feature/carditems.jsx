@@ -19,21 +19,21 @@ function Carditems({ children, handleCards, data }) {
         key={id}
         id={id}
         className={
-          "sticky top-[7rem] bottom-[7rem] " +
-          (isInView ? " z-10 " : "z-0")
+          "sticky top-[7rem] bottom-[7rem] lg:bottom-[5rem] lg:top-[5rem] " +
+          (isInView ? " z-10 shadow-lg " : "z-0")
         }
         animate={{
-          scale: isInView ? 1.2 : 1,
-          filter: isInView ? "blur(0px)" : "blur(4px)",
+          scale: isInView ? 1 : 0.8,
+          filter: isInView ? "blur(0px)" : "blur(15px)",
         }}
         transition={{ duration: 0.2 }}
       >
-        <motion.div className=" relative md:w-[200px] md:h-[290px] lg:w-[250px] lg:h-[310px] bg-white rounded-[8px] flex flex-col items-center justify-center">
+        <motion.div className=" relative md:w-[200px] md:h-[290px] xl:w-[240px] xl:h-[260px] bg-white rounded-[8px] flex flex-col items-center justify-center">
           <div className=" left-[-2rem] top-[-2.5rem] relative bg-[#F1F8FF] rounded-full md:w-[80px] md:h-[80px] lg:w-[80.59px] lg:h-[80.59px] ">
             <Image
               src={data.svg[1].img}
               width={data.svg[1].width}
-              height={115.56}
+              height={0}
               className={" absolute " + data.svg[1].position}
               alt="svg"
             />

@@ -36,7 +36,8 @@ function Team() {
               Havier Zanett, Rohit Sharma, R. Ashwin, and Ravi Shashtri.
             </span>
           </p>
-          <div className="flex justify-center items-center text-center text-[13.98px] h-50 sm:text-[18px]  md:text-[13.98px]  md:mt-12 mt-6  ml-16 md:ml-0 rounded-3xl p-2 font-jost font-500 leading-20.23  text-white bg-[#0479CE]  w-[175px] hover:cursor-pointer">
+          <div className="flex justify-center items-center text-center text-[13.98px] h-50 sm:text-[18px]  md:text-[13.98px]  md:mt-12 mt-6  ml-16 md:ml-0 rounded-3xl p-2 font-jost font-500 leading-20.23  text-white bg-[#0479CE]  w-[175px] hover:cursor-pointer"
+          onClick={() => toggleSignUp(true)}>
             SIGN UP NOW
           </div>
         </div>
