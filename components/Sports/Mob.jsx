@@ -83,7 +83,7 @@ function Mob({ data, setMobile, mobile }) {
               </motion.div>
             </motion.div>
           </AnimatePresence>
-          <div className=" w-full absolute top-0 h-[900px] bg-gradient-to-b from-white via-transparent to-transparent "></div>
+          <div className=" w-full absolute top-0 h-[400px] bg-gradient-to-b from-white via-transparent to-transparent "></div>
           <motion.div
             className=" bg-white shadow rounded-t-[3rem] w-full min-h-[65vh] p-10 flex flex-col gap-4 absolute bottom-0 pb-[6rem]"
             variants={cardVarient}

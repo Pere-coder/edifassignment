@@ -26,47 +26,49 @@ export default function Home() {
     <FacilityProvider>
       <SignUpProvider>
         <div className="">
-          <DisableScroll/>
+          <DisableScroll />
           <SignUp />
-          <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:min-h-screen bg-[url('../public/background.jpg')] md:bg-none">
-            <div className="md:bg-no-repeat sm:h-[900px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
-              <div className="h-[450px] md:min-h-screen bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
-                <div className="ml-8 mr-8 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
-                  <Navbar />
+          <div className="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
+            <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
+              <div className="h-[400px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur">
+                <div className="md:h-[1040px] md:bg-gradient-to-l md:from-transparent md:to-white md:via-blur-5xl">
+                  <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
+                    <Navbar />
 
-                  <div className=" mt-36  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
-                    <div className="shadow-custom text-center bg-gray-100 rounded-[40px] p-7 mt-5 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none">
-                      <div className="text-center text-14   sm:text-[16px] font-jost font-700 leading-20.23 text-[#0479CE]    md:text-[16px]  md:w-full md:text-start md:items-center ">
-                        START YOUR HEALTHY LIFESTYLE!
-                      </div>
-                      <h1 className="scale-y-150 text-30  font-700 leading-[30px] font-bison text-sblack   w-226 mx-auto mt-10 flex justify-center items-center align-center sm:text-[40px] sm:leading-[40px] md:text-[47px]  md:w-430  md:leading-[48px] md:items-start md:mt-10 ">
-                        BEGIN YOUR TRANSFORMATION TODAY
-                      </h1>
-                      <p className="mt-8 text-sblack  text-14 font-roboto leading-20 font-400 sm:mt-10 md:mt-10   md:w-96 md:text-14 md:leading-24 lg:text-18">
-                        Heartfulness International Sports Center (HISC) empowers
-                        children and youth to unlock their heart's potential
-                        through sports, fostering holistic well being and
-                        personal growth.
-                      </p>
-                      <div className="flex items-center justify-center align-center mx-auto cursor-pointer rounded-3xl border-2 border-current gap-3  w-175 h-50 mt-5 text-gray md:w-175 md:h-50 md:mx-0 ">
-                        <div className="font-500 text-13.85 leading-16.23  font-roboto ">
-                          Show More{" "}
+                    <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
+                      <div className="shadow-custom text-center bg-gray-100 rounded-[40px] p-7 mt-1 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none">
+                        <div className="text-center text-14   sm:text-[16px] font-jost font-700 leading-20.23 text-[#0479CE]    md:text-[16px]  md:w-full md:text-start md:items-center ">
+                          START YOUR HEALTHY LIFESTYLE!
                         </div>
-                        <div>
-                          <Image
-                            src="/triangle.png"
-                            width={23.47}
-                            height={17.0}
-                          />
+                        <h1 className="scale-y-150 text-30  font-700 leading-[30px] font-bison text-sblack   w-226 mx-auto mt-10 flex justify-center items-center align-center sm:text-[40px] sm:leading-[40px] md:text-[47px]  md:w-430  md:leading-[48px] md:items-start md:mt-10 ">
+                          BEGIN YOUR TRANSFORMATION TODAY
+                        </h1>
+                        <p className="mt-8 text-sblack  text-14 font-roboto leading-20 font-400 sm:mt-10 md:mt-10   md:w-96 md:text-14 md:leading-24 lg:text-18">
+                          Heartfulness International Sports Center (HISC)
+                          empowers children and youth to unlock their heart's
+                          potential through sports, fostering holistic well
+                          being and personal growth.
+                        </p>
+                        <div className="flex items-center justify-center align-center mx-auto cursor-pointer rounded-3xl border-2 border-current gap-3  w-175 h-50 mt-5 text-gray md:w-175 md:h-50 md:mx-0 ">
+                          <div className="font-500 text-13.85 leading-16.23  font-roboto ">
+                            Show More{" "}
+                          </div>
+                          <div>
+                            <Image
+                              src="/triangle.png"
+                              width={23.47}
+                              height={17.0}
+                            />
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <ScrolltoTop/>
               </div>
             </div>
           </div>
+          <ScrolltoTop />
           <Begin />
           <Sports />
           <Team />
