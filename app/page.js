@@ -11,7 +11,6 @@ import Sports from "../components/Sports/Page";
 
 import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
-
 import SignUp from "@/components/DialogBox/SignUp";
 import ScrolltoTop from "@/components/Utitlity/ScrolltoTop";
 import DisableScroll from "@/components/Utitlity/DisableScroll";
@@ -22,16 +21,17 @@ import DisableScroll from "@/components/Utitlity/DisableScroll";
 
 export default function Home() {
 
+
   return (
     <FacilityProvider>
       <SignUpProvider>
         <div className="">
-          <DisableScroll />
+          <DisableScroll/>
           <SignUp />
-          <div className="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-            <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  md:h-[1100px]  md:bg-[url('../public/background.jpg')]">
-              <div className="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
-                <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
+          <div className="bg-no-repeat bg-contain md:mt-0 h-[860px] sm:min-h-screen bg-[url('../public/background.jpg')] md:bg-none">
+            <div className="md:bg-no-repeat sm:h-[900px]   md:bg-right-top  md:min-h-screen  md:bg-[url('../public/background.jpg')]">
+              <div className="h-[450px] md:min-h-screen bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-white md:to-transparent md:via-[#E6F2F4] ">
+                <div className="ml-8 mr-8 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
                   <Navbar />
 
                   <div className=" mt-36  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
@@ -63,7 +63,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <ScrolltoTop />
+                <ScrolltoTop/>
               </div>
             </div>
           </div>
