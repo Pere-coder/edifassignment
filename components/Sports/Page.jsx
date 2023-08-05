@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Mob from "./Mob";
 import { useFacility } from "../ContextAPI/FacilityContext";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
+import Desk from "./Desk";
 
 const data = {
   badminton: {
@@ -206,7 +207,7 @@ function Page() {
       {/* Desktop and Tablet Section */}
       <div
         ref={scrollContainerRef}
-        className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
+        className="max-sm:hidden hidden h-[100vh] relative overflow-scroll facility snap-start"
       >
         <motion.section
           className="  relative w-full h-[300vh]"
@@ -285,6 +286,8 @@ function Page() {
           </div>
         </motion.section>
       </div>
+
+      <Desk data={data}/>
 
       {/* Mobile View Section */}
       <AnimatePresence mode="wait">
