@@ -188,7 +188,7 @@ function Vision() {
           <h1 className="sm:text-[40px]  sm:leading-[40px] text-center leading-[30px] font-bison md:w-full w-[350px] lg:mb-0 md:mt-[150px] mt-[150px] text-[30px] font-700 uppercase text-white scale-y-150  md:text-[35px] lg:text-[47px]">
             Inauguration and Location
           </h1>
-          <p className="text-center  w-[315px] md:w-[150ch] md:p-8 font-poppins  text-white mt-10 md:mt-5 text-14 lg:text-lg">
+          <p className="text-center  w-[315px] md:w-[70%] md:p-8 font-poppins  text-white mt-10 md:mt-5 text-14 lg:text-lg">
             HISC was inaugurated on 26th February 2023 at Kanha Shanti Vanam, a
             serene location known for holistic well-being and home to the
             world's largest meditation center. The inauguration ceremony was
