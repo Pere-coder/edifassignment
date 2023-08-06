@@ -146,7 +146,7 @@ function Vision() {
         </div>
         <div className="flex lg:flex-row md:flex-row flex-col items-center justify-center lg:mt-[-130px] md:mt-[-70px] mt-7  gap-4 ">
           <div className=" lg:w-[502px] lg:h-[249px]  relative  w-[315px] h-[264px] md:mt-16 lg:rounded-none rounded-[40px] overflow-hidden">
-            <div className=" absolute h-full w-full bg-black"></div>
+            <div className=" absolute h-full w-full bg-black md:hidden"></div>
             <Image
               className=" object-cover  lg:w-[502px] lg:h-[249px] md:w-[315px] md:rounded-md md:h-[265px] w-[315px] h-[264px]  rounded-[40px] lg:blur-none md:blur-none blur-lg"
               src="/images/vision.png"
@@ -166,7 +166,7 @@ function Vision() {
           </div>
 
           <div className="lg:w-[502px] lg:h-[249px] relative w-[316px] h-[265px] md:mt-16 lg:rounded-none rounded-[40px] overflow-hidden mt-5">
-            <div className=" absolute h-full w-full bg-black"></div>
+            <div className=" absolute h-full w-full bg-black md:hidden"></div>
             <Image
               className="object-cover lg:w-[502px] lg:h-[249px] md:w-[315px] md:h-[265px]  md:rounded-md rounded-[40px] w-[315px] h-[264px] lg:blur-none md:blur-none blur-lg"
               src="/images/origin.png"
