@@ -15,7 +15,7 @@ function Carditems({ children, handleCards, setSelect, data }) {
       });;
     }
   }, [isInView]);
-  console.log(data.id)
+  // console.log(data.id)
 
   return (
     <>
