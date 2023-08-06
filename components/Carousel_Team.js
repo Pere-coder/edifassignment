@@ -66,9 +66,6 @@ const members = [
 
 function Carousel_Team() {
 
-    // const { height, width } = useWindowDimensions();
-    // console.log(width)
-
   const responsive = {
     0: { items: 1 },
     1024: { items: 2 },
@@ -77,36 +74,44 @@ function Carousel_Team() {
 
   const item = members.map((item) => {
     return (
-      <div className="  item md:h-[50vh] w-auto md:w-full flex flex-col md:flex-row justify-center items-center " key={item.id} data-value={item.id}>
-        <div className=" object-contain md:h-[450px] w-[250px] lg:w-[1900px] rounded-xl overflow-hidden">
+      <div
+        className="  item md:h-[50%] w-auto md:w-full flex flex-col md:flex-row justify-center items-center "
+        key={item.id}
+        data-value={item.id}
+      >
+        <div className=" w-[15rem] md:min-w-[20rem] h-full bg-slate-300 rounded-xl overflow-hidden flex items-center justify-center">
           <Image
             src={item.img}
             width={350}
             height={400}
             alt="team"
-            className="rounded-xl w-full self-end overflow-hidden "
+            className="rounded-xl w-full"
           />
         </div>
-        <div className=" lg:p-6 xl:p-8 h-full text-center md:text-left">
-          <h1 className=" mt-2 md:mt-0 text-black text-3xl md:text-2xl xl:text-3xl">{item.h1}</h1>
+        <div className=" p-4 lg:p-6 xl:p-8 h-full text-center md:text-left">
+          <h1 className=" mt-2 md:mt-0 text-black text-3xl md:text-2xl xl:text-3xl">
+            {item.h1}
+          </h1>
           <p className=" text-base md:text-sm xl:text-base font-semibold text-[#0479CE]">
             {item.small_p}
           </p>
-          <p className=" px-5 md:px-0 lg:pr-32 mt-4 text-sm md:text-base xl:text-xl">{item.main_p}</p>
+          <p className=" mt-4 text-sm md:text-lg xl:text-xl md:max-w-[20ch] w-[35ch]">
+            {item.main_p}
+          </p>
         </div>
       </div>
     );
   });
 
   return (
-    <div className=" min-h-screen w-full mt-[1600px] md:mt-[700px] lg:mt-[28rem] text-black flex flex-col items-center justify-center gap-4">
+    <div className=" min-h-screen md:min-h-fit w-full mt-8 md:mt-0 text-black flex flex-col items-center justify-center gap-4">
       <div>
         <h1 className=" md:mt-20 sm:text-[40px] md:text-[47px] text-[30px] font-bold scale-y-150 font-bison">
           OUR TEAM
         </h1>
       </div>
-      <div className=" mb-2  md:my-10 w-[90vw] md:w-[70vw]">
-        <p className=" text-14 lg:text-18 text-center">
+      <div className=" mb-2  md:my-10 w-[35ch] md:w-[70vw]">
+        <p className=" text-14 lg:text-xl text-center">
           Our trainers are highly skilled, experienced, and committed to your
           success. With their expertise, you'll receive personalised guidance
           and motivation, ensuring you achieve your fitness and sports goals

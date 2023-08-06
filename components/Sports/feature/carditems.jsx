@@ -1,16 +1,25 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useInView, motion } from "framer-motion";
 import Image from "next/image";
 
-function Carditems({ children, handleCards, data }) {
+function Carditems({ children, handleCards, setSelect, data }) {
+  const obj = {
+    up:'z-0',
+    down:'z-[5]'
+  }
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-50% 0px -50% 0px" });
+  const isUpView = useInView(ref, { margin: "-30% 0px -30% 0px" });
+  const isDownView = useInView(ref, { margin: "-70% 0px -70% 0px" });
   let id = data.h2.toLowerCase();
   useEffect(() => {
     if (isInView) {
-      handleCards(id);
+      setSelect((prev) =>{
+        return id;
+      });;
     }
   }, [isInView]);
+  console.log(data.id)
 
   return (
     <>
@@ -19,8 +28,11 @@ function Carditems({ children, handleCards, data }) {
         key={id}
         id={id}
         className={
-          "sticky top-[7rem] bottom-[7rem] lg:bottom-[5rem] lg:top-[5rem] " +
-          (isInView ? " z-10 shadow-lg " : "z-0")
+          "sticky top-[7rem] bottom-[7rem] lg:bottom-[4rem] lg:top-[4rem] transition-opacity " +
+          (isInView ? " z-10 shadow-lg " : "z-0 ") 
+          // (isUpView || isDownView || isInView ? ' opacity-100 ' : ' opacity-0 ' )
+
+          // (isInView ?  )
         }
         animate={{
           scale: isInView ? 1 : 0.8,

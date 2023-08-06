@@ -1,24 +1,29 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Carditems from "./feature/carditems";
 import Image from "next/image";
+import Link from "next/link";
 
 function Desk({ data }) {
   const [select, setSelect] = useState("badminton");
+  const [anchor, setAnchor] = useState(null);
   const keys = Object.keys(data);
   // console.log(select);
 
-  const handleClick = (anchor) => {
-    console.log(anchor);
+  const handleClick = (a) => {
+    console.log(a);
+    setAnchor(() => a)
+  };
+  useEffect(() => {
     const element = document.getElementById(anchor);
     if (element) {
       element.scrollIntoView({
         behavior: "smooth",
-        block: "start",
+        block: "end",
       });
     }
-  };
+  }, [anchor])
 
   const handleCards = (update) => {
     // console.log(data[update].id);
@@ -33,12 +38,13 @@ function Desk({ data }) {
       <div className=" flex h-full " id="facility">
         <div className=" w-fit sticky top-0 pl-8 h-screen flex items-center">
           <ul className="flex flex-col gap-0">
-            <div
+            <Link
+              href="/#badminton"
               className=" relative  w-[40px] h-[40px] rounded-full mb-4 cursor-pointer "
               style={{
                 backgroundColor: select !== "badminton" ? "#c1e5e9" : "#FFFFFF",
               }}
-              onClick={() => handleClick("badminton")}
+              // onClick={() => handleClick("badminton")}
             >
               <Image
                 src={"/badminton-icon.svg"}
@@ -47,7 +53,7 @@ function Desk({ data }) {
                 className=" absolute right-[-0.90rem] top-[-0.3rem] w-[28px]"
                 alt="icon"
               />
-            </div>
+            </Link>
             <div
               className=" relative w-[40px] h-[40px] rounded-full mb-4 cursor-pointer "
               style={{
@@ -63,12 +69,13 @@ function Desk({ data }) {
                 alt="icon"
               />
             </div>
-            <div
+            <Link
+              href="/#swimming"
               className=" relative w-[40px] h-[40px] rounded-full mb-4 cursor-pointer "
               style={{
                 backgroundColor: select !== "swimming" ? "#c1e5e9" : "#FFFFFF",
               }}
-              onClick={() => handleClick("swimming")}
+              // onClick={() => handleClick("swimming")}
             >
               <Image
                 src={"/swiming-icon.svg"}
@@ -77,7 +84,7 @@ function Desk({ data }) {
                 className=" absolute -right-6 top-[0.75rem]"
                 alt="icon"
               />
-            </div>
+            </Link>
             <div
               className=" relative w-[40px] h-[40px] rounded-full mb-4 cursor-pointer "
               style={{
@@ -96,12 +103,13 @@ function Desk({ data }) {
           </ul>
         </div>
         <div className=" w-1/3 h-full">
-          <div className="items-center flex flex-col gap-8 py-[60vh]">
+          <div className="items-center flex flex-col gap-8 py-[110%]">
             {keys.map((item) => {
               return (
                 <Carditems
                   data={data[item]}
                   handleCards={handleCards}
+                  setSelect={setSelect}
                   key={data[item].h2}
                 />
               );

@@ -12,7 +12,7 @@ function Team() {
       <div className="md:flex mt-10 md:mt-3 justify-center items-center md:p-5 ">
         <div className="md:w-auto md:h-[528px] md:mt-[120px]  w-[312px] h-auto mx-auto mb-2 rounded-lg md:rounded-2xl  md:mr-10 ">
           <Image
-            className="rounded-lg md:rounded-2xl md:h-[400px] md:w-auto h-[180px]"
+            className="rounded-lg md:rounded-2xl md:h-[400px] w-[700px] max-w-full max-h-full"
             src="/images/team6.png"
             alt="team photo"
             width={312}
@@ -21,7 +21,7 @@ function Team() {
         </div>
 
         <div className="md:ml-0 md:mb-56 md:w-[447px] md:h-[168px] w-[300px]  mx-auto">
-          <div className="scale-y-150 text-30  mt-10 md:mt-0 font-700 leading-[30px] md:mb-6 font-bison md:text-[42px]  w-[300px] h-[84px] md:text-start md:font-bold  md:leading-[45px] tracking-tighter text-center text-sblack">
+          <div className="scale-y-150 text-30  mt-10 md:mt-0 font-700 leading-[30px] md:mb-6 font-bison md:text-[30px] lg:text-[42px]  w-[300px] h-[84px] md:text-start md:font-bold  md:leading-[45px] tracking-tighter text-center text-sblack">
             BE A PART OF
             <br />
             <span className="whitespace-nowrap"> WELLNESS COMMUNITY</span>

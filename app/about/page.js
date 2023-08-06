@@ -25,13 +25,13 @@ const about = () => {
             <Vision />
           </div>
 
-          <Carousel_Team />
-          <Facilities />
+          
+          {/* <Facilities /> */}
           <div className=" max-sm:block hidden">
             <Sports />
           </div>
-          <Gallery />
-          <Footer />
+          {/* <Gallery /> */}
+          {/* <Footer /> */}
         </SignUpProvider>
       </FacilityProvider>
     </>
