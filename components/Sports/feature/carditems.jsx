@@ -3,10 +3,6 @@ import { useInView, motion } from "framer-motion";
 import Image from "next/image";
 
 function Carditems({ children, handleCards, setSelect, data }) {
-  const obj = {
-    up:'z-0',
-    down:'z-[5]'
-  }
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "-50% 0px -50% 0px" });
   const isUpView = useInView(ref, { margin: "-30% 0px -30% 0px" });
@@ -30,9 +26,6 @@ function Carditems({ children, handleCards, setSelect, data }) {
         className={
           "sticky top-[7rem] bottom-[7rem] lg:bottom-[4rem] lg:top-[4rem] transition-opacity " +
           (isInView ? " z-10 shadow-lg " : "z-0 ") 
-          // (isUpView || isDownView || isInView ? ' opacity-100 ' : ' opacity-0 ' )
-
-          // (isInView ?  )
         }
         animate={{
           scale: isInView ? 1 : 0.8,
@@ -47,7 +40,7 @@ function Carditems({ children, handleCards, setSelect, data }) {
               width={data.svg[1].width}
               height={0}
               className={" absolute " + data.svg[1].position}
-              alt="svg"
+              alt={id}
             />
           </div>
           <div className=" absolute text-[#1F1F1F] font-bison scale-y-150 font-bold md:text-base lg:text-lg bottom-[25%] left-[15%]">

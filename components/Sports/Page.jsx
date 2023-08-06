@@ -19,7 +19,7 @@ const data = {
     img: {
       1: "/badminton-img1.jpg",
       2: "/badminton-img2.jpg",
-      3: "/badminton-img3.jpg",
+      3: "/badimg3.png",
     },
     svg: {
       1: {
@@ -46,9 +46,9 @@ const data = {
     p: `We have a fully equipped gym where you can begin or continue your fitness journey. There are numerous benefits to joining a gym and incorporating regular exercise into your routine. Overall, the benefits of joining a gym go beyond physical health and can positively impact mental and emotional wellbeing as well`,
     h2: "GYM",
     img: {
-      1: "/gym-img1.jpg",
-      2: "/gym-img2.jpg",
-      3: "/gym-img3.jpg",
+      1: "/gymimg1.png",
+      2: "/gymimg2.png",
+      3: "/gymimg3.png",
     },
     svg: {
       1: {
@@ -104,9 +104,9 @@ const data = {
     p: `Squash is a popular racquet sport that is played by two or four players in a four-walled court with a small, hollow rubber ball. The objective of the game is to hit the ball against the front wall, making it difficult for the opponent to return the ball. Three international-standard wooden courts Capable of hosting state and national tournaments A viewing gallery with seating for 50 persons`,
     h2: "SQUASH",
     img: {
-      1: "/squash-img1.jpg",
-      2: "/squash-img2.jpg",
-      3: "/squash-img3.jpg",
+      1: "/squashimg1.png",
+      2: "/squashimg2.png",
+      3: "/squashimg3.png",
     },
     svg: {
       1: {

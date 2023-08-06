@@ -1,3 +1,4 @@
+'use client'
 // import React,{ useState} from 'react'
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
@@ -84,11 +85,11 @@ function Carousel_Team() {
             src={item.img}
             width={350}
             height={400}
-            alt="team"
+            alt={item.id}
             className="rounded-xl w-full"
           />
         </div>
-        <div className=" p-4 lg:p-6 xl:p-8 h-full text-center md:text-left">
+        <div className=" p-4 lg:p-6 xl:p-8 h-full text-center md:text-left md:self-start">
           <h1 className=" mt-2 md:mt-0 text-black text-3xl md:text-2xl xl:text-3xl">
             {item.h1}
           </h1>

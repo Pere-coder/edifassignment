@@ -24,8 +24,6 @@ const about = () => {
           <div>
             <Vision />
           </div>
-
-          
           {/* <Facilities /> */}
           <div className=" max-sm:block hidden">
             <Sports />

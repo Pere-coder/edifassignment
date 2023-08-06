@@ -20,9 +20,9 @@ const Footer = () => {
                 </div>
             <div>
                 <ul className='flex md:gap-5 lg:gap-10'>
-                    <li><Image src='/facebook.png' width={24.67} height={24}/></li>
-                    <li><Image src='/twitter.png' width={24.67} height={20}/></li>
-                    <li><Image src='/youtube.png' width={24.67} height={17}/></li>
+                    <li><Image src='/facebook.png' width={24.67} height={24} alt='facebook'/></li>
+                    <li><Image src='/twitter.png' width={24.67} height={20} alt='twitter'/></li>
+                    <li><Image src='/youtube.png' width={24.67} height={17} alt='youtube'/></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@ const Footer = () => {
 
         <div className='hidden md:flex justify-center items-center text-center md:mt-10 md:gap-[60px] lg:gap-[150px] xl:gap-[280px] p-2'>
             <div className='font-400 text-[14px] leading-[16.7px] text-[#0A142F] font-helvetica'>© 2023 Heartfulness. All rights reserved .</div>
-            <div><Image src='/heart.jpg' width={100} height={100}/></div>
+            <div><Image src='/heart.jpg' width={100} height={100} alt='heart'/></div>
             <div className='font-400 text-[14px] leading-[16.7px] flex md:gap-5 lg:gap-10 font-helvetica text-[#0A142F]'><p>Terms of Service </p><p>Privacy Policy</p> </div>
 
 

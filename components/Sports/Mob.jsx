@@ -112,7 +112,7 @@ function Mob({ data, setMobile, mobile }) {
                       width={data.svg[1].widthMob}
                       height={0}
                       className={data.svg[1].positionMob}
-                      alt={"badminton"}
+                      alt="badminton"
                     />
                   </motion.div>
                 </AnimatePresence>

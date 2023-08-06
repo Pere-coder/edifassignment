@@ -153,11 +153,9 @@ const Navbar = () => {
             <Link href="/">
               <h1 className="group text-sblack">
                 Home{" "}
-                <motion.p
+                <p
                   className="group-hover:border-b-4 h-1 w-7 border-b-[#0479CE]"
-                  // initial={{ width: 0}}
-                  // whileHover={{ width: '1.75rem'}}
-                ></motion.p>{" "}
+                ></p>
               </h1>
             </Link>
           </li>

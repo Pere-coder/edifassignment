@@ -1,14 +1,11 @@
 'use client'
-import Facilities from "@/components/Facilities";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { FaPlay } from "react-icons/fa";
 import Begin from "@/components/Begin";
 import Team from "@/components/Team";
-import Gallery from "@/components/Gallery";
 import Sports from "../components/Sports/Page";
-
 import { FacilityProvider } from "@/components/ContextAPI/FacilityContext";
 import { SignUpProvider } from "@/components/ContextAPI/SignUpContext";
 import SignUp from "@/components/DialogBox/SignUp";
@@ -28,8 +25,8 @@ export default function Home() {
         <div className="">
           <DisableScroll />
           <SignUp />
-          <div className="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-            <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
+          <div className="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/backgroundMob.jpg')] md:bg-none">
+            <div className="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundDesk.jpg')]">
               <div className="h-[400px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur">
                 <div className="md:h-[1040px] md:bg-gradient-to-l md:from-transparent md:to-white md:via-blur-5xl">
                   <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 ">
@@ -58,6 +55,7 @@ export default function Home() {
                               src="/triangle.png"
                               width={23.47}
                               height={17.0}
+                              alt="arrow"
                             />
                           </div>
                         </div>
@@ -101,14 +99,23 @@ export default function Home() {
               </div>
               <div className="flex justify-center items-center gap-[52px] sm:gap-[130px] mt-[20px] sm:mt-[40px]">
                 <div className="bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center">
-                  {/* {" "} */}
-                  <Image src="/message2.png" width={32} height={32} />
+                  <Image
+                    src="/message2.png"
+                    width={32}
+                    height={32}
+                    alt="message"
+                  />
                 </div>
                 <div className="bg-white w-[64px] h-[64px] rounded-full items-center flex justify-center">
-                  <Image src="/call2.png" width={34} height={34} />
+                  <Image src="/call2.png" width={34} height={34} alt="call" />
                 </div>
                 <div className="bg-white w-[64px] h-[64px] rounded-full items-center flex justify-center">
-                  <Image src="/location2.png" width={36} height={36} />
+                  <Image
+                    src="/location2.png"
+                    width={36}
+                    height={36}
+                    alt="locations"
+                  />
                 </div>
               </div>
             </div>
@@ -116,7 +123,7 @@ export default function Home() {
 
           <div className="hidden md:flex justify-center md:gap-5 lg:gap-10  xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]">
             <div className="flex flex-col   items-center">
-              <Image src="/message1.png" width={50} height={50} />
+              <Image src="/message1.png" width={50} height={50} alt="message" />
               <h1 className="font-roboto font-700 text-[24px] leading-[32px] mt-5">
                 Email us
               </h1>
@@ -130,7 +137,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col  items-center">
-              <Image src="/call1.png" width={50} height={50} />
+              <Image src="/call1.png" width={50} height={50} alt="call" />
               <h1 className="font-roboto font-700  leading-[32px] text-[24px] mt-5">
                 Call us
               </h1>
@@ -144,7 +151,12 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col   items-center">
-              <Image src="/location1.png" width={80} height={50} />
+              <Image
+                src="/location1.png"
+                width={80}
+                height={50}
+                alt="location"
+              />
               <h1 className="font-roboto font-700  leading-[32px] text-[24px] mt-2">
                 Location
               </h1>
@@ -159,6 +171,7 @@ export default function Home() {
                   width={13}
                   height={16}
                   className="leading-[16.1px] font-[900px] text-[14px]"
+                  alt="arrow"
                 />
               </div>
             </div>
