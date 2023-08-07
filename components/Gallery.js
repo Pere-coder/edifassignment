@@ -21,7 +21,7 @@ const Gallery = () => {
       const slideLeft = () => {
         var slider = document.getElementById('slider')
         var scrollStep = 10; // Number of pixels to scroll at each step
-        var scrollAmount = 310; // Total amount to scroll
+        var scrollAmount = 308; // Total amount to scroll
 
         var scrollLeft = slider.scrollLeft;
         var currentScroll = 0;
@@ -42,7 +42,7 @@ const Gallery = () => {
       const slideRight = () => {
         var slider = document.getElementById('slider');
         var scrollStep = 10; // Number of pixels to scroll at each step
-        var scrollAmount = 310; // Total amount to scroll
+        var scrollAmount = 308; // Total amount to scroll
       
         var scrollLeft = slider.scrollLeft;
         var currentScroll = 0;
