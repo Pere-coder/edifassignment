@@ -206,7 +206,7 @@ function Page() {
   });
 
   useEffect(() => {
-    console.log(isInView)
+    // console.log(isInView)
   },[isInView])
 
   // disableBodyScroll(scrollContainerRef);
@@ -216,7 +216,7 @@ function Page() {
       {/* Desktop and Tablet Section */}
       <div
         ref={scrollContainerRef}
-        className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
+        className="hidden md:block h-[100vh] relative overflow-scroll facility snap-start"
       >
         <motion.section
           className=" transition-colors duration-200  relative w-full h-[300vh]"

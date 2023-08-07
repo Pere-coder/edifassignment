@@ -18,36 +18,66 @@ const Gallery = () => {
 
   const slideLeft = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 3000;
+    var scrollStep = 10; // Number of pixels to scroll at each step
+    var scrollAmount = 308; // Total amount to scroll
+
+    var scrollLeft = slider.scrollLeft;
+    var currentScroll = 0;
+
+    function scrollStepLeft() {
+      if (currentScroll < scrollAmount) {
+        slider.scrollLeft = scrollLeft - scrollStep;
+        currentScroll += scrollStep;
+        setTimeout(scrollStepLeft, 5); // Adjust the delay here (in milliseconds)
+      } else {
+        slider.scrollLeft = scrollLeft - scrollAmount;
+      }
+    }
+
+    scrollStepLeft();
   };
 
   const slideRight = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 3000;
+    var scrollStep = 10; // Number of pixels to scroll at each step
+    var scrollAmount = 308; // Total amount to scroll
+
+    var scrollLeft = slider.scrollLeft;
+    var currentScroll = 0;
+
+    function scrollStepRight() {
+      if (currentScroll < scrollAmount) {
+        slider.scrollLeft = scrollLeft + scrollStep;
+        currentScroll += scrollStep;
+        setTimeout(scrollStepRight, 5); // Adjust the delay here (in milliseconds)
+      } else {
+        slider.scrollLeft = scrollLeft + scrollAmount;
+      }
+    }
+
+    scrollStepRight();
   };
 
-  useEffect(() => {
-    // Function to automatically slide the images horizontally
-    const slideImagesAutomatically = () => {
-      const slider = document.getElementById("slider");
-      const sliderBottomOffset = slider.getBoundingClientRect().bottom;
-      const windowHeight = window.innerHeight;
+  // useEffect(() => {
+  //   // Function to automatically slide the images horizontally
+  //   const slideImagesAutomatically = () => {
+  //     const slider = document.getElementById('slider');
+  //     const sliderBottomOffset = slider.getBoundingClientRect().bottom;
+  //     const windowHeight = window.innerHeight;
 
-      if (sliderBottomOffset <= windowHeight) {
-        slideRight();
-      } else {
-        slideLeft();
-      }
+  //     if (sliderBottomOffset <= windowHeight) {
+  //       slideRight();
+  //     } else {
+  //       slideLeft();
+  //     }
+  //   };
 
-      // slideLeft();
-    };
+  //   // Interval for automatic sliding (adjust the time as needed)
+  //   const slideInterval = setInterval(slideImagesAutomatically, 3000); // Adjust the time (in milliseconds) as needed
 
-    // Interval for automatic sliding (adjust the time as needed)
-    window.addEventListener("scroll", slideImagesAutomatically);
-
-    // Cleanup: clear the interval when the compimages/2nt unmounts
-    return () => window.removeEventListener("scroll", slideImagesAutomatically);
-  }, []);
+  //   // Cleanup: clear the interval when the component unmounts
+  //   return () => clearInterval(slideInterval);
+  // }, []);
 
   return (
     <div className=" mt-16">

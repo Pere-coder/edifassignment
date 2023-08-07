@@ -4,7 +4,7 @@ function Begin() {
   return (
     <div>
       <div className="flex flex-col items-center justify-center text-center md:py-16 md:m-8 mt-[-130px] sm:mt-[-200px]  md:mt-0  md:p-10">
-        <h1 className="text-sblack scale-y-150 text-30  font-700 leading-[30px] md:w-[60vw] md:h-[72px] w-[316px] h-[84px] font-bison sm:leading-[40px] md:mb-0 sm:text-[40px] md:text-5xl md:leading-[48px] ">
+        <h1 className="text-sblack scale-y-150 text-30  font-700 leading-[30px] md:w-[80vw] md:h-[72px] w-[316px] h-[84px] font-bison sm:leading-[40px] md:mb-0 sm:text-[40px] md:text-4xl lg:text-5xl md:leading-[48px] ">
           BEGIN YOUR TRANSFORMATION
         </h1>
         <p className=" text-center sm:mt-10 md:mt-8 text-sblack md:w-[60vw] md:h-[48px] w-[315px] h-[100px] font-roboto  text-[14px] lg:text-[18px] sm:w-[550px] ">
