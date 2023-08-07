@@ -63,8 +63,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/1.jpg"
-                      onClick={() => handleImageClick('/gallery/images/1.jpg')}
+                      src="/gallery/images/1.JPG"
+                      onClick={() => handleImageClick('/gallery/images/1.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -73,8 +73,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/2.jpg"
-                      onClick={() => handleImageClick('/gallery/images/2.jpg')}
+                      src="/gallery/images/2.JPG"
+                      onClick={() => handleImageClick('/gallery/images/2.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -83,8 +83,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/3.jpg"
-                      onClick={() => handleImageClick('/gallery/images/3.jpg')}
+                      src="/gallery/images/3.JPG"
+                      onClick={() => handleImageClick('/gallery/images/3.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -93,8 +93,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/4.jpg"
-                      onClick={() => handleImageClick('/gallery/images/4.jpg')}
+                      src="/gallery/images/4.JPG"
+                      onClick={() => handleImageClick('/gallery/images/4.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -103,8 +103,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/5.jpg"
-                      onClick={() => handleImageClick('/gallery/images/5.jpg')}
+                      src="/gallery/images/5.JPG"
+                      onClick={() => handleImageClick('/gallery/images/5.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -113,8 +113,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/6.jpg"
-                      onClick={() => handleImageClick('/gallery/images/6.jpg')}
+                      src="/gallery/images/6.JPG"
+                      onClick={() => handleImageClick('/gallery/images/6.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -123,8 +123,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/7.jpg"
-                      onClick={() => handleImageClick('/gallery/images/7.jpg')}
+                      src="/gallery/images/7.JPG"
+                      onClick={() => handleImageClick('/gallery/images/7.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -133,8 +133,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/8.jpg"
-                      onClick={() => handleImageClick('/gallery/images/8.jpg')}
+                      src="/gallery/images/8.JPG"
+                      onClick={() => handleImageClick('/gallery/images/8.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -143,8 +143,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/9.jpg"
-                      onClick={() => handleImageClick('/gallery/images/9.jpg')}
+                      src="/gallery/images/9.JPG"
+                      onClick={() => handleImageClick('/gallery/images/9.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -153,8 +153,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/10.jpg"
-                      onClick={() => handleImageClick('/gallery/images/10.jpg')}
+                      src="/gallery/images/10.JPG"
+                      onClick={() => handleImageClick('/gallery/images/10.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -163,8 +163,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/11.jpg"
-                      onClick={() => handleImageClick('/gallery/images/11.jpg')}
+                      src="/gallery/images/11.JPG"
+                      onClick={() => handleImageClick('/gallery/images/11.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -173,8 +173,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/12.jpg"
-                      onClick={() => handleImageClick('/gallery/images/12.jpg')}
+                      src="/gallery/images/12.JPG"
+                      onClick={() => handleImageClick('/gallery/images/12.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -183,8 +183,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/13.jpg"
-                      onClick={() => handleImageClick('/gallery/images/13.jpg')}
+                      src="/gallery/images/13.JPG"
+                      onClick={() => handleImageClick('/gallery/images/13.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -193,8 +193,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/14.jpg"
-                      onClick={() => handleImageClick('/gallery/images/14.jpg')}
+                      src="/gallery/images/14.JPG"
+                      onClick={() => handleImageClick('/gallery/images/14.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -203,8 +203,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/15.jpg"
-                      onClick={() => handleImageClick('/gallery/images/15.jpg')}
+                      src="/gallery/images/15.JPG"
+                      onClick={() => handleImageClick('/gallery/images/15.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -213,8 +213,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/16.jpg"
-                      onClick={() => handleImageClick('/gallery/images/16.jpg')}
+                      src="/gallery/images/16.JPG"
+                      onClick={() => handleImageClick('/gallery/images/16.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -223,8 +223,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/17.jpg"
-                      onClick={() => handleImageClick('/gallery/images/17.jpg')}
+                      src="/gallery/images/17.JPG"
+                      onClick={() => handleImageClick('/gallery/images/17.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -233,8 +233,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/18.jpg"
-                      onClick={() => handleImageClick('/gallery/images/18.jpg')}
+                      src="/gallery/images/18.JPG"
+                      onClick={() => handleImageClick('/gallery/images/18.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -243,8 +243,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/19.jpg"
-                      onClick={() => handleImageClick('/gallery/images/19.jpg')}
+                      src="/gallery/images/19.JPG"
+                      onClick={() => handleImageClick('/gallery/images/19.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -253,8 +253,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/20.jpg"
-                      onClick={() => handleImageClick('/gallery/images/20.jpg')}
+                      src="/gallery/images/20.JPG"
+                      onClick={() => handleImageClick('/gallery/images/20.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -263,8 +263,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/21.jpg"
-                      onClick={() => handleImageClick('/gallery/images/21.jpg')}
+                      src="/gallery/images/21.JPG"
+                      onClick={() => handleImageClick('/gallery/images/21.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -273,8 +273,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/22.jpg"
-                      onClick={() => handleImageClick('/gallery/images/22.jpg')}
+                      src="/gallery/images/22.JPG"
+                      onClick={() => handleImageClick('/gallery/images/22.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -283,8 +283,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/23.jpg"
-                      onClick={() => handleImageClick('/gallery/images/23.jpg')}
+                      src="/gallery/images/23.JPG"
+                      onClick={() => handleImageClick('/gallery/images/23.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -293,8 +293,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/24.jpg"
-                      onClick={() => handleImageClick('/gallery/images/24.jpg')}
+                      src="/gallery/images/24.JPG"
+                      onClick={() => handleImageClick('/gallery/images/24.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -303,8 +303,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/25.jpg"
-                      onClick={() => handleImageClick('/gallery/images/25.jpg')}
+                      src="/gallery/images/25.JPG"
+                      onClick={() => handleImageClick('/gallery/images/25.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
@@ -313,8 +313,8 @@ const Gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/26.jpg"
-                      onClick={() => handleImageClick('/gallery/images/26.jpg')}
+                      src="/gallery/images/26.JPG"
+                      onClick={() => handleImageClick('/gallery/images/26.JPG')}
                       alt="fitness image"
                       width={300}
                       height={200}
