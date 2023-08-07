@@ -3,10 +3,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Template from "./Desk_tab";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 import Mob from "./Mob";
 import { useFacility } from "../ContextAPI/FacilityContext";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
+
 import Desk from "./Desk";
 
 const data = {
@@ -199,6 +200,14 @@ function Page() {
   const yourFunction = ($) => {
     handleclick($);
   };
+  
+  const isInView = useInView(scrollContainerRef, {
+    margin: "0px 0px -90% 0px",
+  });
+
+  useEffect(() => {
+    console.log(isInView)
+  },[isInView])
 
   // disableBodyScroll(scrollContainerRef);
 
@@ -207,15 +216,15 @@ function Page() {
       {/* Desktop and Tablet Section */}
       <div
         ref={scrollContainerRef}
-        className="max-sm:hidden hidden h-[100vh] relative overflow-scroll facility snap-start"
+        className="max-sm:hidden h-[100vh] relative overflow-scroll facility snap-start"
       >
         <motion.section
-          className="  relative w-full h-[300vh]"
+          className=" transition-colors duration-200  relative w-full h-[300vh]"
           id="facility"
           style={{ background: data[select].color }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 2 }}
+          // initial={{ opacity: 0 }}
+          // animate={{ opacity: 1 }}
+          // transition={{ duration: 2 }}
         >
           <div className=" sticky top-0">
             <div className=" absolute top-[35%] md:ml-4 lg:ml-6 xl:ml-12">
@@ -287,7 +296,7 @@ function Page() {
         </motion.section>
       </div>
 
-      <Desk data={data}/>
+      {/* <Desk data={data}/> */}
 
       {/* Mobile View Section */}
       <AnimatePresence mode="wait">

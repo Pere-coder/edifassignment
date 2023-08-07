@@ -69,7 +69,9 @@ function Carousel_Team() {
 
   const responsive = {
     0: { items: 1 },
-    1024: { items: 2 },
+    1024: { items: 1 },
+    1440: { items: 2 },
+    2560: { items: 3 },
     //   1024: { items: 3 },
   };
 
@@ -111,7 +113,7 @@ function Carousel_Team() {
           OUR TEAM
         </h1>
       </div>
-      <div className=" mb-2  md:my-10 w-[35ch] md:w-[70vw]">
+      <div className=" mb-2  md:mt-10 w-[35ch] md:w-[70vw]">
         <p className=" text-14 lg:text-xl text-center">
           Our trainers are highly skilled, experienced, and committed to your
           success. With their expertise, you'll receive personalised guidance
@@ -128,10 +130,10 @@ function Carousel_Team() {
           infinite
           autoPlay
           autoPlayStrategy="none"
-          autoPlayInterval={2000}
+          autoPlayInterval={2500}
           animationDuration={1000}
         //   animationType="fadeout"
-          disableDotsControls
+          // disableDotsControls
           disableButtonsControls
         />
       </div>
