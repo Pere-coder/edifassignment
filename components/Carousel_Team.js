@@ -84,7 +84,7 @@ function Carousel_Team() {
             width={350}
             height={400}
             alt="team"
-            className="rounded-xl w-full self-end overflow-hidden "
+            className="rounded-xl w-full self-end  overflow-hidden "
           />
         </div>
         <div className=" lg:p-6 xl:p-8 h-full text-center md:text-left">
