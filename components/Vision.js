@@ -1,8 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
+import Carousel_Team from "@/components/Carousel_Team";
+// import Footer from '@/components/Footer';
+// import Gallery from '@/components/Gallery'
+// import Carousel_Team from "@/components/Carousel_Team";
 import Footer from '@/components/Footer';
 import Gallery from '@/components/Gallery'
+
 
 
 function Vision() {
@@ -54,6 +59,9 @@ function Vision() {
                and Shri Kamlesh Patel ‘Daaji’ – Guide of Heartfulness Meditation Worldwide and President of Shri Ram Chandra Mission.</p>
 
       </div>
+
+
+      <Carousel_Team/>
       <div className='P-3 w-full md:h-[430px] sm:h-[490px] md:mt-[100px] mt-10 flex flex-col items-center justify-center bg-[#0479CE] '>
 
         <h1 className='scale-y-150 md:w-[525px]  md:h-[72px] w-[262px] text-center font-bison  text-[30px] md:mb-2 mb-4 mt-8  text-white font-700 leading-[30px] sm:text-[40px] md:text-[47px]  sm:leading-[40px]'>JOIN US AT HISC</h1>
@@ -61,8 +69,9 @@ function Vision() {
         <button className='w-[175px] h-50 text-black bg-white mt-6 rounded-3xl p-2 font-jost font-500 text-[13.85px] md:mt-16 mb-7'>SIGN UP NOW</button>
 
       </div>
+      {/* <Carousel_Team /> */}
       <Gallery/>
-      <Footer/>
+      <Footer/> 
       </div>
 
     

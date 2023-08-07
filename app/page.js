@@ -24,6 +24,7 @@ import { FaLocationDot, FaPhone, FaRegEnvelope } from "react-icons/fa6";
 
 
 
+
 export default function Home() {
   return (
     <FacilityProvider>
@@ -31,6 +32,7 @@ export default function Home() {
     <div className=''>
       <DisableScroll/>
       <SignUp />
+      <ScrolltoTop />
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
         <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
           <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur"> 
@@ -59,7 +61,7 @@ export default function Home() {
               </div>
             
           </div>
-          <div className='hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer '><Image src="/vector.png" width={61} height={61} /></div>
+          {/* <div className='hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer '><Image src="/vector.png" width={61} height={61} /></div> */}
           </div>
         </div> 
        

@@ -25,9 +25,9 @@ const Footer = () => {
                 </div>
             <div>
                 <ul className='flex md:gap-5 lg:gap-10 '>
-                    <li><AiFillFacebook size={24.67} className='text-[#252525]'/></li>
-                    <li><BiLogoTwitter size={24.67} className='text-[#252525]'/></li>
-                    <li><AiFillYoutube size={24.67} className='text-[#252525]'/></li>
+                    <li><AiFillFacebook size={24.67} className='text-[#252525] cursor-pointer'/></li>
+                    <li><BiLogoTwitter size={24.67} className='text-[#252525] cursor-pointer'/></li>
+                    <li><AiFillYoutube size={24.67} className='text-[#252525] cursor-pointer'/></li>
                 </ul>
             </div>
         </div>
