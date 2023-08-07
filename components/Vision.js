@@ -53,6 +53,7 @@ function Vision() {
               src="/images/vision.png"
               width={315}
               height={264}
+              alt="Our Vision"
             />
             <h1 className=" text-center md:p-0 p-2  md:relative md:bottom-[140px]  md:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white  scale-y-150 pt-5 md:text-[#FB491D]">
               OUR VISION
@@ -73,6 +74,7 @@ function Vision() {
               src="/images/origin.png"
               width={315}
               height={264}
+              alt="Our Origin"
             />
             <h1 className=" text-center md:p-0 p-2 md:relative md:bottom-[140px] lg:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white p-5 scale-y-150 md:text-[#FB491D]">
               OUR ORIGINS

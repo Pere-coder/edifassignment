@@ -18,12 +18,12 @@ const Gallery = () => {
 
   const slideLeft = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 900;
+    slider.scrollLeft = slider.scrollLeft - 3000;
   };
 
   const slideRight = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 900;
+    slider.scrollLeft = slider.scrollLeft + 3000;
   };
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const Gallery = () => {
     // Interval for automatic sliding (adjust the time as needed)
     window.addEventListener("scroll", slideImagesAutomatically);
 
-    // Cleanup: clear the interval when the component unmounts
+    // Cleanup: clear the interval when the compimages/2nt unmounts
     return () => window.removeEventListener("scroll", slideImagesAutomatically);
   }, []);
 
@@ -55,148 +55,272 @@ const Gallery = () => {
         GALLERY
       </h1>
       <div className="relative flex items-center text-white hover:text-black">
-        {/* <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/> */}
+        <MdChevronLeft
+          size={40}
+          onClick={slideLeft}
+          className="hidden md:flex cursor-pointer"
+        />
         <div
           id="slider"
           className="w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8"
         >
-          <div className="flex flex-wrap  items-center gap-3 w-[1050px] md:w-[2200px]">
+          <div className="flex flex-wrap  items-center gap-3 w-[2749px] md:w-[4060px]">
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/1.JPG"
+                onClick={() => handleImageClick("/gallery/images/1.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/2.JPG"
+                onClick={() => handleImageClick("/gallery/images/2.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/3.JPG"
+                onClick={() => handleImageClick("/gallery/images/3.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/4.JPG"
+                onClick={() => handleImageClick("/gallery/images/4.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/5.JPG"
+                onClick={() => handleImageClick("/gallery/images/5.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/6.JPG"
+                onClick={() => handleImageClick("/gallery/images/6.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/7.JPG"
+                onClick={() => handleImageClick("/gallery/images/7.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/8.JPG"
+                onClick={() => handleImageClick("/gallery/images/8.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/9.JPG"
+                onClick={() => handleImageClick("/gallery/images/9.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/10.JPG"
+                onClick={() => handleImageClick("/gallery/images/10.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/11.JPG"
+                onClick={() => handleImageClick("/gallery/images/11.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/12.JPG"
+                onClick={() => handleImageClick("/gallery/images/12.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/13.JPG"
+                onClick={() => handleImageClick("/gallery/images/13.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
             </div>
             <div>
               <Image
-                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]"
-                src="/gallery/one.jpg"
-                onClick={() => handleImageClick("/gallery/one.jpg")}
-                alt="Image 1"
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/14.JPG"
+                onClick={() => handleImageClick("/gallery/images/14.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/15.JPG"
+                onClick={() => handleImageClick("/gallery/images/15.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/16.JPG"
+                onClick={() => handleImageClick("/gallery/images/16.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/17.JPG"
+                onClick={() => handleImageClick("/gallery/images/17.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/18.JPG"
+                onClick={() => handleImageClick("/gallery/images/18.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/19.JPG"
+                onClick={() => handleImageClick("/gallery/images/19.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/20.JPG"
+                onClick={() => handleImageClick("/gallery/images/20.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/21.JPG"
+                onClick={() => handleImageClick("/gallery/images/21.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/22.JPG"
+                onClick={() => handleImageClick("/gallery/images/22.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/23.JPG"
+                onClick={() => handleImageClick("/gallery/images/23.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/24.JPG"
+                onClick={() => handleImageClick("/gallery/images/24.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/25.JPG"
+                onClick={() => handleImageClick("/gallery/images/25.JPG")}
+                alt="fitness image"
+                width={300}
+                height={200}
+              />
+            </div>
+            <div>
+              <Image
+                className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
+                src="/gallery/images/26.JPG"
+                onClick={() => handleImageClick("/gallery/images/26.JPG")}
+                alt="fitness image"
                 width={300}
                 height={200}
               />
@@ -206,7 +330,11 @@ const Gallery = () => {
             )}
           </div>
         </div>
-        {/* <MdChevronRight size={40} onClick={slideRight} className='hidden md:flex cursor-pointer'/> */}
+        <MdChevronRight
+          size={40}
+          onClick={slideRight}
+          className="hidden md:flex cursor-pointer"
+        />
       </div>
     </div>
   );
