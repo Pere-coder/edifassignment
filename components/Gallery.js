@@ -55,7 +55,7 @@ const gallery = () => {
     
       return (
         <div className=' mt-16'>
-         <h1 className='flex justify-center items-center scale-y-150  text-[30px] text-sblack md:text-[35px] lg:text-[47px]  sm:leading-[40px] font-700 leading-[30px]'>Gallery</h1>
+         <h1 className='flex justify-center items-center scale-y-150  text-[30px] text-sblack md:text-[35px] lg:text-[47px]  sm:leading-[40px] font-700 leading-[30px]'>GALLERY</h1>
         <div  className='relative flex items-center text-white hover:text-black'>
         <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/>
           <div id='slider' className='w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8'>
