@@ -63,7 +63,7 @@ const gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/1.jpg"
+                      src="/gallery/images/badminton.jpg"
                       onClick={() => handleImageClick('/gallery/images/1.jpg')}
                       alt="Image 1"
                       width={300}
@@ -73,7 +73,7 @@ const gallery = () => {
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"
-                      src="/gallery/images/2.jpg"
+                      src="/bg.jpg"
                       onClick={() => handleImageClick('/gallery/images/2.jpg')}
                       alt="Image 1"
                       width={300}
