@@ -63,26 +63,26 @@ const Gallery = () => {
 
       
       
-      useEffect(() => {
-        // Function to automatically slide the images horizontally
-        const slideImagesAutomatically = () => {
-          const slider = document.getElementById('slider');
-          const sliderBottomOffset = slider.getBoundingClientRect().bottom;
-          const windowHeight = window.innerHeight;
+      // useEffect(() => {
+      //   // Function to automatically slide the images horizontally
+      //   const slideImagesAutomatically = () => {
+      //     const slider = document.getElementById('slider');
+      //     const sliderBottomOffset = slider.getBoundingClientRect().bottom;
+      //     const windowHeight = window.innerHeight;
     
-          if (sliderBottomOffset <= windowHeight) {
-            slideRight();
-          } else {
-            slideLeft();
-          }
-        };
+      //     if (sliderBottomOffset <= windowHeight) {
+      //       slideRight();
+      //     } else {
+      //       slideLeft();
+      //     }
+      //   };
     
-        // Interval for automatic sliding (adjust the time as needed)
-        const slideInterval = setInterval(slideImagesAutomatically, 3000); // Adjust the time (in milliseconds) as needed
+      //   // Interval for automatic sliding (adjust the time as needed)
+      //   const slideInterval = setInterval(slideImagesAutomatically, 3000); // Adjust the time (in milliseconds) as needed
     
-        // Cleanup: clear the interval when the component unmounts
-        return () => clearInterval(slideInterval);
-      }, []);
+      //   // Cleanup: clear the interval when the component unmounts
+      //   return () => clearInterval(slideInterval);
+      // }, []);
       
     
       return (
