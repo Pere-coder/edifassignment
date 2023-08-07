@@ -132,7 +132,8 @@ function Carousel_Team() {
           autoPlayStrategy="none"
           autoPlayInterval={2500}
           animationDuration={1000}
-        //   animationType="fadeout"
+          ssrSilentMode={true}
+          //   animationType="fadeout"
           // disableDotsControls
           disableButtonsControls
         />
