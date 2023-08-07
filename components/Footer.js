@@ -9,8 +9,8 @@ import { BiLogoTwitter } from "react-icons/bi";
 const Footer = () => {
     return ( 
     <>
-    <div className='text-[#0A142F] flex justify-center text-center mt-5 items-center font-400 font-helvetica  md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
-     <div className='mt-10 '>
+    <div className='text-[#0A142F] flex justify-center text-center   items-center font-400 font-helvetica  md:hidden'>© 2023 Heartfulness. All rights reserved .</div>
+     <div className='hidden md:block md:mt-10 '>
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
         
 

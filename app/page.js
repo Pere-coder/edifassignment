@@ -116,7 +116,6 @@ export default function Home() {
             <div className='rounded-xl gap-5 border-2 border-white w-[179px] h-[40px] flex justify-center items-center md:mt-14 lg:mt-10 xl:mt-5'>Go to Maps <Image src='/arrow.png' width={13} height={16} className="leading-[16.1px] font-[900px] text-[14px]"/></div>
             </div>
         </div>
-    
       <Footer/>
 
     </div>
