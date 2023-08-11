@@ -89,7 +89,7 @@ export default function Home() {
 
         <div className='bg-vector w-full  h-[168px] sm:h-[200px] mt-0 md:hidden'>
             <div className='font-roboto font-700 text-18 sm:text-[30px] leading-24 text-center text-contact mt-[32px]'>CONTACT US</div>
-            <div className='flex justify-center items-center gap-[52px] sm:gap-[130px] mt-[20px] sm:mt-[40px]'>
+            <div  className='flex justify-center items-center gap-[52px] sm:gap-[130px] mt-[20px] sm:mt-[40px]'>
                 <div className='bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center text-[#0479CE]'> <FaRegEnvelope  size={32}/></div>
                 <div className='bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center text-[#0479CE]'><FaPhone size={32}/></div>
                 <div className='bg-white w-[64px] h-[64px] rounded-full items-center  flex justify-center text-[#0479CE]'><FaLocationDot size={32}/></div>
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div className='hidden md:flex justify-center md:gap-5 lg:gap-10  xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]'>
+        <div id ="contact"  className='hidden md:flex justify-center md:gap-5 lg:gap-10  xl:gap-10 items-center text-center mx-auto  md:w-[708px] h-[320px] bg-[#0479CE] mt-20 rounded-2xl text-white lg:w-[940px] xl:w-[1200px]'>
             <div className='flex flex-col   items-center'><FaRegEnvelope  size={50}/>
             <h1 className='font-roboto font-700 text-[24px] leading-[32px] mt-5'>Email us</h1>
             <p className='font-sans font-400 text-[16px] leading-28 mt-5 md:w-[200px] lg:w-[250px] xl:w-[328px] md:h-[60px] lg:[58px] xl:h-[57px]'>Email us for general queries, including marketing and partnership opportunities.</p>

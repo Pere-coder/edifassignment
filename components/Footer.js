@@ -20,9 +20,9 @@ const Footer = () => {
                 <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  md:text-[16px] leading-[18.75px] text-[#252525]'>
                     <Link href='/' className="cursor-pointer ">Home</Link>
                     <Link href='about' className="cursor-pointer ">About us</Link>
-                    <li>Facility</li>
-                    <Link href='/' className="cursor-pointer ">Contact us</Link>
-                    <li>Careers</li>
+                    <Link href='' className="cursor-pointer ">Facility</Link>
+                    <Link href='/#contact' className="cursor-pointer ">Contact us</Link>
+                    <Link href='' className="cursor-pointer ">Careers</Link>
                 </ul>
                 </div>
             <div>
