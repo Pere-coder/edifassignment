@@ -19,8 +19,8 @@ function Vision() {
       <Navbar/>
     </div>
       <div className='flex flex-col items-center justify-center w-full lg:mb-[80px]'>
-        <div className='mt-10 flex flex-col items-center justify-center w-[315px]  lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
-        <p className='text-[14px] text-[#0479CE]   rounded-3xl  text-center font-jost lg:w-[444px] md:w-full w-[262px] uppercase mt-7 font-bold'>Welcome to Heartfulness International Sports Center <br/><span className='md:hidden'>(HISC)</span></p>
+        <div className='mt-10 flex flex-col items-center justify-center w-full  lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
+        <p className='text-[14px] text-[#0479CE]   rounded-3xl  text-center font-jost  md:w-full w-[262px] uppercase mt-7 font-bold'>Welcome to Heartfulness International Sports Center <br/><span className='md:hidden'>(HISC)</span></p>
           <h1 className='hidden  md:text-[35px] md:mt-5 font-bison  sm:leading-[40px] md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-700 leading-[40px] uppercase w-[262px]  text-sblack scale-y-150'>Empowering Youth through<br/>
             Sports Excellence</h1>
           <h1 className='mt-10 font-700 leading-[25px] font-bison md:text-[35px]  sm:leading-[40px]:hidden md:hidden lg:text-[40px]  text-[25px] text-center lg:w-[718px]   leading-[30px] uppercase w-[262px] scale-y-150 text-sblack'><span className='whitespace-nowrap '>Empowering Youth</span>
@@ -31,16 +31,22 @@ function Vision() {
       </div>
       <div className='flex lg:flex-row md:flex-row flex-col items-center justify-center lg:mt-[-130px] md:mt-[-70px] mt-7  gap-4 '>
         <div className='lg:w-[502px] lg:h-[249px]  relative  w-[315px] h-[264px] md:mt-16 lg:rounded-none rounded-[40px]'>
-          <Image className='object-cover  lg:w-[502px] lg:h-[249px] md:w-[315px] md:rounded-md md:h-[265px] w-[315px] h-[264px]  rounded-[40px] lg:blur-none md:blur-none blur-sm' src="/images/football2.jpg" width={315} height={264} />
-          <h1 className=' text-center md:p-0 p-2  md:relative md:bottom-[140px]  md:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white  scale-y-150 pt-5 md:text-[#FB491D]'>OUR VISION</h1>
+          <div className="group bg-cover md:flex text-center  lg:w-[502px] lg:h-[249px] md:w-[315px] md:rounded-md md:h-[265px] w-[315px] h-[264px]  rounded-[40px] lg:blur-none md:blur-none blur-sm  bg-[url('/images/football2.jpg')]  cursor-pointer hover:bg-[url('/images/hover1.jpg')]" >
+            <h1 className='hidden  md:flex md:text-center  md:text-[30px]  md:font-bold md:font-bison lg:text-[40px] md:scale-y-150  md:text-[#FB491D] md:justify-center md:items-center md:mx-auto group-hover:hidden'>OUR VISION</h1>
+            <p className='hidden group-hover:md:flex md:font-custom md:text-white md:justify-center md:items-center pl-8 pr-8 text-[20px] leading-[24px]'>At HISC, we believe in the power of sports to instill lifelong learning, foster self-confidence, and cultivate leadership skills among our youth. We aim to nurture future champions and promote sporting excellence, while fostering personal growth and holistic well-being.</p>
+          </div>
+          <h1 className=' text-center  p-2 relative bottom-[260px]  text-[30px]  font-bold font-bison  text-white  scale-y-150 pt-5 md:hidden '>OUR VISION</h1>
           <p className='mt-6  lg:hidden md:hidden absolute inset-0 bg-blur left-5 top-14 w-[269px] h-[160px] text-white text-center  text-14 lg:text-18'>HISC was established in 2020 with guidance from renowned sports icons like Pullela Gopichand and P. V. Sindhu.
             We have partnered with esteemed organizations including the Ministry of Sports (Government of India),
             Khelo India, FIT India, and the Pullela Gopichand Badminton Academy.</p>
         </div>
 
         <div className='lg:w-[502px] lg:h-[249px] relative w-[316px] h-[265px] md:mt-16 lg:rounded-none rounded-[40px]  mt-5'>
-          <Image className='object-cover lg:w-[502px] lg:h-[249px] md:w-[315px] md:h-[265px]  md:rounded-md rounded-[40px] w-[315px] h-[264px] lg:blur-none md:blur-none blur-sm' src="/images/football3.jpg" width={315} height={264} />
-          <h1 className=' text-center md:p-0 p-2 md:relative md:bottom-[140px] lg:text-center relative bottom-[260px]  text-[30px]  font-bold font-bison lg:text-[40px] text-white p-5 scale-y-150 md:text-[#FB491D]'>OUR ORIGINS</h1>
+          <div className="group bg-cover md:flex text-center  lg:w-[502px] lg:h-[249px] md:w-[315px] md:rounded-md md:h-[265px] w-[315px] h-[264px]  rounded-[40px] lg:blur-none md:blur-none blur-sm bg-[url('/images/football3.jpg')] cursor-pointer hover:bg-[url('/images/hover2.jpg')]">
+          <h1 className='hidden  md:flex md:text-center  md:text-[30px]  md:font-bold md:font-bison lg:text-[40px] md:scale-y-150  md:text-[#FB491D] md:justify-center md:items-center md:mx-auto group-hover:hidden'>OUR ORIGIN</h1>
+            <p className='hidden group-hover:md:flex md:font-custom md:text-white md:justify-center md:items-center pl-8 pr-8 text-[20px] leading-[24px]'>HISC was established in 2020 with guidance from renowned sports icons like Pullela Gopichand and P. V. Sindhu. We have partnered with esteemed organizations including the Ministry of Sports (Government of India), Khelo India, FIT India, and the Pullela Gopichand Badminton Academy.</p>
+          </div>
+          <h1 className='text-center  p-2 relative bottom-[260px]  text-[30px]  font-bold font-bison  text-white  scale-y-150 pt-5 md:hidden'>OUR ORIGINS</h1>
           <p className='mt-6 lg:hidden md:hidden absolute inset-0 bg-blur left-5 top-14 w-[269px] h-[160px] text-white text-center text-[14px]  lg:text-18'>HISC was established in 2020 with guidance from renowned sports icons like Pullela Gopichand and P. V. Sindhu.
             We have partnered with esteemed organizations including the Ministry of Sports (Government of India),
             Khelo India, FIT India, and the Pullela Gopichand Badminton Academy.</p>

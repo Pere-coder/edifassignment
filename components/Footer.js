@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { IconName } from "react-icons/fa6";
 import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
 import { BiLogoTwitter } from "react-icons/bi";
+import Link from "next/link";
 
 
 
@@ -14,13 +15,14 @@ const Footer = () => {
     <div className="flex flex-col justify-center items-center text-center mt-0 md:mt-20">
         
 
-        <div className='hidden md:mt-12 md:flex xl:w-[1102.97px] items-center justify-center md:gap-[125px] lg:gap-[250px] xl:gap-[500px] '>
+        <div className='hidden md:mt-12 md:flex xl:w-full items-center justify-center md:gap-[125px] lg:gap-[250px] xl:gap-[500px] '>
             <div>
-                <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  text-[16px] leading-[18.75px] text-[#252525]'>
-                    <li>Home</li>
-                    <li>About us</li>
+                <ul className='flex md:gap-10 lg:gap-12 xl:gap-14 font-roboto font-500  md:text-[16px] leading-[18.75px] text-[#252525]'>
+                    <Link href='/' className="cursor-pointer ">Home</Link>
+                    <Link href='about' className="cursor-pointer ">About us</Link>
                     <li>Facility</li>
-                    <li>FAQS</li>
+                    <Link href='/' className="cursor-pointer ">Contact us</Link>
+                    <li>Careers</li>
                 </ul>
                 </div>
             <div>
@@ -32,7 +34,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <hr className='hidden md:flex  mt-20 justify-center items-center   border-b-[#2B3D51] md:w-[600px] lg:w-[800px] xl:w-[1100px]'/> 
+        <hr className='hidden md:flex  mt-20 justify-center items-center   border-b-[#2B3D51] md:w-[600px] lg:w-[900px] xl:w-[1200px]'/> 
            
           
 
