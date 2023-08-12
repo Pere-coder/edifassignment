@@ -91,7 +91,7 @@ const Gallery = () => {
         <div  className='relative flex items-center text-white hover:text-black'>
         <MdChevronLeft size={40} onClick={slideLeft} className='hidden md:flex cursor-pointer'/>
           <div id='slider' className='w-full h-full overflow-x-scroll no-scrollbar whitespace-nowrap scroll=smooth mt-8'>
-                <div  className="flex flex-wrap  items-center gap-3 w-[2749px] md:w-[4060px]">
+                <div  className="flex flex-wrap justify-center mx-auto  items-center gap-3 w-[2749px] md:w-[4060px]">
                   <div>
                     <Image
                       className="cursor-pointer hover:scale-105 ease-in-out duration-300 w-[200px] md:w-[300px]  text-sblack"

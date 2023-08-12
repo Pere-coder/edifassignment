@@ -12,7 +12,7 @@ import Gallery from '@/components/Gallery'
 
 function Vision() {
   return (
-    <div>
+    <div className=''>
       <div className="bg-no-repeat bg-center bg-cover lg:w-full lg:h-[835px] md:h-[800px] w-full h-[398px] blur-  bg-[url('../public/background2.jpeg')]">
      
       <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
@@ -54,9 +54,9 @@ function Vision() {
 
       </div>
 
-      <div className='w-full lg:h-[488px]  mt-[-120px] md:h-[588px]  h-[650px]  flex flex-col items-center justify-center bg-[#0479CE]'>
+      <div className='w-full lg:h-[488px]  mt-[-120px] md:h-[588px]  h-[650px]  flex flex-col items-center justify-center bg-[#0479CE] '>
         <h1 className='sm:text-[40px]  sm:leading-[40px] text-center leading-[30px] font-bison md:w-full w-[350px] lg:mb-0 md:mt-[150px] mt-[150px] text-[30px] font-700 uppercase text-white scale-y-150  md:text-[35px] lg:text-[47px]'>Inauguration and Location</h1>
-        <p className='text-center  w-[315px] md:w-full md:p-8 font-poppins text-[16px]lg:p-0  text-white mt-10 md:mt-5 text-14 lg:text-18'>HISC was inaugurated on 26th February 2023 at Kanha Shanti Vanam,
+        <p className='text-center  w-[315px] md:w-full md:p-8 font-poppins text-[16px]lg:p-0  text-white mt-10 md:mt-5 text-14 lg:text-18 max-w-screen-xl  mx-auto'>HISC was inaugurated on 26th February 2023 at Kanha Shanti Vanam,
            a serene location known for holistic well-being and home to the world's largest meditation center.
             The inauguration ceremony was graced by the presence of Shri Shri Anurag Thakur -
              Union Minister for Information & Broadcasting and Youth Affairs & Sports, Government of India;
@@ -71,7 +71,7 @@ function Vision() {
       <div className='P-3 w-full md:h-[430px] sm:h-[490px] md:mt-[20px] lg:mt-[100px] mt-10 flex flex-col items-center justify-center bg-[#0479CE] '>
 
         <h1 className='scale-y-150 md:w-[525px]  md:h-[72px] w-[262px] text-center font-bison  text-[30px] md:mb-2 mb-4 mt-8  text-white font-700 leading-[30px] sm:text-[40px] md:text-[47px]  sm:leading-[40px]'>JOIN US AT HISC</h1>
-        <p className='xl:w-[1234px] lg:w-[1000px] md:w-full md:h-[78px] w-[315px] md:p-5 text-white text-center font-poppins text-14 lg:text-18 '>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
+        <p className='xl:w-[1234px] lg:w-[1000px] md:w-full md:h-[78px] w-[315px] md:p-5 text-white text-center font-poppins text-14 lg:text-18 max-w-screen-xl  mx-auto'>Be a part of the Heartfulness International Sports Center community, where sports and holistic well-being merge. Explore our facilities, experience the joy of sports, and unlock your potential. Let's nurture future champions and empower youth through the transformative power of sports. Contact us today or visit our facility. We look forward to welcoming you to HISC!</p>
         <button className='w-[175px] h-50 text-black bg-white mt-6 rounded-3xl p-2 font-jost font-500 text-[13.85px] md:mt-16 mb-7'>SIGN UP NOW</button>
 
       </div>
