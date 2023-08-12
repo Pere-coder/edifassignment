@@ -73,10 +73,10 @@ export default function Home() {
      
       <Team /> 
       
-      <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-20">
+      <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-20 ">
         <div className="bg-no-repeat h-[470px] sm:h-[700px] bg-[url('../public/sports.jpg')] w-full bg-center bg-cover md:bg-[url('../public/desktop.jpg')] md:h-[500px] lg:h-[600px] xl:h-[700px]">
             <div className="w-full h-[470px] sm:h-[700px] md:h-[500px] lg:h-[600px] xl:h-[700px]   bg-gradient-to-b from-[#000000]  to-transparent  md:w-full  md:bg-gradient-to-t md:from-[#000000] md:t0-transparent">
-                <div className='flex  flex-col justify-center  items-center text-center   md:items-end md:mr-[20px]  lg:mr-[100px] xl:mr-[150px]'>
+                <div className='flex  flex-col justify-center  items-center text-center max-w-screen-xl  mx-auto  md:items-end'>
                     <div className='w-full h-[180px] leading-[42px] text-[40px] sm:mt-[80px] sm:text-[70px] sm:leading-[60px] md:w-[500px] md:h-[310px]   text-white transform mt-10    md:leading-[60px] md:text-[50px] lg:text-[60px] md:text-[#F1F8FF] md:transform  md:text-start md:mt-[100px] lg:mt-[150px] xl:mt-[200px]'>
                         <h1 className='font-bison font-500  scale-y-150 md:scale-y-125 '>EXPERIENCE <br className='md:hidden'/> A  <br className='hidden md:block'/> DIFFERENT WAY <br className='md:hidden'/>TO WORK OUT</h1>
                         <div className='font-roboto font-700 text-[22px] leading-24 text-[#F1F8FF] sm:text-[35px] md:text-[18px] mt-8 sm:mt-16 md:text-start md:mt-10'>Unleashing Sporting Potential</div>
