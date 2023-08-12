@@ -37,11 +37,11 @@ export default function Home() {
         <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top  2xl:bg-left md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
           <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur"> 
           <div class="md:h-[1040px] md:bg-gradient-to-l md:from-transparent md:to-white md:via-blur-5xl]"> 
-            <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20  2xl:ml-[500px] 2xl:mr-[500px]" >
+            <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20" >
 
               <Navbar/>
 
-              <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
+              <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  max-w-[1000px]  ">
                 
                   
                   <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-1 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none' >
@@ -61,7 +61,6 @@ export default function Home() {
               </div>
             
           </div>
-          {/* <div className='hidden md:flex justify-end mr-7 mt-[100px] text-vector cursor-pointer '><Image src="/vector.png" width={61} height={61} /></div> */}
           </div>
         </div> 
        
