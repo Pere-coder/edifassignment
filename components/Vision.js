@@ -19,7 +19,7 @@ function Vision() {
       <Navbar/>
     </div>
       <div className='flex flex-col items-center justify-center w-full lg:mb-[80px]'>
-        <div className='mt-10 flex flex-col items-center justify-center w-full  lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
+        <div className='mt-10 flex flex-col items-center justify-center  w-[330px] sm:w-[600px] lg:bg-transparent md:w-full  md:bg-transparent bg-blue-50 rounded-[40px]'>
         <p className='text-[14px] text-[#0479CE]   rounded-3xl  text-center font-jost  md:w-full w-[262px] uppercase mt-7 font-bold'>Welcome to Heartfulness International Sports Center <br/><span className='md:hidden'>(HISC)</span></p>
           <h1 className='hidden  md:text-[35px] md:mt-5 font-bison  sm:leading-[40px] md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-700 leading-[40px] uppercase w-[262px]  text-sblack scale-y-150'>Empowering Youth through<br/>
             Sports Excellence</h1>
