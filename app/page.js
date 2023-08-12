@@ -41,7 +41,7 @@ export default function Home() {
 
               <Navbar/>
 
-              <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  max-w-[1000px]  ">
+              <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start max-w-screen-xl  mx-auto ">
                 
                   
                   <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-1 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none' >
@@ -61,6 +61,7 @@ export default function Home() {
               </div>
             
           </div>
+
           </div>
         </div> 
        
