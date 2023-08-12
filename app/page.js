@@ -34,17 +34,17 @@ export default function Home() {
       <SignUp />
       <ScrolltoTop />
         <div class="bg-no-repeat bg-contain   h-[900px] sm:h-[1080px]  bg-[url('../public/background.jpg')] md:bg-none">
-        <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
+        <div class="md:bg-no-repeat sm:h-[1080px]   md:bg-right-top  lg:bg-right-top  2xl:bg-left md:bg-cover md:h-[1040px] md:bg-[url('../public/backgroundcrop1.jpg')]">
           <div class="h-[900px] md:h-[1040px] bg-gradient-to-b from-white via-transparent to-transparent  md:bg-gradient-to-r md:from-[#cde4f5] md:to-transparent md:via-blur"> 
           <div class="md:h-[1040px] md:bg-gradient-to-l md:from-transparent md:to-white md:via-blur-5xl]"> 
-            <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20 " >
+            <div className="ml-10 mr-10 sm:ml-10 sm:mr-10 md:ml-20 md:mr-20  2xl:ml-[500px] 2xl:mr-[500px]" >
 
               <Navbar/>
 
               <div className="mt-48  md:mt-[130px] flex flex-col  items-center justify-center align-center   md:items-start  ">
                 
                   
-                  <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-1 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none'>
+                  <div className='shadow-custom text-center bg-blue-100 rounded-[40px] p-7 mt-1 w-[330px] sm:w-[600px] md:w-315 h-416 md:bg-transparent md:text-left md:mt-10 md:p-0 md:rounded-none md:shadow-none' >
                      <div className="text-center text-14   sm:text-[16px] text-custom font-jost font-700 leading-20.23 md:text-[#0479CE]    md:text-[16px]  md:w-full md:text-start md:items-center ">START YOUR HEALTHY LIFESTYLE!</div>
                       <h1 className="scale-y-150 text-30  font-700 leading-[30px] font-bison text-sblack   w-226 mx-auto mt-10 flex justify-center items-center align-center sm:text-[40px] sm:leading-[40px] md:text-[47px]  md:w-430  md:leading-[48px] md:items-start md:mt-10 ">
                         BEGIN YOUR TRANSFORMATION TODAY</h1>
