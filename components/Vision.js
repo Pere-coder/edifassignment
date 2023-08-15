@@ -25,7 +25,6 @@ function Vision() {
             Sports Excellence</h1>
           <h1 className='mt-10 font-700 leading-[25px] font-bison md:text-[35px]  sm:leading-[40px]:hidden md:hidden lg:text-[40px]  text-[25px] text-center lg:w-[718px]   leading-[30px] uppercase w-[262px] scale-y-150 text-sblack'><span className='whitespace-nowrap '>Empowering Youth</span>
             <span> through Sports</span> Excellence</h1>
-1aZaz
           <p className='p-2 pb-8 mt-7 font-roboto lg:text-[18px] md:text-[18px] text-[14px] lg:w-[960px] md:w-[600px] w-[283px] lg:mt-20 md:mt-3  text-center text-black'>At the Heartfulness Institute, we are committed to fostering holistic well-being and empowering individuals to tap into the infinite potential of their hearts. Through the Heartfulness International Sports Center (HISC), we impact thousands of children and youth, helping them connect with their hearts' potential through sports.</p>
         </div>
       </div>
